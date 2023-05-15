@@ -1,0 +1,4472 @@
+[
+  {
+    "id": 0,
+    "que": "Co z otrzymanym datagramem IP adresowanym do hosta 2.2.1.1 zrobi nie-klasowy ruter IP posiadaj\u0105cy w tablicy rutowania IP regu\u0142y 2.2.0.0/16 via 1.1.1.1 i 0.0.0.0/0 via 1.1.1.2",
+    "ans": "Zrutuje do 1.1.1.1"
+  },
+  {
+    "id": 1,
+    "que": "Do czego s\u0142u\u017c\u0105 tzw tokeny w tablicach rutowania stosowanych w tablicach MPLS?",
+    "ans": "dok\u0105d prze\u0142\u0105czy\u0107 datagram, jakie operacje na stosie MPLS datagramu wykona\u0107"
+  },
+  {
+    "id": 2,
+    "que": "Kiedy ze stacji roboczej pracujacej wysylany jest datagram Gratitious ARP",
+    "ans": "gdy ustawimy adres IP na pracujacym serwerze sieciowym lub gdy w\u0142\u0105czymy wy\u0142\u0105czone urz\u0105dzenie"
+  },
+  {
+    "id": 3,
+    "que": "Czym r\u00f3\u017cni si\u0119 limitowanie przepustowo\u015bci w technice Leaky bucket od zwyk\u0142ego ograniczenia przepustowo\u015bci (zadanego np. w bps)?\t",
+    "ans": "leacky bucket jak w \"wiadrze\" sk\u0105d wysy\u0142ane, w bps po prostu ograniczamy pr\u0119dko\u015b\u0107 //leaky bucket jest jak zbiornik z odp\u0142ywem, a ograniczenie jest jak zwyk\u0142a rura o zadanej przepustowo\u015bci"
+  },
+  {
+    "id": 4,
+    "que": "Dlaczego stosuje sie tzw. strategie TCP przy nadawaniu strumienia danych w tym protokolell",
+    "ans": "aby unikn\u0105\u0107 przeci\u0105\u017ce\u0144 \u0142acza"
+  },
+  {
+    "id": 5,
+    "que": "Jak\u0105 wysoko\u015b\u0107 (w calach lub centrymetrach) posiada prze\u0142\u0105cznik RACK o wymiarze 4U",
+    "ans": "7\" lub 17,78 cm"
+  },
+  {
+    "id": 6,
+    "que": "Podaj zalet\u0119 stosowania kodowania dwur\u00f3\u017cnicowego AMI (Alternate Mark Inversion) sygna\u0142\u00f3w w sieciach komputerowych",
+    "ans": "synchronizacja nadawcy/odbiorcy, wykrywanie b\u0142\u0119d\u00f3w"
+  },
+  {
+    "id": 7,
+    "que": "Jak w nomenklaturze OSPF nazywamy ruter IP, kt\u00f3ry dokonuje redystrybucji wiedzy o sieciach z BGP do OSPF",
+    "ans": "ASBR "
+  },
+  {
+    "id": 8,
+    "que": "Jak nazywamy urz\u0105dzenie operatora, do kt\u00f3rego biegn\u0105 kable DSL od ruter\u00f3w DSL poszczeg\u00f3lnych abonent\u00f3w (w nim nast\u0119puje konwersja do innego medium)",
+    "ans": "DSLAM (DSL Access Multiplexer)"
+  },
+  {
+    "id": 9,
+    "que": "Angielskie okre\u015blenie czasu prze\u015bcia danego datagramu do celu i spowrotem ",
+    "ans": "Round-trip-time"
+  },
+  {
+    "id": 10,
+    "que": "Angielska nazwa regu\u0142y postuluj\u0105cej wyb\u00f3r z ip forwarding table najbardziej precyzyjnej regu\u0142y rutowania IP",
+    "ans": "longest prefix match"
+  },
+  {
+    "id": 11,
+    "que": "Podaj przyk\u0142ad protoko\u0142u wobec kt\u00f3rego stosowana jest technika RED load shedding",
+    "ans": "TCP"
+  },
+  {
+    "id": 12,
+    "que": "Zbudowa\u0142e\u015b system sterowania na bluetooth w k\u00f3rym bluetooth master to Tw\u00f3j telefon. Ile ma maksymalnie bluetooth slave mo\u017cesz jednocze\u015bnie sterowa\u0107?",
+    "ans": 7
+  },
+  {
+    "id": 13,
+    "que": "Jak nazywamy chwilowy du\u017cy przep\u0142yw danych wsieci komputerowej",
+    "ans": "burst"
+  },
+  {
+    "id": 14,
+    "que": "Podaj liczb\u0119 grup IPv4 multicast mo\u017cliwych do rozr\u00f3\u017cnienia w prze\u0142\u0105czniku Ethernet po zakodowaniu numeru grupy w adresacji Ethernet MAC",
+    "ans": "2^23"
+  },
+  {
+    "id": 15,
+    "que": "Jak\u0105 topologie fizyczn\u0105 sieci komputerowej wytworzy uk\u0142\u0105d po\u0142\u0105cze\u0144 urz\u0105dze\u0144 aktywnych okre\u015blamy mianem \"daisy-chain\"",
+    "ans": "liniowa lub pier\u015bcie\u0144"
+  },
+  {
+    "id": 16,
+    "que": "Wszystkim interfejsom urz\u0105dze\u0144, tak\u017ce stacjom PC, na rysunku nadaj adresacj\u0119 IP wersja 4 w klasie A zgodnie z og\u00f3lnie znanymi regu\u0142ami. Dodaj do konfiguracji adresy domy\u015blnych bramek w stacjach PC, aby wymusi\u0107 domy\u015blnie komunikacj\u0119 poprzez bezpo\u015brednio pod\u0142\u0105czone rutery.",
+    "ans": "(zdj\u0119cie obok)"
+  },
+  {
+    "id": 17,
+    "que": "Zak\u0142adaj\u0105c adresacj\u0119 IP topologii sieci z poprzedniego zadania podaj regu\u0142y rutowania statycznego dla obydwu ruter\u00f3w takie aby umo\u017cliwi\u0107 komunikacj\u0119 pomi\u0119dzy dwoma stacjami PC tak\u017ce w przypadku awarii jednego dowolnego z \u0142\u0105cz pomi\u0119dzy routerami",
+    "ans": "R1 (po lewej):  \nip route 5.0.0.0 255.0.0.0 2.0.0.2\nip route 0.0.0.0 0.0.0.0 3.0.0.2\nR2 (\u015brodkowy):  \nip route 1.0.0.0 255.0.0.0 3.0.0.1\nip route 5.0.0.0 0.0.0.0 4.0.0.2\nip route 0.0.0.0 0.0.0.0 4.0.0.2\nip route 0.0.0.0 0.0.0.0 3.0.0.1\nR3 (po prawej):  \nip route 1.0.0.0 255.0.0.0 2.0.0.1\nip route 0.0.0.0 0.0.0.0 4.0.0.1\n"
+  },
+  {
+    "id": 18,
+    "que": "Do Twojej firmy doprowadzono \u015bwiat\u0142ow\u00f3d Ethernet duplex 1000Base-SX bez zako\u0144czenia wtykiem. Naszkicuj, po\u0142\u0105cz na rysunku i podpisz komponenty, kt\u00f3re trzeba zaanga\u017cowa\u0107 aby doprowadzi\u0107 \u015bwiat\u0142ow\u00f3d do prze\u0142\u0105cznika Ethernet z gniazdem SFP (Small Factor Plugable)",
+    "ans": "Trzeba zaspawac pigtail z wtykiem np LC -> wk\u0142adka sfp z portem na LC -> gniazdo SFP"
+  },
+  {
+    "id": 19,
+    "que": "Za pomoc\u0105 odpowiedniego rysunku i jego opisu zawieraj\u0105cego dane adresacyjne przedstaw zasad\u0119 dzia\u0142ania rutowania pomi\u0119dzy sieciami VLAN w Ethernet, implementowanego z wykorzystaniem prze\u0142\u0105cznika Ethernet wartwy 2 (Layer 2 switch) oraz niezale\u017cnego rutera IP",
+    "ans": "switch po\u0142\u0105czy\u0107 z routerem trunkiem, w routerze robimy podinterfejsy int fa0/0.xx (jaki\u015b numerek) i w tym piszemy encapsulation dot1q <vlan_id>, ip address jako gateway dla danego vlan, no shutdown na g\u0142\u00f3wnym interfejsie, routowanie jak wyzej"
+  },
+  {
+    "id": 21,
+    "que": "Dlaczego  w technologii 10GB ethernet nie jest ju\u017c implementowana funkcjonalno\u015b\u0107 CSMA/CD",
+    "ans": "CSMA/CD nie posiada mechanizmu unikania kolizji w przeciwie\u0144stwie do CSMA/CA; Full duplex"
+  },
+  {
+    "id": 22,
+    "que": "Na jakie sk\u0142adowe podzielone jest pasmo cz\u0119stotliwo\u015bci Cable modem",
+    "ans": "Upstream/ TV + Audio/ Downstream (Upstream/ TV + FM/ Downstream)"
+  },
+  {
+    "id": 23,
+    "que": "Na podstawie jakich konfigurowalnych parametr\u00f3w obliczana jest d\u0142ugo\u015bc chwili czasowej TC dla token bucket w technologii Traffic Shaping",
+    "ans": "CIR, BC:"
+  },
+  {
+    "id": 24,
+    "que": "Z jakiego powodu identyfikator BID ka\u017cdego urz\u0105dzenia pracuj\u0105cego w ramach protoko\u0142u PVSTP musi w sobie zawiera\u0107 VLAN ID",
+    "ans": "bo jest bridge dla ka\u017cdego vlanu osobno. PVST = per vlan stp"
+  },
+  {
+    "id": 25,
+    "que": "W jakim celu prze\u0142\u0105cznik Ethernet emituje do sieci ramki \"loopback\"?",
+    "ans": "Diagnostyka (?)"
+  },
+  {
+    "id": 26,
+    "que": "Dlaczego proces BGP w ruterze IP nale\u017cy uruchomi\u0107 na bazie interfejsu loopback",
+    "ans": "\u017ceby sesja sie nie zerwa\u0142a (?)"
+  },
+  {
+    "id": 27,
+    "que": "Po czym zorientujesz si\u0119, \u017ce na ho\u015bcie docelowym nie ma aplikacji, kt\u00f3ra mog\u0142aby odebra\u0107 datagram UDP, kt\u00f3ry wys\u0142a\u0142e\u015b? (nie masz dostepu do hosta docelowego)",
+    "ans": "Port unreachable? "
+  },
+  {
+    "id": 28,
+    "que": "Co m\u00f3w\u0105 ci s\u0142owa: Tahoe, Slow Start, Reno w kontekscie sieci komputerowych?",
+    "ans": "Strategie TCP"
+  },
+  {
+    "id": 29,
+    "que": "W jaki spos\u00f3 w datagramie IPv6 mo\u017cna zawrze\u0107 informacje o fragmentacji, skoro w jego nag\u0142\u00f3wku nie ma pola identyfikuj\u0105cego przesuni\u0119cie lub numer fragmentu",
+    "ans": "extension headers (opcja fragmentation)"
+  },
+  {
+    "id": 30,
+    "que": "Przy u\u017cyciu jakich komunikat\u00f3r b\u0119dziesz wymienia\u0107 informacje pomi\u0119dzy urz\u0105dzeniami ZigBee End Device i ZigBee Coordinator w swoim systemie",
+    "ans": "AT"
+  },
+  {
+    "id": 31,
+    "que": "Jak sprawdzisz (bez urz\u0105dze\u0144), czy \u015bwiat\u0142ow\u00f3d o znanej Ci d\u0142ugo\u015bci b\u0119dzie si\u0119 nadawa\u0142 do uruchomienia technologii 10GBase-SR",
+    "ans": "spektrometrem (bez urz\u0105dze\u0144??) przleczyta\u0107 opis na kablu "
+  },
+  {
+    "id": 32,
+    "que": "Dlaczego dwa routery w systemie eBGP musz\u0105 by\u0107 po\u0142\u0105czone bez po\u015brednictwa innych router\u00f3w IP",
+    "ans": "TTL = 1\n"
+  },
+  {
+    "id": 33,
+    "que": "Dlaczego przygotowuj\u0105c szyfrowany przekaz przez sie\u0107 trzeba przestrzega\u0107 zasady redundancji? (nale\u017cy przedstawi\u0107 tylko technik\u0119 ataku)",
+    "ans": "Atak: kto\u015b wys\u0142a\u0142 jakis losowy komunikat bez redundancji i np.: rolety w banku si\u0119 puszczaj\u0105, bo akurat trafi\u0142 "
+  },
+  {
+    "id": 34,
+    "que": "Czym r\u00f3\u017cni si\u0119 firewall stanowy [statefull] od bezstanowego? ",
+    "ans": "bezstanowy nie zapisuje stanu po\u0142\u0105cze\u0144, kt\u00f3re przez niego przechodz\u0105"
+  },
+  {
+    "id": 35,
+    "que": "Podaj przyk\u0142adowy adres IPv6 6to4 b\u0119d\u0105cy odpowiednikiem adresu Ipv4 5.5.5.5",
+    "ans": "2002:0505:0505::/48\n2002:0505:0505::/16"
+  },
+  {
+    "id": 36,
+    "que": "Podaj  przyk\u0142adowy URL dla protoko\u0142u HTTP wykorzystuj\u0105cy adres IPv6 5:5::5:5 i port 443",
+    "ans": "https://[5:5::5:5]:443"
+  },
+  {
+    "id": 37,
+    "que": "Z pomoc\u0105 poni\u017cszego rysunku wyja\u015bnij zasad\u0119 funkcjonowania \u0142\u0105cza (...) we wszystkich mo\u017cliwych konfiguracjach (tak\u017ce w stacji PC). Podaj koniecznie adresacj\u0119 (...) router\u00f3w w tej konstrukcji",
+    "ans": "(zdj\u0119cie obok)"
+  },
+  {
+    "id": 38,
+    "que": "Wyja\u015bnij na podstawie w\u0142asnor\u0119cznie stworzonego rysunku zasad\u0119 funkcjonowania technologii private VLANs w Ethernet",
+    "ans": "mamy w konsekwencji 3 sieci (wyobra\u017ani\u0105 rysu rysu)\n1. Primary VLAN ktory przekazuje ruch  publiczny do innych Private VLANS\n2.Isolated VLAN , czyli port moze sie komunikowac tylko z Primary \n3. Community VLAN , gdzie komunikacja jest w ramach Community Primary VLAN \n\n(zdj\u0119cie obok)"
+  },
+  {
+    "id": 39,
+    "que": "Na poni\u017cszym rysunku zdefiniuj adresy IP oraz adresy domy\u015blnej bramki dla wszystkich trzech stacji PC - tak aby mo\u017cliwa by\u0142a komunikacja do internetu. Zak\u0142adamy i\u017c stacj\u0119 PC nie posiadaj\u0105 \u017cadnej dodatkowej konfiguracji rutowania IP, a wiedza o rutowaniu IP w ruterach jest prawid\u0142owa.",
+    "ans": "(zdj\u0119cie obok)"
+  },
+  {
+    "id": 40,
+    "que": "Posiadasz dwa telefony IP oraz dwa telefony POTS, za pomoc\u0105 odpowiedniego rysunku i jego opisu przedstaw instalacj\u0119 kt\u00f3ra pozowli na prowadzenie rozm\u00f3w pomi\u0119dzy dowolnymi z tych telefon\u00f3w. Opisz zaanga\u017cowane w instalacj\u0119 urz\u0105dzenia oraz wykorzystywane w nich gniazda.",
+    "ans": "(zdj\u0119cie obok)"
+  },
+  {
+    "id": 42,
+    "que": "Co zrobisz aby do obszaru (area) OSPF Twojej firmy nie dostawa\u0142y si\u0119 informacje o sieciach znajduj\u0105cych si\u0119 w iinnych oszarach area OSPF, ale mo\u017cna by\u0142o za po\u015brednictwem OSPF otrzyma\u0107 dowoln\u0105 wiedz\u0119 o sieciach w internecie?",
+    "ans": "Not so stubby area"
+  },
+  {
+    "id": 43,
+    "que": "Ile sesji iBGP nale\u017cy utworzy\u0107 gdy  w iBGP uczestnicz\u0105 4 rutery IP a topologia fizyczna po\u0142\u0105cze\u0144 to ruter: ruter: ruter: ruter",
+    "ans": "6?"
+  },
+  {
+    "id": 44,
+    "que": "Dlaczego w technice Assured forwarding QiS stosuje si\u0119 akurat cztery kody typu Class of Service (CS1-CS4)",
+    "ans": "zeby byly cztery kolejki po 3 klasy"
+  },
+  {
+    "id": 45,
+    "que": "Jakim okre\u015bleniem nazywamy fragmentacj\u0119 datagram\u00f3w w sieci komputerowej, po kt\u00f3rej defragmentacja wyst\u0119puje u odbiorcy a nie na drodze do niego?",
+    "ans": "non transparent"
+  },
+  {
+    "id": 46,
+    "que": "Jak rozpoznasz miejsce uszkodzenia \u015bwiat\u0142owodu nie posiadaj\u0105cego opancerzenia do kt\u00f3rego pod\u0142\u0105czony jest tester?",
+    "ans": "Nie b\u0119dzie na ko\u0144cu \u015bwiate\u0142ka/ \u015bwiat\u0142o b\u0119dzie si\u0119 \"wydostawa\u0107\" w miejscu p\u0119kni\u0119cia"
+  },
+  {
+    "id": 47,
+    "que": "Co jest celem procesu 'router solitication' stosowanej w ipv6 i wsp\u00f3\u0142pracuj\u0105cym z nim protoko\u0142u NDP?",
+    "ans": "Znalezienie router\u00f3w podpi\u0119tych na danym \u0142\u0105czu w neighbour discovery protocol"
+  },
+  {
+    "id": 48,
+    "que": "Nazwy parametr\u00f3w protoko\u0142u STP w prze\u0142\u0105cznikach Ethernet wp\u0142ywaj\u0105cych kolejno na wyb\u00f3r aktywnej \u015bcie\u017cki do root bridge?",
+    "ans": "cost ,priority, port number "
+  },
+  {
+    "id": 49,
+    "que": "Dlaczego w technologii Ethernet wspieraj\u0105cej funkcjonalno\u015b\u0107 CSMA/CD musi istnie\u0107 limit d\u0142ugo\u015bci kabla?",
+    "ans": "W celu unikni\u0119cia late collisions"
+  },
+  {
+    "id": 50,
+    "que": "Adresy IPv4 wszystkich host\u00f3w znajduj\u0105cych si\u0119 w sieci 100.100.100.0/30",
+    "ans": "100.100.100.1, 100.100.100.2;"
+  },
+  {
+    "id": 51,
+    "que": "Podaj zasad\u0119 dzia\u0142ania ramkowania CRC w warstwie drugiej ISO/OSI",
+    "ans": "identyfikacja ko\u0144ca i pocz\u0105tku ramki w ci\u0105gu odebranych bajt\u00f3w"
+  },
+  {
+    "id": 52,
+    "que": "Co z otrzymanym datagramem IP adresowanym do hosta 5.5.5.5 zrobi klasowy router IP posiadaj\u0105cy w tablicy routowania IP regu\u0142y 5.5.0.0/16 via 1.1.1.1 i 0.0.0.0/0 via 1.1.1.2",
+    "ans": "dopasuje do sieci 5.0.0.0/8 (bo klasa A), dopasuje do podsieci 5.5.0.0/16 i przesle na 1.1.1.1 "
+  },
+  {
+    "id": 53,
+    "que": "Kt\u00f3re datagramy zostan\u0105 w pierwszej kolejno\u015bci usuwane przy stosowaniu polityki milk w load shadding?",
+    "ans": "Starsze"
+  },
+  {
+    "id": 54,
+    "que": "Dlaczego fragmenty r\u00f3\u017cnych datagram\u00f3w IP przesy\u0142anych jednocze\u015bnie mi\u0119dzy par\u0105 tych samych host\u00f3w IP dalej b\u0119d\u0105 u odbiorcy prawid\u0142owo sk\u0142adane (nie ulegn\u0105 wymieszaniu)?",
+    "ans": "bo mamy w datagramie ipv4 co\u015b takiego jak identyfikator kt\u00f3ry odpowiada za fragmentacj\u0119 i przynale\u017cno\u015b\u0107 do dobrego datagramu?????"
+  },
+  {
+    "id": 55,
+    "que": "Kiedy ze stacji roboczej pracuj\u0105cej z interfejsem Ethernet wysy\u0142any jest datagram gratitous ARP?",
+    "ans": "W\u0142\u0105czamy interfejs, zmieniamy jego ip"
+  },
+  {
+    "id": 56,
+    "que": "Podaj skutki nieprawid\u0142owego skonfigurowania warto\u015bci MSS (Maximum segment Size) u\u017cytkowanej w protokole TCP",
+    "ans": "Gdy MSS b\u0119dzie zbyt ma\u0142y \u2013 niepotrzebnie ro\u015bnie narzut danych zwi\u0105zanych z obs\u0142ug\u0105 fragmentacji."
+  },
+  {
+    "id": 57,
+    "que": "wymie\u0144 typy funkcjonalno\u015bci warstwy drugiej ISO/OSI sieci wykorzystywane w protokole OSPF",
+    "ans": "Point-to-point point-to-multipoint"
+  },
+  {
+    "id": 58,
+    "que": "Wszystkim inferfejsom IP na rysunku nadaj adresacj\u0119 IPv4 w klasie A zgodnie z og\u00f3lnie znanymi regu\u0142ami okre\u015blaj\u0105c tak\u017ce domy\u015blne bramki dla stacji PC",
+    "ans": "(zdj\u0119cie obok)"
+  },
+  {
+    "id": 59,
+    "que": "Za pomoca odpowiedniego rysunku i jego opisu przedstaw problem powstaawnia p\u0119tli routingu dynamicznego wyst\u0119puj\u0105cych w czasie u\u017cytkowania tuneli GRE (General Routing Encapsulation) ",
+    "ans": "dwa rutery polaczone kreska zwykla czyli kabel, przerywana - tunel GRE i podpisac ze moze wystepowac oscylacja w wyborze trasy"
+  },
+  {
+    "id": 60,
+    "que": "W prze\u0142\u0105czniku rootoj\u0105cym Cisco utworzono 2 sieci VLAN o nr 2 i 4 oraz pod\u0142\u0105czono do tych sieci po 1 stacji PC. Ponadto stworzono w prze\u0142\u0105cznikach interfejs VLAN 2 o adresie IP 2.2.2.2/24 oraz VLAN 4 o IP 4.4.4.4/24. Zapisz adresy IP interfejs\u00f3w oraz bramek w stacjach PC aby komunikacje pomi\u0119dzy nimi poprzez router w prze\u0142\u0105czniku Ethernet by\u0142a mo\u017cliwa (rysunek na zdjeciu obok)",
+    "ans": "?????"
+  },
+  {
+    "id": 61,
+    "que": "Narysuj schemat instalacji, kt\u00f3ra umo\u017cliwi utworzenie mostka WDS IEE 802.11 z udost\u0119pnieniem sieci klientom wraz z us\u0142ug\u0105 automatycznego konfigurowania ich adres\u00f3w IP. MO\u017cna u\u017cy\u0107 (?) nadaj\u0105cych si\u0119 do tego urz\u0105dze\u0144",
+    "ans": "?????"
+  },
+  {
+    "id": 66,
+    "que": "Ile bajt\u00f3w danych ze strumienia wej\u015bciowego wstawiane jest do bloku definiowanego systemem kodowania 64B66B",
+    "ans": "8 (64 bity to 8 bajt\u00f3w) ???"
+  },
+  {
+    "id": 67,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 pakietu IP",
+    "ans": "64kB"
+  },
+  {
+    "id": 68,
+    "que": "Nazwa pi\u0105tej warstwy modelu ISO/OSI",
+    "ans": "sesji"
+  },
+  {
+    "id": 69,
+    "que": "Rozwini\u0119cie akronimu MTU jako cechy okre\u015blaj\u0105cej mo\u017cliwo\u015bci techniczne technologii transmisji sieciowej",
+    "ans": "Maximum Transmission Unit"
+  },
+  {
+    "id": 70,
+    "que": "Teoretyczna liczba host\u00f3w mo\u017cliwych do umieszczenia w sieci IPv4: 10.10.10.0/27",
+    "ans": "30 // 2^5 - 2"
+  },
+  {
+    "id": 71,
+    "que": "Przynajmniej dwa zmodyfikowane (rozszerzone) warianty STP stosowane w prze\u0142\u0105cznikach Ethernet",
+    "ans": "RSTP, MSTP"
+  },
+  {
+    "id": 72,
+    "que": "MTU dla danych ramki Ethernet",
+    "ans": "1500 bit\u00f3w"
+  },
+  {
+    "id": 73,
+    "que": "Nazwa wtyku stosowanego w portach Ethernet prze\u0142\u0105cznik\u00f3w LAN",
+    "ans": "8P8C / RJ45"
+  },
+  {
+    "id": 74,
+    "que": "Cel stosowania SFD w ramkach Ethernet",
+    "ans": "Sygna\u0142 zako\u0144czenia preambu\u0142y (synchronizacji)"
+  },
+  {
+    "id": 75,
+    "que": "Okre\u015blenie cechy urz\u0105dzenia sieciowego pozwalaj\u0105cej na wymian\u0119 jego modu\u0142\u00f3w bez konieczno\u015bci wy\u0142\u0105czania go",
+    "ans": "hot swap"
+  },
+  {
+    "id": 76,
+    "que": "Adres sieci IPv4 w kt\u00f3rej znajduje si\u0119 host 130.130.130.10 przy masce 255.0.0.0",
+    "ans": "130.0.0.0"
+  },
+  {
+    "id": 77,
+    "que": "Cel stosowania preambu\u0142y w ramkach Ethernet",
+    "ans": "Synchronizacja po\u0142\u0105czenia"
+  },
+  {
+    "id": 78,
+    "que": "Nazwa sz\u00f3stej warstwy modelu ISO/OSI",
+    "ans": "prezentacji"
+  },
+  {
+    "id": 79,
+    "que": "Komenda Cisco Catalyst IOS przeprowadzaj\u0105ca prze\u0142\u0105cznik do trybu exec",
+    "ans": "enable (en)"
+  },
+  {
+    "id": 80,
+    "que": "Minimalna d\u0142ugo\u015b\u0107 ramki Ethernet IEEE 802.3",
+    "ans": "64 bajty"
+  },
+  {
+    "id": 81,
+    "que": "Warto\u015b\u0107 adresu rozg\u0142oszeniowego MAC w Ethernet (hex)",
+    "ans": "ff:ff:ff:ff:ff:ff"
+  },
+  {
+    "id": 82,
+    "que": "Nazwa trzeciej warstwy modelu ISO/OSI",
+    "ans": "sieci"
+  },
+  {
+    "id": 83,
+    "que": "Adres broadcast IPv4 dla sieci, w kt\u00f3rej znajduje si\u0119 host 110.104.1.1/8",
+    "ans": "110.255.255.255"
+  },
+  {
+    "id": 84,
+    "que": "Przyk\u0142ad systemu kodowania serii bit\u00f3w zapewniaj\u0105cego samo-synchronizacj\u0119 transmisji",
+    "ans": "Manchester"
+  },
+  {
+    "id": 85,
+    "que": "Proces polegaj\u0105cy na upakowaniu datagramu w innych datagramach - przenoszonych w ni\u017cszej warstwie Iso OSI",
+    "ans": "Enkapsulacja (kapsu\u0142kowanie)"
+  },
+  {
+    "id": 86,
+    "que": "Nazwa prze\u0142\u0105cznika b\u0119d\u0105cego g\u0142\u00f3wnym elementem drzewa STP (w jego kierunku tworzone s\u0105 \u015bcie\u017cki dla ramek)",
+    "ans": "Root Bridge"
+  },
+  {
+    "id": 87,
+    "que": "Numery przewod\u00f3w, kt\u00f3re nale\u017cy miejscami zamieni\u0107 aby otrzyma\u0107 kabel Twisted Pair z przeplotem (crossed)",
+    "ans": "1,2 <-> 3,6 (1z3, 2z6)"
+  },
+  {
+    "id": 88,
+    "que": "Nazwa drugiej warstwy ISO OSI",
+    "ans": "\u0141\u0105cza danych"
+  },
+  {
+    "id": 89,
+    "que": "Adres IP broadcast dla sieci IPv4 10.0.0.0 przy masce 255.192.0.0",
+    "ans": "10.63.255.255"
+  },
+  {
+    "id": 90,
+    "que": "Koncentrator Ethernet nie dokonuj\u0105cy analizy adres\u00f3w MAC w ramkach Ethernet (zawsze rozg\u0142aszaj\u0105cy)",
+    "ans": "Hub (koncentrator)"
+  },
+  {
+    "id": 91,
+    "que": "Nazwa portu Ethernet wybranego przez STP jako aktywny, gdy inne porty te\u017c s\u0105 pod\u0142\u0105czone do tego samego segmentu sieci",
+    "ans": "Designated"
+  },
+  {
+    "id": 92,
+    "que": "Nazwa pola/liczby identyfikuj\u0105cej format danych przenoszonych w ramce Ethernet II",
+    "ans": "EtherType/D\u0142ugo\u015b\u0107 ???"
+  },
+  {
+    "id": 93,
+    "que": "Teoretyczna liczba host\u00f3w mo\u017cliwych do umieszczenia w sieci IPv4 10.10.10.0 przy masce 255.255.255.128",
+    "ans": "126 // wz\u00f3r: 2^(4*8-25)-2"
+  },
+  {
+    "id": 94,
+    "que": "Znaczenie pola SFD w ramce Ethernet ",
+    "ans": "Sygna\u0142 zako\u0144czenia preambu\u0142y (synchronizacji)"
+  },
+  {
+    "id": 95,
+    "que": "Znaczenie preambu\u0142y w ramce Ethernet",
+    "ans": "Synchronizacja po\u0142\u0105czenia"
+  },
+  {
+    "id": 96,
+    "que": "Tryby transmisji zak\u0142adaj\u0105cy przekaz danych jednocze\u015bnie w dw\u00f3ch kierunkach",
+    "ans": "Duplex"
+  },
+  {
+    "id": 97,
+    "que": "Nazwa kabla umo\u017cliwiaj\u0105cego konfigurowanie urz\u0105dze\u0144 firmy Cisco lokalnie (bez u\u017cywania sieci komputerowej)",
+    "ans": "Cisco Console RollOver/DB9"
+  },
+  {
+    "id": 98,
+    "que": "Angielska nazwa okre\u015blaj\u0105ca przepustowo\u015b\u0107 \u0142\u0105cza",
+    "ans": "Throughput"
+  },
+  {
+    "id": 99,
+    "que": "Liczba mo\u017cliwych stan\u00f3w portu Ethernet w prze\u0142\u0105czniku (nie licz\u0105c stan\u00f3w definiowanych przez STP i jego modyfikacje)",
+    "ans": "4 ??? 2 (up,down) ???"
+  },
+  {
+    "id": 100,
+    "que": "Rodzaj kabla u\u017cywanego do tworzenia po\u0142\u0105cze\u0144 Ethernet mi\u0119dzy prze\u0142\u0105cznikamij",
+    "ans": "Crossover"
+  },
+  {
+    "id": 101,
+    "que": "Tryb transmisji umo\u017cliwiaj\u0105cy ruch tylko w jednym kierunku",
+    "ans": "Simplex"
+  },
+  {
+    "id": 102,
+    "que": "Jak nazywa si\u0119 protok\u00f3\u0142 przeciwdzia\u0142aj\u0105cy powstawaniu p\u0119tli w sieci",
+    "ans": "STP (Spanning Tree Protocol)"
+  },
+  {
+    "id": 103,
+    "que": "Z czego budowany jest identyfikator Bridge-ID przesy\u0142any w ramkach BPDU definiowanych przez protok\u00f3\u0142 STP (802.1d)",
+    "ans": "bridge priority + MAC"
+  },
+  {
+    "id": 104,
+    "que": "Adres sieci IPv4 w kt\u00f3rej znajduje si\u0119 host 100.100.12.10/16",
+    "ans": "100.100.0.0"
+  },
+  {
+    "id": 105,
+    "que": "Adres broadcast IPv4 dla sieci, w kt\u00f3rej znajduje si\u0119 host 120.134.12.10/24",
+    "ans": "120.134.12.255"
+  },
+  {
+    "id": 106,
+    "que": "Maksymalna liczba host\u00f3w dla sieci o masce 255.255.252.0",
+    "ans": "2^10 - 2 = 1022"
+  },
+  {
+    "id": 107,
+    "que": "Przekaz w sieci komputerowej do\u0142\u0105czony na ko\u0144cu pakietu lub datagramu, analogiczny znaczeniowo do nag\u0142\u00f3wka",
+    "ans": "trailer"
+  },
+  {
+    "id": 108,
+    "que": "Tryb transmisji umo\u017cliwiaj\u0105cy przekaz danych w obie strony, ale nie jednocze\u015bnie",
+    "ans": "half-duplex"
+  },
+  {
+    "id": 109,
+    "que": "Limit d\u0142ugo\u015bci kabla Twisted Pair Cat5e w sieci Ethernet",
+    "ans": "100 m"
+  },
+  {
+    "id": 110,
+    "que": "Nazwa portu wy\u0142\u0105czonego z powodu wykrycia p\u0119tli fizycznej przez proces STP w instalacji Ethernet opartej o prze\u0142\u0105czniki",
+    "ans": "blocking"
+  },
+  {
+    "id": 111,
+    "que": "Teoretyczna liczba host\u00f3w mo\u017cliwych do pod\u0142\u0105czenia w sieci IPv4: 10.10.10.0/25",
+    "ans": 126
+  },
+  {
+    "id": 112,
+    "que": "Warto\u015b\u0107 najwy\u017cszego priorytetu CoS (class of service) w IEEE 802.1p",
+    "ans": 7
+  },
+  {
+    "id": 113,
+    "que": "Dowolny przyk\u0142ad poprawnej warto\u015bci maski adresu IP",
+    "ans": "255.255.0.0"
+  },
+  {
+    "id": 114,
+    "que": "Nazwa pierwszej warstwy modelu ISO/OSI",
+    "ans": "fizyczna"
+  },
+  {
+    "id": 115,
+    "que": "Jakikolwiek inny protok\u00f3\u0142 podobny do STP",
+    "ans": "TRILL"
+  },
+  {
+    "id": 116,
+    "que": "Nazwa trzeciej warstwy modelu ISO/OSI",
+    "ans": "sieciowa"
+  },
+  {
+    "id": 117,
+    "que": "Wyr\u00f3\u017cniamy rodzaje list kontrolnych ACL: standardowe, nazwane(named) oraz ...?",
+    "ans": "rozszerzone"
+  },
+  {
+    "id": 118,
+    "que": "Jakie s\u0142owo oznacza pozwolenie przy tworzeniu list ACL",
+    "ans": "permit"
+  },
+  {
+    "id": 119,
+    "que": "Wymie\u0144 trzy rodzaje wtyk\u00f3w \u015bwiat\u0142owod\u00f3w.",
+    "ans": "SC,LC,ST, FC"
+  },
+  {
+    "id": 120,
+    "que": "Po kt\u00f3rej stronie ustala si\u0119 cz\u0119stotliwo\u015b\u0107 zegara transmisji. / Nazwa konc\u00f3wki V.35 dla kt\u00f3rej ustawia si\u0119 zegar ",
+    "ans": "DCE "
+  },
+  {
+    "id": 121,
+    "que": "Jak nazywa si\u0119 stan portu zablokowanego przez STP z powodu wykrycia p\u0119tli?",
+    "ans": "Blocking"
+  },
+  {
+    "id": 122,
+    "que": "Nazwa portu publicznego, do kt\u00f3rego ka\u017cdy innyport ma dost\u0119p, definiowanego w private VLAN",
+    "ans": "promiscuous"
+  },
+  {
+    "id": 123,
+    "que": "Typ rutowania IP, w kt\u00f3rym rozg\u0142oszenie nast\u0105pi do \u015bci\u015ble okre\u015blonej puli zarejestrowanych odbiorc\u00f3w",
+    "ans": "multicast"
+  },
+  {
+    "id": 124,
+    "que": "Liczba mo\u017cliwych klas CoSw VLAN",
+    "ans": 8
+  },
+  {
+    "id": 125,
+    "que": "Adres sieci IPv4, w kt\u00f3rej znajduje sie host 200.200.200.4/24",
+    "ans": "200.200.200.0"
+  },
+  {
+    "id": 126,
+    "que": "Rodzaj mostkowania Cisco IOS, umozliwiajacy zdefiniowanie w ruterach zarowno rutera jak i mostka ale izolowanych",
+    "ans": "CRB"
+  },
+  {
+    "id": 127,
+    "que": "Z czego sklada sie identyfikator BID przesylany w bramkach BPDU",
+    "ans": "bridge priority + mac"
+  },
+  {
+    "id": 128,
+    "que": "Teoretyczna liczba hostow mozliwych do podlaczenia w sieci 10.10.10.0/24",
+    "ans": 254
+  },
+  {
+    "id": 129,
+    "que": "Numer typu komunikatu OSPF sluzacy do rozglaszania informacji o sciezkach w lokalnym obszarze (area)",
+    "ans": 2
+  },
+  {
+    "id": 130,
+    "que": "Nazwa interfejsu wirtualnego w Cisco IOS umo\u017cliwiaj\u0105cego dost\u0119p z mostka do rutera w trybie mostkowania IRB",
+    "ans": "BVI"
+  },
+  {
+    "id": 131,
+    "que": "Komenda Cisco Catalyst IOS umozliwiajac przypisanie listy kontrolnej o nr 5 do portu lub linii przelacznika",
+    "ans": "ip access-group 5 in"
+  },
+  {
+    "id": 132,
+    "que": "Wartosc metryki cisco catalyst Administrative distance w tablicy rutowania dla sieci bezposrednio podlaczonych",
+    "ans": 0
+  },
+  {
+    "id": 133,
+    "que": "Komenda Cisco Catalyst definiuj\u0105ca tryb pracy portu eternet jako port podlaczony do stacji ip",
+    "ans": "switchport mode access"
+  },
+  {
+    "id": 134,
+    "que": "Zakres standardowych list kontrolnych",
+    "ans": "1-99"
+  },
+  {
+    "id": 135,
+    "que": "Zakres adresow IPv4 w klasie B",
+    "ans": "128.0.0.0 - 191.255.255.255"
+  },
+  {
+    "id": 136,
+    "que": "Warto\u015b\u0107 IPv4 i maski odpowiadaj\u0105cej wszystkim hostom w internecie",
+    "ans": "0.0.0.0/0"
+  },
+  {
+    "id": 137,
+    "que": "Co oznacza Time To Live",
+    "ans": "czas \u017cycia pakietu"
+  },
+  {
+    "id": 138,
+    "que": "Jakiej klasy jest podany adres IPv4 10.10.10.1",
+    "ans": "A"
+  },
+  {
+    "id": 139,
+    "que": "Angielski odpowiednik terminu: szeroko\u015b\u0107 pasma",
+    "ans": "bandwidth"
+  },
+  {
+    "id": 140,
+    "que": "Adres IPv4 hosta, znajduj\u0105cego si\u0119 w sieci 200.200.200.5/32",
+    "ans": "200.200.200.5"
+  },
+  {
+    "id": 141,
+    "que": "Nazwa portu publicznego (do kt\u00f3rego ka\u017cdy inny port ma dost\u0119p) definiowanego w Private VLANS",
+    "ans": "promiscuous"
+  },
+  {
+    "id": 142,
+    "que": "Liczba bit\u00f3w przeznaczona na identyfikator VID w VLAN (IEEE 802.1Q)",
+    "ans": 12
+  },
+  {
+    "id": 143,
+    "que": "Liczba mo\u017cliwych klas CoS(IEEE 802.1p) w VLAN",
+    "ans": 8
+  },
+  {
+    "id": 144,
+    "que": "Nazwa portu wy\u0142\u0105czonego z powodu wykrycia p\u0119tli fizycznej przez proces STP w instalacji Ethernet opartej o prze\u0142aczniki",
+    "ans": "blocking port"
+  },
+  {
+    "id": 145,
+    "que": "Adres sieci IPv4, w kt\u00f3rej znajduje si\u0119 host: 200.200.200.5/24",
+    "ans": "200.200.200.0"
+  },
+  {
+    "id": 146,
+    "que": "Rozszerzenie Cisco protoko\u0142u IGRP",
+    "ans": "EiGRP"
+  },
+  {
+    "id": 147,
+    "que": "Z czego sk\u0142ada si\u0119 identyfikator BID (Bridge-ID) przesy\u0142any w ramkach BPDU definiowanych przez protok\u00f3\u0142 STP(802.1d)",
+    "ans": "bridge priority + MAC"
+  },
+  {
+    "id": 148,
+    "que": "Teoretyczna liczba host\u00f3w mo\u017cliwych do pod\u0142\u0105czenia w sieci IPv4: 10.10.10.0/25",
+    "ans": 126
+  },
+  {
+    "id": 149,
+    "que": "Numer typu komunikatu OSPF LSA s\u0142u\u017c\u0105cy do rozg\u0142aszania informacji o \u015bcie\u017ckach w lokalnym obszarze( area)",
+    "ans": 2
+  },
+  {
+    "id": 150,
+    "que": "Podzia\u0142 protoko\u0142\u00f3w rutowania dynamicznego pod k\u0105tem technik wyznaczania tras i sk\u0142adowania informacji o nich",
+    "ans": "link state i distance vector (hybrydy: path-vector)"
+  },
+  {
+    "id": 151,
+    "que": "Typ rutowania IP, w kt\u00f3rym nast\u0105pi rozg\u0142oszenie datagramu IP do \u015bci\u015ble okre\u015blonej puli zarejestrowanych odbiorc\u00f3w",
+    "ans": "multicast"
+  },
+  {
+    "id": 152,
+    "que": "Og\u00f3lna nazwa metody blokowania oglaszania wstecznego w celu eliminowania zap\u0119tle\u0144 rutowania distance vector",
+    "ans": "split horizon"
+  },
+  {
+    "id": 153,
+    "que": "Warto\u015b\u0107 metryki Administrative Distance w tablicy rutowania IP wyznaczana dla sieci bezpo\u015brednio pod\u0142\u0105czonych",
+    "ans": "0"
+  },
+  {
+    "id": 154,
+    "que": "Nazwa komunikatu rozg\u0142aszanego w ramach OSPF przekazuj\u0105cego informacj\u0119 o \u015bcie\u017cce",
+    "ans": "LSA"
+  },
+  {
+    "id": 155,
+    "que": "Adres IPv4 hosta, znajduj\u0105cego si\u0119 w sieci: 200.200.200.5/32",
+    "ans": "200.200.200.5"
+  },
+  {
+    "id": 156,
+    "que": "Komenda Cisco Catalyst IOS definiuj\u0105ca tryb pracy portu Ethernet prze\u0142\u0105cznika jako \"port pod\u0142\u0105czony do stacji PC\"",
+    "ans": "switchport mode access"
+  },
+  {
+    "id": 157,
+    "que": "Nazwa rutera wyprowadzaj\u0105cego ruch z domeny OSPF do innego Systemu Autonomicznego (AS)",
+    "ans": "ASBR - Autonomous System Border Router"
+  },
+  {
+    "id": 158,
+    "que": "Zakres adres\u00f3w IPv4 w klasie B",
+    "ans": "128.0.0.0 - 191.255.255.255"
+  },
+  {
+    "id": 159,
+    "que": "Komenda do wej\u015bcia w konfiguracj\u0119 RIP routera",
+    "ans": "router rip"
+  },
+  {
+    "id": 160,
+    "que": "Nazwa kabla konsoli Cisco z dwoma wtykami RJ45 i przeplotem",
+    "ans": "Cisco Console RollOver //chyba"
+  },
+  {
+    "id": 161,
+    "que": "Co wyra\u017ca warto\u015b\u0107 pola Time To Live w nag\u0142\u00f3wku datagramu IP",
+    "ans": "liczba przeskok\u00f3w, czas \u017cycia pakietu"
+  },
+  {
+    "id": 162,
+    "que": "Nazwa komendy w konsoli Cisco aby wy\u015bwietli\u0107 tablic\u0119 routowania",
+    "ans": "sh ip route"
+  },
+  {
+    "id": 163,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 drogi dla datagram\u00f3w przetwarzanej przez protok\u00f3\u0142 rutowania dynamicznego IP RIP",
+    "ans": "15"
+  },
+  {
+    "id": 164,
+    "que": "Wz\u00f3r do obliczania metryki kosztu \u0142acza",
+    "ans": "100Mbps/szybko\u015b\u0107 interfejsu"
+  },
+  {
+    "id": 165,
+    "que": "Komenda Cisco IOS umo\u017cliwiaj\u0105ca zdefiniowanie regu\u0142y rutowania statycznego",
+    "ans": "ip route [sie\u0107 docelowa] [maska] [gdzie wys\u0142a\u0107]"
+  },
+  {
+    "id": 166,
+    "que": "Rodzaje uwierzytelniania w protokole PPP",
+    "ans": "PAP, CHAP"
+  },
+  {
+    "id": 167,
+    "que": "Co oznacza okre\u015blenie Gateway of last resort",
+    "ans": "domy\u015blna bramka"
+  },
+  {
+    "id": 168,
+    "que": "Wrouterach Cisco wyr\u00f3\u017cniamy listy ACL nazwane, standardowe i...",
+    "ans": "rozszerzone (extended)"
+  },
+  {
+    "id": 169,
+    "que": "Klasa adresu IP: 150.150.150.1",
+    "ans": "B"
+  },
+  {
+    "id": 170,
+    "que": "Nazwa rutera OSPF \u0142\u0105cz\u0105cego dwa r\u00f3\u017cne obszary (area) w domenie OSPF",
+    "ans": "ABR - area border router"
+  },
+  {
+    "id": 171,
+    "que": "Rozwini\u0119cie akronimu VLSM dla IPv4",
+    "ans": "Variable length subnet mask"
+  },
+  {
+    "id": 172,
+    "que": "Skr\u00f3t literowy okre\u015blaj\u0105cy listy kontroli dost\u0119pu w ruterach i prze\u0142\u0105cznikach Cisco",
+    "ans": "ACL"
+  },
+  {
+    "id": 173,
+    "que": "Przyk\u0142ad protoko\u0142u rutowania dynamicznego typu link-state",
+    "ans": "OSPF"
+  },
+  {
+    "id": 174,
+    "que": "Nazwa trzeciej warstwy modelu ISO/OSI",
+    "ans": "sieci"
+  },
+  {
+    "id": 175,
+    "que": "Podzia\u0142 technik rutowania IP pod k\u0105tem interpretowania (b\u0105d\u017a nie) klas adres\u00f3w IP",
+    "ans": "classfull/classless"
+  },
+  {
+    "id": 176,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 pakietu IP",
+    "ans": "64 kB"
+  },
+  {
+    "id": 177,
+    "que": "Nazwa komunikatu ICMP wysy\u0142anego do nadawcy du\u017cej liczby datagram\u00f3w IP w celu chwilowego wstrzymania ich nadawania",
+    "ans": "Source Quench"
+  },
+  {
+    "id": 178,
+    "que": "Maksymalna warto\u015b\u0107 VLAN ID",
+    "ans": "4095"
+  },
+  {
+    "id": 179,
+    "que": "Teoretyczna liczba host\u00f3w mo\u017cliwych do pod\u0142\u0105czenia w sieci IPv4: 10.10.10.0/23",
+    "ans": "2^9-2=510"
+  },
+  {
+    "id": 180,
+    "que": "Proces uog\u00f3lniania adres\u00f3 sieci IP, do kt\u00f3rych z rutera prowadzi ta sama \u015bcie\u017cka, stosowany w rutowaniu IP",
+    "ans": "Route summarization"
+  },
+  {
+    "id": 181,
+    "que": "Minimalna kategoria kabla TP dla Gigabit Ethernet",
+    "ans": "7 (tak wynika z wikipedii xd) / a nie 5e ?"
+  },
+  {
+    "id": 182,
+    "que": "Komenda Cisco IOS powoduj\u0105ca aktywacj\u0119 procesu rutowania RIP",
+    "ans": "router rip"
+  },
+  {
+    "id": 183,
+    "que": "Komenda Cisco IOS umo\u017cliwiaj\u0105ca wy\u0142\u0105czenie trybu rutowania IP, kt\u00f3re bierze pod uwag\u0119 klasy adres\u00f3w IPv4",
+    "ans": "ip classless"
+  },
+  {
+    "id": 184,
+    "que": "Komenda Cisco IOS definiuj\u0105ca/aktywuj\u0105ca do edycji dowolnie wybrany podinterfejs w ruterze",
+    "ans": "int fa 0/0.1"
+  },
+  {
+    "id": 185,
+    "que": "Dwie g\u0142\u00f3wne techniki poszukiwania tras stosowane w protoko\u0142ach rutowania dynamicznego IP",
+    "ans": "link-state i distance-vector"
+  },
+  {
+    "id": 186,
+    "que": "Nazwa techniki (w Cisco IOS) umo\u017cliwiaj\u0105cej wykorzystanie list kontrolnych ACL do kontroli procesu rutowania dynamicznego",
+    "ans": "route-map"
+  },
+  {
+    "id": 187,
+    "que": "Adres IP broadcast dla sieci 10.128.0.0/23",
+    "ans": "10.128.1.255"
+  },
+  {
+    "id": 188,
+    "que": "Dwa podstawowe rodzaje sieci VLAN",
+    "ans": "port-based, tagged"
+  },
+  {
+    "id": 189,
+    "que": "Domy\u015blna warto\u015b\u0107 Administrative Distance w tablicy rutowania dla statycznej regu\u0142y rutowania",
+    "ans": "1"
+  },
+  {
+    "id": 190,
+    "que": "Alternatywa dla protoko\u0142u PPP, cho\u0107 nie dostarczaj\u0105ca autentyfikacji w\u0119z\u0142\u00f3w sieci",
+    "ans": "HDLC ???"
+  },
+  {
+    "id": 191,
+    "que": "Nazwa nieistniej\u0105cego fizycznie interfejsu IP zak\u0142adanego w ruterze Cisco w celach diagnostycznych",
+    "ans": "loopback"
+  },
+  {
+    "id": 192,
+    "que": "Nazwa obszaru wyizolowanego w rutowaniu dynamicznym IP OSPF",
+    "ans": "totally stubby"
+  },
+  {
+    "id": 193,
+    "que": "Protok\u00f3\u0142 umo\u017cliwiaj\u0105cy konwersj\u0119 adresu IP zdalnej stacji na jej adres MAC w Ethernet",
+    "ans": "ARP"
+  },
+  {
+    "id": 194,
+    "que": "Zakres identyfikator\u00f3w standardowych list dost\u0119pu ACL w Cisco IOS",
+    "ans": "1-99"
+  },
+  {
+    "id": 195,
+    "que": "Liczba typ\u00f3w komunikat\u00f3w LSA w protokole rutowania dynamicznego IP OSPF",
+    "ans": "6"
+  },
+  {
+    "id": 196,
+    "que": "Warto\u015b\u0107 (liczbowo) maski IPv4 1.1.1.1/26",
+    "ans": "255.255.255.192"
+  },
+  {
+    "id": 197,
+    "que": "Og\u00f3lne okre\u015blenie protoko\u0142\u00f3w rutowania dynamicznego wewn\u0105trz Systemu Autonomicznego",
+    "ans": "interior"
+  },
+  {
+    "id": 198,
+    "que": "Standard IEEE okre\u015blaj\u0105cy tagowanie VLAN",
+    "ans": "IEEE 802.1q"
+  },
+  {
+    "id": 199,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 trasy (liczba przeskok\u00f3w przez rutery) tworzonej w protokole RIP",
+    "ans": "15"
+  },
+  {
+    "id": 200,
+    "que": "Co wyra\u017ca warto\u015b\u0107 Time To Live w nag\u0142\u00f3wku datagramu IP",
+    "ans": "liczba przeskok\u00f3w, no TTL"
+  },
+  {
+    "id": 201,
+    "que": "Komenda Cisco iOS umo\u017cliwiaj\u0105ca sprawdzenie zawarto\u015bci w tablicy rutowania w ruterze Cisco",
+    "ans": "show ip route"
+  },
+  {
+    "id": 202,
+    "que": "Kt\u00f3re linie w kablu TP Cat5 nale\u017cy zamieni\u0107 aby uzyska\u0107 wariant krosowany (z przeplotem).",
+    "ans": "1,2 <-> 3,6"
+  },
+  {
+    "id": 203,
+    "que": "Komenda Cisco IOS umo\u017cliwiaj\u0105ca zdefinowanie regu\u0142y rutowania statycznego",
+    "ans": "ip route"
+  },
+  {
+    "id": 204,
+    "que": "Proces uog\u00f3lniania adres\u00f3w sieci IP, do kt\u00f3rych z rutera prowadzi ta sama \u015bcie\u017cka, stosowany w rutowaniu IP",
+    "ans": "Route summarization"
+  },
+  {
+    "id": 205,
+    "que": "Komenda Cisco IOS umo\u017cliwiaj\u0105ca zdefiniowanie regu\u0142y rutowania statycznego",
+    "ans": "ip route"
+  },
+  {
+    "id": 206,
+    "que": "Nazwa komunikatu rozg\u0142aszango w ramach OSPF przekazuj\u0105ce informacje o \u015bcie\u017cce",
+    "ans": "LSA"
+  },
+  {
+    "id": 207,
+    "que": "Co oznacza okre\u015blenie Gateway of last resort w tablicy",
+    "ans": "domy\u015blna bramka"
+  },
+  {
+    "id": 208,
+    "que": "Max warto\u015b\u0107 VLAN ID",
+    "ans": "raczej 4095"
+  },
+  {
+    "id": 209,
+    "que": "Klasa adresu IP: 150.150.150.1",
+    "ans": "B"
+  },
+  {
+    "id": 210,
+    "que": "Max dlugo\u015bc pakietu IP",
+    "ans": "64kB"
+  },
+  {
+    "id": 211,
+    "que": "Rozwini\u0119cie akronimu: VLSM dla sieci IPv4",
+    "ans": "Variable Length Subnet Mask"
+  },
+  {
+    "id": 212,
+    "que": "Podzia\u0142 technik rutowania IP pod k\u0105tem interpretowania (b\u0105d\u017a nie) klas adres\u00f3w IP\t",
+    "ans": "classful/classless"
+  },
+  {
+    "id": 213,
+    "que": "Og\u00f3lna nazwa metody blokowania og\u0142aszania wstecznego w celu eliminowania zap\u0119tle\u0144 rutowania disctance vector",
+    "ans": "split horizon"
+  },
+  {
+    "id": 214,
+    "que": "Rodzaje uwierzytelniania w protokole PPP",
+    "ans": "PAP,CHAP"
+  },
+  {
+    "id": 215,
+    "que": "Nazwa komunikatu ICMP wysy\u0142anego do nadawcy du\u017cej liczby datagram\u00f3w IP w celu chwilowego wstrzymania ich nadawania",
+    "ans": "Source Quench"
+  },
+  {
+    "id": 216,
+    "que": "Przyk\u0142ad protoko\u0142u rutowania dynamicznego typu link-state",
+    "ans": "OSPF"
+  },
+  {
+    "id": 217,
+    "que": "Teorytyczna liczba host\u00f3w mo\u017cliwych do umieszczenia w sieci IPv4: 10.10.0.0/23",
+    "ans": "2^9-2=510"
+  },
+  {
+    "id": 218,
+    "que": "W ruterach Cisco opr\u00f3cz nazwanych (named) i standardowych (standard) ACL wyr\u00f3\u017cniamy jeszcze jedne. Jakie?",
+    "ans": "rozszerzone (extended)"
+  },
+  {
+    "id": 219,
+    "que": "Nazwa rutera OSPF \u0142\u0105cz\u0105cego dwa r\u00f3\u017cne obszary (area) w domenie OSPF",
+    "ans": "ABR"
+  },
+  {
+    "id": 220,
+    "que": "Nazwa obszaru (area) wyizolowanego w rutowaniu dynamicznym IP OSPF",
+    "ans": "totally stub"
+  },
+  {
+    "id": 221,
+    "que": "Komenda Cisco IOS powoduj\u0105ca aktywacj\u0119 procesu rutowania RIP w routerze Cisco",
+    "ans": "router rip nazwa"
+  },
+  {
+    "id": 222,
+    "que": "Komenda Cisco IOS umo\u017cliwiaj\u0105ca wy\u0142\u0105czenie trybu rutowania IP, kt\u00f3ry bierze pod uwag\u0119 klasy adres\u00f3w IPv4",
+    "ans": "ip classless"
+  },
+  {
+    "id": 223,
+    "que": "Komenda Cisco IOS definiuj\u0105ca/aktywuj\u0105ca do edycji dowolnie wybrany pod-interfejs w ruterze Cisco",
+    "ans": "int fa0/0.1 <- to .1"
+  },
+  {
+    "id": 224,
+    "que": "Dwie g\u0142owne techniki poszukiwania tras w stosowane a protoko\u0142ach rutowania dynamicznego IP",
+    "ans": "link-state, distance-vector"
+  },
+  {
+    "id": 225,
+    "que": "Nazwa techniki (w Cisco IOS) umo\u017cliwiaj\u0105cej wykorzystanie list kontrolnych ACL do kontroli procesu rutowania dynamicznego",
+    "ans": "ROUTE-MAP"
+  },
+  {
+    "id": 226,
+    "que": "Dwa podstawowe rodzaje sieci VLAN",
+    "ans": "tagged, port-based"
+  },
+  {
+    "id": 227,
+    "que": "Domy\u015blna warto\u015b\u0107 Administrative Distance w tablicy rutowania dla statycznej regu\u0142y rutowania",
+    "ans": "1"
+  },
+  {
+    "id": 228,
+    "que": "Liczba typ\u00f3w komunikat\u00f3w LSA w protokole rutowania dynamicznego IP OSPF\t",
+    "ans": "6"
+  },
+  {
+    "id": 229,
+    "que": "Alternatywa dla PPP, cho\u0107 nie dostarczaj\u0105ca autentyfikacji w\u0119z\u0142\u00f3w",
+    "ans": "HDLC"
+  },
+  {
+    "id": 230,
+    "que": "Warto\u015b\u0107 liczbowa identyfikatora g\u0142\u00f3wnego obszaru (area) w domenie OSPF - tzw. backbone area",
+    "ans": "0"
+  },
+  {
+    "id": 231,
+    "que": "Warto\u015b\u0107 (liczbowo) maski IPv4 1.1.1.1/27",
+    "ans": "255.255.255.224"
+  },
+  {
+    "id": 232,
+    "que": "IPv6 mapped IPv4",
+    "ans": "222.1.41.90 --> ::FFFF:222.1.41.90"
+  },
+  {
+    "id": 233,
+    "que": "Przyk\u0142adowy adres IPv6 EUI-64",
+    "ans": "2222::1234:56FF:FE78:ABCD"
+  },
+  {
+    "id": 234,
+    "que": "Komenda Cisco IOS powoduj\u0105ca aktywacj\u0119 procesu rutowania OSPF w routerze Cisco",
+    "ans": "router ospf 150 (numer raczej dowolny)"
+  },
+  {
+    "id": 235,
+    "que": "Komenda Cisco IOS powoduj\u0105ca w\u0142\u0105czenie rutowania OSPF w ruterze Cisco",
+    "ans": "router ospf [nr procesu]"
+  },
+  {
+    "id": 236,
+    "que": "Liczba grup IP multicast mo\u017cliwa do rozr\u00f3\u017cnienia w ramach adresacji IPv4",
+    "ans": "2^28"
+  },
+  {
+    "id": 237,
+    "que": "Przynajmniej dwa tryby funkcjonowania IP Protocol Independent Multicast",
+    "ans": "sparse-mode, dense-mode"
+  },
+  {
+    "id": 238,
+    "que": "Nazwa standardu okre\u015blaj\u0105cego tagowanie sieci VLAN",
+    "ans": "IEEE 802.1Q"
+  },
+  {
+    "id": 239,
+    "que": "Maksymalna warto\u015b\u0107 pola TTL w nag\u0142\u00f3wku datagramu IP",
+    "ans": "255"
+  },
+  {
+    "id": 240,
+    "que": "Zakres adres\u00f3w grup IPv4 multicast",
+    "ans": "224.0.0.0 - 239.255.255.255"
+  },
+  {
+    "id": 241,
+    "que": "Tryb transmisji w medium dopuszczaj\u0105cy obydwa kierunki przep\u0142ywu danych jednocze\u015bnie",
+    "ans": "duplex"
+  },
+  {
+    "id": 242,
+    "que": "Nazwa protoko\u0142u warstwy 2 realizowanego w prze\u0142\u0105cznikach Ethernet w celu eliminacji p\u0119tli po\u0142\u0105cze\u0144",
+    "ans": "STP"
+  },
+  {
+    "id": 243,
+    "que": "Nazwa (identyfikator) rutera OSPF przekazuj\u0105cego informacj\u0119 o trasach poza domen\u0119 OSPF",
+    "ans": "ASBR"
+  },
+  {
+    "id": 244,
+    "que": "Adres sieci IPv4, w kt\u00f3rej znajduje si\u0119 host: 120.134.12.10/16",
+    "ans": "120.134.0.0"
+  },
+  {
+    "id": 245,
+    "que": "Przynajmniej dwa komuntikaty protoko\u0142u IGMP (Internet Group Management Protocol)",
+    "ans": "Membership Query, Membership Report"
+  },
+  {
+    "id": 246,
+    "que": "Przynajmniej 3 rodzaje topologii sieci komputerowej",
+    "ans": "gwiazdy, drzewa, pier\u015bcienia"
+  },
+  {
+    "id": 247,
+    "que": "Nazwa dowolnego protoko\u0142u obs\u0142uguj\u0105cego w warstwie 2 \u0142\u0105cze typu punkt-punkt",
+    "ans": "SLIP"
+  },
+  {
+    "id": 248,
+    "que": "Nazwa protoko\u0142u konfiguruj\u0105cego adresy IP host\u00f3w",
+    "ans": "DHCP"
+  },
+  {
+    "id": 249,
+    "que": "Alternatywa dla protoko\u0142u IGMP stosowana w przypadku zarz\u0105dzania grupami IPv6 multicast",
+    "ans": "MLD"
+  },
+  {
+    "id": 250,
+    "que": "Do jakiej klasy nale\u017cy adres IPv4: 10.10.1.1?",
+    "ans": "A"
+  },
+  {
+    "id": 251,
+    "que": "Komenda Cisco iOS umo\u017cliwiaj\u0105ca sprawdzenie zawarto\u015bci w tablicy rutowania w ruterze Cisco",
+    "ans": "show ip route"
+  },
+  {
+    "id": 252,
+    "que": "Nazwa 4 warstwy ISO OSI",
+    "ans": "transportowa"
+  },
+  {
+    "id": 253,
+    "que": "Angielskie okre\u015blenie  na \"od celu do \u017ar\u00f3d\u0142a\" dotycz\u0105ce dynamicznego rutowania multicast transmisja .",
+    "ans": "Reverse path forwarding"
+  },
+  {
+    "id": 254,
+    "que": "inne okre\u015blenie na PIM dense mode",
+    "ans": "push mode"
+  },
+  {
+    "id": 255,
+    "que": "Router wyr\u00f3\u017cniony w PIM sparse mode???",
+    "ans": "RP (Rendezvous Point)"
+  },
+  {
+    "id": 256,
+    "que": "Komenda Cisco umo\u017cliwiaj\u0105ca przej\u015bcie do trybu konfigurowania interfejsu FastEthernet nr 0 bezpo\u015brednio w chassis rutera",
+    "ans": "int fa 0/0"
+  },
+  {
+    "id": 257,
+    "que": "Max dlugosc pakietu IP",
+    "ans": "64kB"
+  },
+  {
+    "id": 258,
+    "que": "Organizacja kt\u00f3ra zajmuje si\u0119 rozwijaniem internetu???",
+    "ans": "RIPE"
+  },
+  {
+    "id": 259,
+    "que": "Warto\u015b\u0107 adresu grupy IP multicast wykorzystywanej do komunikacji przez protok\u00f3\u0142 IGMP",
+    "ans": "224.0.0.22"
+  },
+  {
+    "id": 260,
+    "que": "Jak nazywa si\u0119 atrybut prefiksu (w ) okre\u015blaj\u0105cy lokalnie jako\u015b\u0107 prefiksu( czy co\u015b takiego generalnie)",
+    "ans": "LOCAL-PREFERENCES"
+  },
+  {
+    "id": 261,
+    "que": "Druga warstwa tcp/ip",
+    "ans": "Internet (model tcp/ip to nie to samo co iso/osi https://pl.wikipedia.org/wiki/Model_TCP/IP)"
+  },
+  {
+    "id": 262,
+    "que": "Do czego s\u0142u\u017cy gateway of last resort (XD)",
+    "ans": "to bramka domy\u015blna "
+  },
+  {
+    "id": 263,
+    "que": "Nazwa rutera i umo\u017cliwiaj\u0105cego podzielenie AS na cz\u0119\u015bci w celu redukcji ilo\u015bci sesji ",
+    "ans": "Route Reflector"
+  },
+  {
+    "id": 264,
+    "que": "atrybut sciezki w BGP",
+    "ans": "AS-PATH"
+  },
+  {
+    "id": 265,
+    "que": "Adres IPv6 adresu autokonfiguracji IPv4 (gdy host nie dosta\u0142 adresu przez DHCP)",
+    "ans": "fe80::/10"
+  },
+  {
+    "id": 266,
+    "que": "Adres broadcast dla sieci IPv4, w kt\u00f3rej znajduje si\u0119 host: 110.104.1.1/8",
+    "ans": "110.255.255.255"
+  },
+  {
+    "id": 267,
+    "que": "Nazwa grupy AS zagregowanej w celu okre\u015blenia tych AS zbiorczo wybranymi atrybutami",
+    "ans": "community"
+  },
+  {
+    "id": 268,
+    "que": "Wariant protoko\u0142u OSPF kompatybilny z IPv6",
+    "ans": "OSPFv3"
+  },
+  {
+    "id": 269,
+    "que": "Nazwa komunikatu ICMP wysy\u0142anego do nadawcy du\u017cej liczby datagram\u00f3w IP w celu chwilowego wstrzymania ich nadawania",
+    "ans": "Source Quench"
+  },
+  {
+    "id": 270,
+    "que": "Warinat protoko\u0142u RIP kompatybilny z IPv6",
+    "ans": "RIPng"
+  },
+  {
+    "id": 271,
+    "que": "Konstrukcja definiowana w Cisco IOS przypisywana do s\u0105siada  i umo\u017cliwiaj\u0105ca manipulowanie atrybutami tras",
+    "ans": "route-map"
+  },
+  {
+    "id": 272,
+    "que": "Nazwa komunikatu rozg\u0142aszanego w ramach OSPF przekazuj\u0105cego informacje o \u015bcie\u017cce",
+    "ans": "LSA"
+  },
+  {
+    "id": 273,
+    "que": "Nazwa drugiej warstwy Internet Protocol Suite",
+    "ans": "internetowa"
+  },
+  {
+    "id": 274,
+    "que": "Rodzaje uwierzytelniania w protokole PPP",
+    "ans": "PAP,CHAP"
+  },
+  {
+    "id": 275,
+    "que": "Co oznacza okre\u015blenie Gateway of Last Resort w tablicy rutowania",
+    "ans": "bramka domy\u015blna"
+  },
+  {
+    "id": 276,
+    "que": "Odpowiednik IPv6 adresu 127.0.0.1 IPv4",
+    "ans": "::1"
+  },
+  {
+    "id": 277,
+    "que": "Klasa adresu IP: 150.150.150.1",
+    "ans": "B"
+  },
+  {
+    "id": 278,
+    "que": "Nazwa atrybutu trasy  przypisanego do ca\u0142ego AS i okre\u015blaj\u0105cego jako\u015b\u0107 po\u0142\u0105czenia z innym AS",
+    "ans": "LOCAL_PREFERENCE"
+  },
+  {
+    "id": 279,
+    "que": "Atrybut trasy , kt\u00f3ry okre\u015bla preferowan\u0105 tras\u0119, gdy dwa AS maj\u0105 wiele po\u0142\u0105cze\u0144 i nie wiadomo kt\u00f3re z nich wybra\u0107",
+    "ans": "MED"
+  },
+  {
+    "id": 280,
+    "que": "D\u0142ugo\u015b\u0107 adresu IPv6 w bitach",
+    "ans": 128
+  },
+  {
+    "id": 281,
+    "que": "Og\u00f3lna nazwa metody blokowania oglaszania wstecznego w celu eliminowania zap\u0119tle\u0144 rutowania distance vector",
+    "ans": "split horizon"
+  },
+  {
+    "id": 282,
+    "que": "Warto\u015b\u0107 Administrative Distance w tablicy rutowania rutera Cisco dla ",
+    "ans": 20
+  },
+  {
+    "id": 283,
+    "que": "Rozwini\u0119cie akronimu MED (???) jako atrybutu \u015bcie\u017cki w ",
+    "ans": "multi-exit discriminator"
+  },
+  {
+    "id": 284,
+    "que": "Zakres adres\u00f3w IPv4 w klasie B",
+    "ans": "128.0.0.0 - 191.255.255.255"
+  },
+  {
+    "id": 285,
+    "que": "Nazwa portu publicznego (do kt\u00f3rego ka\u017cdy inny port ma dost\u0119p) w Private VLANS",
+    "ans": "promiscious"
+  },
+  {
+    "id": 286,
+    "que": "Angielskie okre\u015blenie techniki rutowania dynamicznego \"od celu do \u017ar\u00f3d\u0142a\" stosowanej w przypadku IP multicast",
+    "ans": "reverse path forwarding"
+  },
+  {
+    "id": 287,
+    "que": "Liczba mo\u017cliwych klas CoS (IEEE 802.1p) w VLAN",
+    "ans": "8"
+  },
+  {
+    "id": 288,
+    "que": "Technika ograniczania rozg\u0142aszania ramek multicast tylko do w\u0142a\u015bciwych port\u00f3w - stosowana w prze\u0142\u0105cznikach Ethernet",
+    "ans": "IGMP snooping"
+  },
+  {
+    "id": 289,
+    "que": "Adres sieci IPv4, w kt\u00f3rej znajduje si\u0119 host 200.200.200.5/26",
+    "ans": "200.200.200.0"
+  },
+  {
+    "id": 290,
+    "que": "Rozszerzenie Cisco protko\u0142u IGRP",
+    "ans": "EIGRP"
+  },
+  {
+    "id": 291,
+    "que": "Z czego sk\u0142ada si\u0119 identyfikator BID (Bridge-ID) przesy\u0142any w ramkach BPDU definiowanych przez protok\u00f3\u0142 STP(802.1d)",
+    "ans": "bridge priority + MAC"
+  },
+  {
+    "id": 292,
+    "que": "Komenda Cisco IOS powoduj\u0105ca wy\u015bwietlenie informacji o Rendezvous Point w trybie sparse IP PIM",
+    "ans": "show ip pim rp"
+  },
+  {
+    "id": 293,
+    "que": "Numer typu komunikatu OSPF LSA s\u0142u\u017c\u0105cy do rozg\u0142aszania informacji o \u015bcie\u017ckach w danym obszarze (area)",
+    "ans": "2"
+  },
+  {
+    "id": 294,
+    "que": "Podzia\u0142 protoko\u0142\u00f3w rutowania dynamicznego pod k\u0105tem technik wyznaczania tras i sk\u0142adowania informacji o nich",
+    "ans": "link state i distance vector"
+  },
+  {
+    "id": 295,
+    "que": "Typ rutowania IP, w kt\u00f3rym rozg\u0142oszenie nast\u0105pi do \u015bci\u015ble okre\u015blonej puli zarejestrowanych odbiorc\u00f3w",
+    "ans": "multicast"
+  },
+  {
+    "id": 296,
+    "que": "Og\u00f3lna nazwa metody blokowania oglaszania wstecznego w celu eliminowania zap\u0119tle\u0144 rutowania distance vector",
+    "ans": "split horizon"
+  },
+  {
+    "id": 297,
+    "que": "Wartosc metryki Administrative Distance w tablicy rutowania IP wyznaczana dla sieci bezposrednio podlaczonych",
+    "ans": "0"
+  },
+  {
+    "id": 298,
+    "que": "Nazwa komunikatu rozg\u0142aszanego w ramach OSPF przekazuj\u0105cego informacje o \u015bcie\u017cce",
+    "ans": "LSA"
+  },
+  {
+    "id": 299,
+    "que": "Adres IPv4 hosta znajduj\u0105cego si\u0119 w sieci: 200.200.200.5/32",
+    "ans": "200.200.200.5"
+  },
+  {
+    "id": 300,
+    "que": "Komenda Cisco Catalyst IOS definiuj\u0105ca tryb pracy portu Ethernet prze\u0142\u0105cznika jako \"port pod\u0142\u0105czony do stacji PC\"",
+    "ans": "switchport mode access"
+  },
+  {
+    "id": 301,
+    "que": "Nazwa routera wyprowadzaj\u0105cego ruch z domeny OSPF do innego Systemu Autonomicznego (AS)",
+    "ans": "ASBR"
+  },
+  {
+    "id": 302,
+    "que": "liczba bitow odpowiadaj\u0105ca za identyfikacje hosta w sieci klasy B",
+    "ans": "8*2=16 (podtwierdzone Turkiem)"
+  },
+  {
+    "id": 303,
+    "que": "Maksymalna warto\u015b\u0107 pola TTL w nag\u0142\u00f3wku datagramu IP",
+    "ans": "255"
+  },
+  {
+    "id": 304,
+    "que": "Jakie pole jest w ATM UNI a nie ma go w ATM NNI",
+    "ans": "GFC (Generic Flow Control)"
+  },
+  {
+    "id": 305,
+    "que": "D\u0142ugo\u015b\u0107 pola VCI w ATM  (w bitach)",
+    "ans": 16
+  },
+  {
+    "id": 306,
+    "que": "Skr\u00f3t literowy okre\u015blaj\u0105cy us\u0142ug\u0119 telefonii analogowej",
+    "ans": "POTS"
+  },
+  {
+    "id": 308,
+    "que": "Tryb pracy sieci SAN (Fibre Channel) oparty o fizyczn\u0105 topologi\u0119 pier\u015bcienia",
+    "ans": "P\u0119tla z arbitra\u017cem"
+  },
+  {
+    "id": 309,
+    "que": "Nazwa warstwy fizycznej sieci SAN - Fibre Channel",
+    "ans": "FC0"
+  },
+  {
+    "id": 310,
+    "que": "D\u0142ugo\u015b\u0107 celki ATM (bajty)",
+    "ans": 53
+  },
+  {
+    "id": 311,
+    "que": "Nazwa interfejsu ATM tworzonego mi\u0119dzy dwoma prze\u0142\u0105cznikami ATM",
+    "ans": "NNI"
+  },
+  {
+    "id": 312,
+    "que": "Nazwa portu prze\u0142\u0105cznika Fibre channel, u\u017cywanego do po\u0142\u0105czenia do niego port\u00f3w N innych urz\u0105dze\u0144(serwer\u00f3w)",
+    "ans": "Port F"
+  },
+  {
+    "id": 313,
+    "que": "Nazwa procesu przekazywania wiedzy o trasach pomi\u0119dzy r\u00f3\u017cnymi protoko\u0142ami rutownania dynamicznego",
+    "ans": "Redystrybucja"
+  },
+  {
+    "id": 314,
+    "que": "Wariant protoko\u0142u rutowania dynamicznego RIP kompatybilny w IPv6",
+    "ans": "RIPng"
+  },
+  {
+    "id": 315,
+    "que": "Konstrukcja definiowana w Cisco IOS przypisywana do s\u0105siada  i umo\u017cliwiaj\u0105ca manipulowanie atrybutami tras",
+    "ans": "route-map"
+  },
+  {
+    "id": 316,
+    "que": "W kt\u00f3rych wartwach modelu ISO OSI operuje prze\u0142\u0105cznik rutuj\u0105cy Ethernet",
+    "ans": "1 - 3"
+  },
+  {
+    "id": 317,
+    "que": "Nazwa modu\u0142u sprz\u0119towego w prze\u0142\u0105cznikach Ethernet Cisco u\u017cywanego do wykrywania zagro\u017ce\u0144 w ruchu w sieci",
+    "ans": "IDS"
+  },
+  {
+    "id": 318,
+    "que": "Rozwini\u0119cie akronimu AAL dla ATM",
+    "ans": "ATM Adaptation layer"
+  },
+  {
+    "id": 319,
+    "que": "Co oznacza okre\u015blenie Gateway of let resort w tablicy rutowania",
+    "ans": "domy\u015blna trasa rutowania"
+  },
+  {
+    "id": 320,
+    "que": "Odpowiednik IPv6 adresu 127.0.0.1 IPv4",
+    "ans": "::1"
+  },
+  {
+    "id": 321,
+    "que": "Maksymalna liczba bajt\u00f3w przekazywana w celce ATM",
+    "ans": 53
+  },
+  {
+    "id": 322,
+    "que": "Nazwa atrybutu trasy  przypisanego do ca\u0142ego AS i okre\u015blaj\u0105cego jako\u015b\u0107 po\u0142\u0105czenia z innym AS",
+    "ans": "LOCAL_PREFERENCES"
+  },
+  {
+    "id": 323,
+    "que": "Atrybut trasy , kt\u00f3ry okre\u015bla preferowan\u0105 tras\u0119, gdy dwa AS maj\u0105 wiele po\u0142\u0105cze\u0144 i nie wiadomo kt\u00f3re z nich wybra\u0107",
+    "ans": "MED (Multi Exit Discriminator)"
+  },
+  {
+    "id": 324,
+    "que": "Nazwa sk\u0142adowej adresu AESA NASP identyfikuj\u0105cej fizyczny interfejs b\u0119d\u0105cy wyj\u015bciem z ATM",
+    "ans": "ESI"
+  },
+  {
+    "id": 325,
+    "que": "Okre\u015blenie dla techniki agregowania \u0142\u0105czy w sieciach SAN (Storage Area Networks) w celu zwi\u0119kszenia przepustowo\u015bci",
+    "ans": "striping"
+  },
+  {
+    "id": 326,
+    "que": "Nazwa atrybutu w komunikacie o trasie e zawieraj\u0105cego list\u0119 AS, przez kt\u00f3re trasa przechodzi ",
+    "ans": "AS_PATH"
+  },
+  {
+    "id": 327,
+    "que": "Adres IPv6 adresu autokonfiguracji IPv4 (gdy host nie dosta\u0142 adresu przez DHCP)",
+    "ans": "fe80::/10"
+  },
+  {
+    "id": 328,
+    "que": "Pole wyst\u0119puj\u0105ce w nag\u0142\u00f3wku celki ATM UNI, lecz nie wyst\u0119puj\u0105ce w nag\u0142\u00f3wku celki ATM NNI",
+    "ans": "GFC"
+  },
+  {
+    "id": 329,
+    "que": "Nazwa grupy AS zagregowanej w celu okre\u015blenia tych AS zbiorczo wybranymi atrybutami",
+    "ans": "Community"
+  },
+  {
+    "id": 330,
+    "que": "Wariant protoko\u0142u OSPF kompatybilny z IPv6",
+    "ans": "OSPFv3"
+  },
+  {
+    "id": 331,
+    "que": "Nazwa komunikatu ICMP wysy\u0142anego do nadawcy du\u017cej liczby datagram\u00f3w IP w celu chwilowego wstrzymania ich nadawania",
+    "ans": "Source Quench"
+  },
+  {
+    "id": 332,
+    "que": "Nazwa (akronim) unikatowego identyfikatora urz\u0105dzenia w sieciach Fibre Channel",
+    "ans": "WWNN lub WWPN"
+  },
+  {
+    "id": 333,
+    "que": "Co oznacza NAV w ramce w 802.11",
+    "ans": " chodzilo o miliskeundy"
+  },
+  {
+    "id": 334,
+    "que": "Nazwa rutera OSPF przekazuj\u0105cego informacje o trasach pomi\u0119dzy obszarami (area) OSPF",
+    "ans": "ABR"
+  },
+  {
+    "id": 335,
+    "que": "D\u0142ugo\u015b\u0107 adresu interfejsu fizycznego w ramkach FC-2 (Fibre Channel)",
+    "ans": "24 bity"
+  },
+  {
+    "id": 336,
+    "que": "Maksymalna liczba aktywnych stacji typu slave w jednej pikosieci Bluetooth (IEEE 802.15)",
+    "ans": 7
+  },
+  {
+    "id": 337,
+    "que": "Moce urz\u0105dze\u0144 nadawczych kolejno w klasach 1,2,3 definiowanych w IEEE 802.15 (Bluetooth)",
+    "ans": "1 - 100mW, 2 - 2,5mW, 3 - 1mW"
+  },
+  {
+    "id": 338,
+    "que": "Okre\u015blenie karty zawieraj\u0105cej seri\u0119 interfejs\u00f3w sieciowych w prze\u0142\u0105cznikach segmentu CORE",
+    "ans": "line-card ?"
+  },
+  {
+    "id": 339,
+    "que": "Dwa warianty protoko\u0142u  (operuj\u0105cy na zewn\u0105trz i wewn\u0105trz AS)",
+    "ans": "e, i"
+  },
+  {
+    "id": 340,
+    "que": "Standard IEEE okre\u015blaj\u0105cy tagowane VLAN",
+    "ans": "802.1q"
+  },
+  {
+    "id": 341,
+    "que": "Unikatowy identyfikator op\u0142\u0105czenia w technologii Frame Relay (w warstwie 2 ISO OSI)",
+    "ans": "DLCI (Data-Link Connection Identifier)"
+  },
+  {
+    "id": 342,
+    "que": "Warto\u015b\u0107 Administrative Distance dla e",
+    "ans": 20
+  },
+  {
+    "id": 343,
+    "que": "Okre\u015blenie portu przeznaczonego do obs\u0142ugi VLAN Trunk w prze\u0142\u0105cznikach HP",
+    "ans": "tagged"
+  },
+  {
+    "id": 344,
+    "que": "Skr\u00f3t literowy oznaczaj\u0105cy us\u0142ug\u0119 telefonii analogowej",
+    "ans": "POTS"
+  },
+  {
+    "id": 345,
+    "que": "Nazwa protoko\u0142u umo\u017cliwiaj\u0105cego nadbudowanie nad Bluetooth (IEEE 802.15) fragmentacji ramek i QoS",
+    "ans": "L2CAP (Logical Link and Class Adaptation Protocol)"
+  },
+  {
+    "id": 346,
+    "que": "Nazwa urz\u0105dzenia centralnego o kt\u00f3re oparta jest topologia gwiazdy w sieciach SAN (Fibre Channel)",
+    "ans": "Switch Fabric"
+  },
+  {
+    "id": 347,
+    "que": "Rozwini\u0119cie akronimu CPE jako okre\u015blenia komunikacji w asymetrycznych lub symetrycznych DSL",
+    "ans": "Customer-Premises Equipment"
+  },
+  {
+    "id": 348,
+    "que": "Nazwa rutera OSPF przekazuj\u0105cego informacje o trasach pomi\u0119dzy obszarami (area) OSPF",
+    "ans": "ABR"
+  },
+  {
+    "id": 349,
+    "que": "D\u0142ugo\u015b\u0107 adresu interfejsu fizycznego w ramkach FC-2 (Fibre Channel)",
+    "ans": "24 bity"
+  },
+  {
+    "id": 350,
+    "que": "Maksymalna liczba aktywnych sesji typu slave w jednej pikosieci Bluetooth (IEEE 802.15) (Bluetooth)",
+    "ans": "1*Master + 7* Slave"
+  },
+  {
+    "id": 351,
+    "que": "Moce urz\u0105dze\u0144 nadawczych kolejno w klasach 1,2,3 definiowanych w IEEE 802.15 (Bluetooth)",
+    "ans": "100 mW, 2,5 mW, 1 mW"
+  },
+  {
+    "id": 352,
+    "que": "",
+    "ans": "line card"
+  },
+  {
+    "id": 353,
+    "que": "Dwa warianty protoko\u0142u  (operuj\u0105cy na zewn\u0105trz i wewn\u0105trz AS)",
+    "ans": "External Internal"
+  },
+  {
+    "id": 354,
+    "que": "Standard IEEE okre\u015blaj\u0105cy tagowanie VLAN",
+    "ans": "802.1Q"
+  },
+  {
+    "id": 355,
+    "que": "Okre\u015blenie dla obowi\u0105zkowych atrybut\u00f3w \u015bcie\u017cki ",
+    "ans": "Well-known Mandatory"
+  },
+  {
+    "id": 356,
+    "que": "Unikatowy identyfikator po\u0142\u0105czenia w technologii Frame Relay (w warstwie 2 IOS OSI)",
+    "ans": "DLCI (Data-Link Connection Identifier)"
+  },
+  {
+    "id": 357,
+    "que": "Warto\u015b\u0107 Administrative Distance dla ebgp",
+    "ans": 20
+  },
+  {
+    "id": 358,
+    "que": "Okre\u015blenie portu przeznaczonego do obs\u0142ugi VLAN Trunk w prze\u0142\u0105cznikach HP",
+    "ans": "tagged"
+  },
+  {
+    "id": 359,
+    "que": "Nazwa instytucji zajmuj\u0105cej si\u0119 zarz\u0105dzaniem Systemami Autonomicznymi i  w Europie",
+    "ans": "RIPE"
+  },
+  {
+    "id": 360,
+    "que": "Skr\u00f3t literowy okre\u015blaj\u0105cy us\u0142ug\u0119 telefonii analogowej",
+    "ans": "POTS"
+  },
+  {
+    "id": 361,
+    "que": "Nazwa protoko\u0142u umo\u017cliwiaj\u0105cego nadbudowanie nad Bluetooth (IEEE 802.15) fragmentacji ramek i QoS",
+    "ans": "L2CAP"
+  },
+  {
+    "id": 362,
+    "que": "Co wyra\u017ca warto\u015b\u0107 pola Time To Live w nag\u0142\u00f3wku datagramu IP",
+    "ans": "czas \u017cycia pakietu"
+  },
+  {
+    "id": 363,
+    "que": "liczba mo\u017cliwych klas QoS (IEEE 802,1p) w VLAN",
+    "ans": 8
+  },
+  {
+    "id": 364,
+    "que": "Nazwa urz\u0105dzenia centralnego o kt\u00f3re oparta jest topologia gwiazdy w sieciach SAN (Fibre Channel)",
+    "ans": "Switch Fabric"
+  },
+  {
+    "id": 365,
+    "que": "Rozwini\u0119cie akronimu CPE jako okre\u015blenia strony komunikacji w asymetrycznym lub symetrycznym DSL",
+    "ans": "Customer-premises equipment"
+  },
+  {
+    "id": 366,
+    "que": "Komenda Cisco Catalyst IOS przeprowadzaj\u0105ca konsol\u0119 z trybu nieuprzywilejowanego do trybu exec",
+    "ans": "enable (skr\u00f3t: en)"
+  },
+  {
+    "id": 367,
+    "que": "Numery przewod\u00f3w, kt\u00f3re nale\u017cy zamieni\u0107 miejscami aby otrzyma\u0107 kabel z przeplotem",
+    "ans": "1,2 <-> 3,6"
+  },
+  {
+    "id": 368,
+    "que": "Protok\u00f3\u0142 drugiej warstwy pracuj\u0105cy w prze\u0142\u0105cznikach Ethernet i zabezpieczaj\u0105cy sie\u0107 przed powstaniem p\u0119tli",
+    "ans": "stp"
+  },
+  {
+    "id": 369,
+    "que": "Nazwa numeru portu prze\u0142\u0105cznika Ethernet, kt\u00f3ry zgodnie z nomenkulatur\u0105 protoko\u0142u STP prowadzi do Root Bridge",
+    "ans": "Root Port"
+  },
+  {
+    "id": 370,
+    "que": "Adres sieci, w kt\u00f3rej znajduje si\u0119 host 120.121.1.1 przy masce 255.254.0.0",
+    "ans": "120.120.0.0   <= polecam http://haker.com.pl/threads/22217-TUTORIAL-Przeliczanie-Adres%C3%B3w-Ip-Maska-Broadcast-etc-IPv4"
+  },
+  {
+    "id": 371,
+    "que": "Komenda CCIOS przeprowadzaj\u0105ca konsol\u0119 z trybu exec do trybu umo\u017cliwiaj\u0105cego konfiguracj\u0119 ustawie\u0144",
+    "ans": "configure terminal (conf t)"
+  },
+  {
+    "id": 372,
+    "que": "Liczba maksymalna host\u00f3w mo\u017cliwa do zdefiniowania w sieci 200.200.200.0 przy mascie 255.255.255.192",
+    "ans": "62   <=2^(4*8-26)-2 // a nie 64?(maska zostawia ci 6 bitow wolnych)// edit kolejny, 2 sa zajete przez broadcast i network ip"
+  },
+  {
+    "id": 373,
+    "que": "Nazwy kategorii linii komunikacyjnych (line) definiowanych w systemie CCIOS",
+    "ans": "vty/console"
+  },
+  {
+    "id": 374,
+    "que": "Angielski odpowiednik s\u0142owa: przepustowo\u015b\u0107 dla \u0142\u0105cza sieciowego",
+    "ans": "throughput"
+  },
+  {
+    "id": 375,
+    "que": "Koncentrator Ethernet nie dokonuj\u0105cy analizy adres\u00f3w MAC (zawsze rozg\u0142aszaj\u0105cy)",
+    "ans": "hub"
+  },
+  {
+    "id": 376,
+    "que": "Nazwa pola/liczby identyfikuj\u0105cej format danych przenoszonych w ramce Ethernet II",
+    "ans": "Ethertype/d\u0142ugo\u015b\u0107"
+  },
+  {
+    "id": 377,
+    "que": "Liczba bit\u00f3w o warto\u015bci 0 w masce adresu IPv4 w notacji CIDR: 200.200.200.1 i masce 255.255.255.0",
+    "ans": "8"
+  },
+  {
+    "id": 378,
+    "que": "MTU dla danych ramki Ethernet",
+    "ans": "1500 bajt\u00f3w"
+  },
+  {
+    "id": 379,
+    "que": "Nazwa protoko\u0142u konfiguruj\u0105cego adresy IP host\u00f3w w sieci",
+    "ans": "DHCP"
+  },
+  {
+    "id": 380,
+    "que": "Liczba bit\u00f3w w adresie Ethernet MAC",
+    "ans": 48
+  },
+  {
+    "id": 381,
+    "que": "Tryb transmisji w medium dopuszczaj\u0105cy obydwa kierunki przep\u0142ywu danych jednocze\u015bnie",
+    "ans": "duplex"
+  },
+  {
+    "id": 382,
+    "que": "Liczba bit\u00f3w w adresie Ethernet IP",
+    "ans": 32
+  },
+  {
+    "id": 383,
+    "que": "Nazwa pi\u0105tej warstwy modelu ISO OSI",
+    "ans": "sesji"
+  },
+  {
+    "id": 384,
+    "que": "Adres IP Broadcast dla sieci IPv4: 10.0.0.0 przy masce 255.128.0.0",
+    "ans": "10.127.255.255"
+  },
+  {
+    "id": 385,
+    "que": "Angielski odpowiednik terminu: Szeroko\u015b\u0107 pasma",
+    "ans": "bandwidth"
+  },
+  {
+    "id": 386,
+    "que": "Przyk\u0142ad systemu kodowania serii bit\u00f3w zapewniaj\u0105cego samo-synchronizacj\u0119 transmisji",
+    "ans": "Kodowanie Manchester, kodowanie Manchester-r\u00f3\u017cnicowy"
+  },
+  {
+    "id": 387,
+    "que": "Tryb transmisji umo\u017cliwiaj\u0105cy ruch tylko w jednym kierunku",
+    "ans": "simplex"
+  },
+  {
+    "id": 388,
+    "que": "Minimalna d\u0142ugo\u015b\u0107 ramki Ethernet IEEE 802.3 (w bajtach)",
+    "ans": "64 bajty + 8 preambu\u0142y i SFD"
+  },
+  {
+    "id": 389,
+    "que": "Dwie techniki transmisji strumienia bit\u00f3w rozr\u00f3\u017cniane z uwagi na obecno\u015b\u0107 (lub nie) przekazu informacji zegaruj\u0105cej",
+    "ans": "Komunikacja synchroniczna i asynchroniczna ///// ??????????????????????????????????"
+  },
+  {
+    "id": 390,
+    "que": "Rozwini\u0119cie akronimu MTU jako cechy okre\u015blaj\u0105cej mo\u017cliwo\u015bci techniczne technologii transmisji sieciowej",
+    "ans": "Maximum Transmission Unit"
+  },
+  {
+    "id": 391,
+    "que": "Nazwa drugiej warstwy ISO OSI",
+    "ans": "\u0142\u0105cza danych"
+  },
+  {
+    "id": 392,
+    "que": "Adres segmentu sieci IPv4, do kt\u00f3rej nale\u017cy host o adresie IPv4: 10.10.10.10 przy masce 255.255.192.0",
+    "ans": "10.10.0.0"
+  },
+  {
+    "id": 393,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 kabla TP Cat5 (skr\u0119tki) pomi\u0119dzy prze\u0142\u0105cznikami w technologii Ethernet",
+    "ans": "100 metr\u00f3w"
+  },
+  {
+    "id": 394,
+    "que": "Nazwa pola/liczby identyfikuj\u0105cej format danych przenoszonych w ramce Ethernet II",
+    "ans": "Ethertype"
+  },
+  {
+    "id": 395,
+    "que": "D\u0142ugo\u015b\u0107 adresu MAC dla Ethernet (w bajtach)",
+    "ans": 6
+  },
+  {
+    "id": 396,
+    "que": "Adres IP broadcast dla sieci IPv4: 10.10.0.0 przy masce 255.255.0.0",
+    "ans": "10.10.255.255"
+  },
+  {
+    "id": 397,
+    "que": "Rodzaje port\u00f3w zapasowych w stanie discarding okre\u015blane przez protok\u00f3\u0142 RSTP w prze\u0142\u0105cznikach Ethernet (IEEE 802.1w)",
+    "ans": "Alternate port;  backup port;"
+  },
+  {
+    "id": 398,
+    "que": "Jednostka, w kt\u00f3rej okre\u015blona jest szeroko\u015b\u0107 pasma dla danego medium transmisyjnego",
+    "ans": "bps (bits per second)"
+  },
+  {
+    "id": 399,
+    "que": "Liczba mo\u017cliwych stan\u00f3w portu Ethernet w prze\u0142\u0105czniku (bez uwzgl\u0119dniania definiowanych przez STP i jego warianty)",
+    "ans": "5 - Listening, Learning, Forwarding, Blocking, Discarding //A nie 4, bo discarding to chyba RSTP definiuje?"
+  },
+  {
+    "id": 400,
+    "que": "Funkcja protoko\u0142u VTP usuwaj\u0105ca VLAN Trunks, gdy dany VLAN w zadanym prze\u0142\u0105czniku nie ma \u017cadnych port\u00f3w",
+    "ans": "Pruning"
+  },
+  {
+    "id": 401,
+    "que": "Warto\u015b\u0107 identyfikatora(VID) domy\u015blnej sieci VLAN w prze\u0142\u0105cznikach Cisco( przy ustawieniach fabrycznych)",
+    "ans": "1 ??? Tak, slajd 21 z drugiej prezentacji"
+  },
+  {
+    "id": 402,
+    "que": "Minimalna d\u0142ugo\u015b\u0107 ramki Ethernet IEEE 802.3(w bajtach)",
+    "ans": "64(?)"
+  },
+  {
+    "id": 403,
+    "que": "Klasa adresu IPv4:200.200.200.1",
+    "ans": "Klasa C"
+  },
+  {
+    "id": 404,
+    "que": "Komenda Cisco Catalyst iOS przeprowadzaj\u0105ca prze\u0142\u0105cznik do trybu konfiguracji vlan numer 3",
+    "ans": "interface vlan 3"
+  },
+  {
+    "id": 405,
+    "que": "Technologia Ethernet umo\u017cliwiaj\u0105ca tunelowanie wielu VLAN TRUNK w jednym \u0142\u0105czu",
+    "ans": "802.1 Q-in-Q"
+  },
+  {
+    "id": 406,
+    "que": "Rodzaj \u015bwiat\u0142owodu umo\u017cliwiaj\u0105cego przesy\u0142anie  jednocze\u015bnie tylko jednej wi\u0105zki \u015bwiat\u0142a danej cz\u0119stotliwo\u015bci",
+    "ans": "jednomodowy"
+  },
+  {
+    "id": 407,
+    "que": "Adres IP broadcast dla sieci IPv4: 10.10.0.0/16        ",
+    "ans": "10.10.255.255"
+  },
+  {
+    "id": 408,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 ramki IEEE 802.1Q",
+    "ans": "1522B "
+  },
+  {
+    "id": 409,
+    "que": "Komenda Cisco Catalyst definiuj\u0105ca tryb pracy prze\u0142\u0105cznika jako trunk IEEE 802.1Q",
+    "ans": "Switch(config-if)#switchport mode trunk"
+  },
+  {
+    "id": 410,
+    "que": "Rodzaje port\u00f3w zapasowych  stanie discarding  okre\u015blane przez protok\u00f3\u0142 RSTP w prze\u0142\u0105cznikach Ethernet (IEEE 802.1w)",
+    "ans": "Alternate Port, Backup Port"
+  },
+  {
+    "id": 411,
+    "que": "Tryb transmisji, umo\u017cliwiaj\u0105cy ruch tylko w jednym kierunku",
+    "ans": "Simplex"
+  },
+  {
+    "id": 412,
+    "que": "Minimalna d\u0142ugo\u015b\u0107 ramki Ethernet IEEE 802.3 (w bajtach)",
+    "ans": "64  + 8 preambu\u0142y i SFD"
+  },
+  {
+    "id": 413,
+    "que": "Protok\u00f3\u0142 umo\u017cliwiaj\u0105cy konwersj\u0119 adresu IP zdalnej stacji na jej adres MAC w Ethernet",
+    "ans": "ARP"
+  },
+  {
+    "id": 414,
+    "que": "Komenda Cisco Catalyst IOS przeprowadzaj\u0105ca prze\u0142\u0105cznik do trybu konfiguracji vlan numer 3",
+    "ans": "interface vlan 3 //raczej samo vlan3,int vlan3 tworzy interfejs"
+  },
+  {
+    "id": 415,
+    "que": "Nazwa drugiej warstwy ISO OSI",
+    "ans": "\u0142\u0105cza danych"
+  },
+  {
+    "id": 416,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 kabla TP Cat 5 (skr\u0119tki) pomi\u0119dzy prze\u0142\u0105cznikami w technologii Ethernet",
+    "ans": "100m"
+  },
+  {
+    "id": 417,
+    "que": "Nazwa pola/liczby identyfikuj\u0105cej format danych przenoszonych w ramce Ethernet II",
+    "ans": "ethertype"
+  },
+  {
+    "id": 418,
+    "que": "D\u0142ugo\u015b\u0107 adresu MAC dla Ethernet (w bajtach)",
+    "ans": "6"
+  },
+  {
+    "id": 419,
+    "que": "Adres IP Broadcast dla sieci IPv4 10.10.0.0/16",
+    "ans": "10.10.255.255."
+  },
+  {
+    "id": 420,
+    "que": "Technologia Ethernet umo\u017cliwiaj\u0105ca tunelowanie wielu VLAN TRUNK w jednym z\u0142\u0105czu fizycznym",
+    "ans": "Q-in-Q"
+  },
+  {
+    "id": 421,
+    "que": "Komenta CCIOS definiuj\u0105ca tryb pracy prze\u0142\u0105cznika jako trunk IEEE 802.1Q",
+    "ans": "switchport mode trunk"
+  },
+  {
+    "id": 422,
+    "que": "Liczba mo\u017cliwych stan\u00f3w portu Ethernet w prze\u0142\u0105czniku (bez uwzgl\u0119dniania definiowanych przez STP i jego warianty)",
+    "ans": "5 - Listening, Learning, Forwarding, Blocking, Discarding //A nie 4, bo discarding to chyba RSTP definiuje?"
+  },
+  {
+    "id": 423,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 pakietu Ethernet",
+    "ans": "1518 - ej ej, a nie 1522??"
+  },
+  {
+    "id": 424,
+    "que": "Tryb transmisji w medium dopuszczaj\u0105cym obydwa kierunki przep\u0142ywu danych",
+    "ans": "Duplex"
+  },
+  {
+    "id": 425,
+    "que": "MTU dla danych ramki Ethernet",
+    "ans": "1500"
+  },
+  {
+    "id": 426,
+    "que": "Adres sieci IPv4, w kt\u00f3rej znajduje si\u0119 host 100.100.13.10/23",
+    "ans": "100.100.12.0"
+  },
+  {
+    "id": 427,
+    "que": "Adres broadcast IPv4 dla sieci, w kt\u00f3rej znajduje si\u0119 host 120.134.12.10/16",
+    "ans": "120.134.255.255"
+  },
+  {
+    "id": 428,
+    "que": "Teoretyczna liczba host\u00f3w mo\u017cliwych do umieszczenia w sieci IPv4 10.10.10.0/29",
+    "ans": "6"
+  },
+  {
+    "id": 429,
+    "que": "Warto\u015b\u0107 adresu rozg\u0142oszeniowego MAC w Ethernet(hex)",
+    "ans": "ff:ff:ff:ff:ff:ff"
+  },
+  {
+    "id": 430,
+    "que": "Rodzaje topologii logicznej sieci komputerowej",
+    "ans": "rozg\u0142aszania/przekazywania tokenu"
+  },
+  {
+    "id": 431,
+    "que": "Liczba bit\u00f3w przeznaczona na VID w VLAN (IEEE 802.1Q)",
+    "ans": "12"
+  },
+  {
+    "id": 432,
+    "que": "Nazwa portu publicznego (do kt\u00f3rego ka\u017cdy inny ma dost\u0119p) definiowanego w Private VLANs prze\u0142\u0105cznika Ethernet",
+    "ans": "Promiscuous"
+  },
+  {
+    "id": 433,
+    "que": "Nazwa pierwszej warstwy modelu ISO OSI",
+    "ans": "Fizyczna"
+  },
+  {
+    "id": 434,
+    "que": "Komenda CCIOS trybu config aktywuj\u0105ca tryb konfigurowania linii terminali wirtualnych o numerach 0-4",
+    "ans": "line vty 0 - 4 (spacje ko\u0142o my\u015blnika!!) -- \u0179LE!!!! ma byc \"line vty 0 4\" (sama spacja) - sprawdzane w CPT - jest w sprawku 022"
+  },
+  {
+    "id": 435,
+    "que": "Nazwy dw\u00f3ch podwarstw 2 warstwy ISO OSI",
+    "ans": "LLC MAC"
+  },
+  {
+    "id": 436,
+    "que": "Nazwa standardu okre\u015blaj\u0105ca tagowanie sieci VLAN",
+    "ans": "802.1Q"
+  },
+  {
+    "id": 437,
+    "que": "Max warto\u015b\u0107 VLAN ID",
+    "ans": "4096//a nie 4095?? (pomijaj\u0105c fakt, \u017ce jest ono zarezerwowane do innych cel\u00f3w)  - raczej 4095"
+  },
+  {
+    "id": 438,
+    "que": "Liczba bit\u00f3w w adresie IPv4",
+    "ans": "32"
+  },
+  {
+    "id": 439,
+    "que": "Komenda CCIOS okre\u015blaj\u0105ca tryb pracy portu Ethernet jako obs\u0142uguj\u0105cego pojedynczego hosta (np PC)",
+    "ans": "switchport mode access"
+  },
+  {
+    "id": 440,
+    "que": "Przynajmniej dwie kategorie kabla Twisted Pair",
+    "ans": "5/5e/6"
+  },
+  {
+    "id": 441,
+    "que": "Adres sieci IPv4, w kt\u00f3rej znajduje si\u0119 host 100.100.12.10/16",
+    "ans": "100.100.0.0"
+  },
+  {
+    "id": 442,
+    "que": "Adres broadcast IPv4 dla sieci, w kt\u00f3rej znajduje si\u0119 host 120.134.12.10/16",
+    "ans": "120.134.255.255"
+  },
+  {
+    "id": 443,
+    "que": "Maksymalna liczba host\u00f3w przy masce 255.255.252.0",
+    "ans": "2^10 - 2 = 1022"
+  },
+  {
+    "id": 444,
+    "que": "Topologia sieci Ethernet oparta o jeden koncentrator (prze\u0142\u0105cznik)",
+    "ans": "Gwiazdy"
+  },
+  {
+    "id": 445,
+    "que": "Tryb transmisji umo\u017cliwiaj\u0105cy przekaz danych w obie strony ale nie jednocze\u015bnie",
+    "ans": "Half-duplex"
+  },
+  {
+    "id": 446,
+    "que": "Limit d\u0142ugo\u015bci kabla Twisted Pair Cat5e w sieci Ethernet",
+    "ans": "100m"
+  },
+  {
+    "id": 447,
+    "que": "Nazwa portu wy\u0142\u0105czonego z powodu wykrycia p\u0119tli fizycznej przez proces STP w instalacji Ethernet opartej o prze\u0142\u0105czniki",
+    "ans": "blocking port"
+  },
+  {
+    "id": 448,
+    "que": "Znaczenie preambu\u0142y wysy\u0142anej przed ramk\u0105 Ethernet",
+    "ans": "Synchronizacja"
+  },
+  {
+    "id": 449,
+    "que": "Wariant sieci Ethernet VLAN, gdzie po\u0142\u0105czenie izolowane wielu VLAN w dw\u00f3ch prze\u0142\u0105cznikach wielu kabli TP",
+    "ans": "port based"
+  },
+  {
+    "id": 450,
+    "que": "Z czego budowany jest identyfikator Bridge-ID przesy\u0142any w ramkach BPDU definiowanych przez protok\u00f3\u0142 STP (802.1d)",
+    "ans": "bridge priority + MAC"
+  },
+  {
+    "id": 451,
+    "que": "Teoretyczna liczba host\u00f3w mo\u017cliwych do pod\u0142\u0105czenia do sieci IPv4 10.10.10.0/25",
+    "ans": "126"
+  },
+  {
+    "id": 452,
+    "que": "Warto\u015b\u0107 najwy\u017cszego priorytetu Class of Service w IEEE 802.1p",
+    "ans": 7
+  },
+  {
+    "id": 453,
+    "que": "Tryb pracy VTP, w kt\u00f3rym datagramy s\u0105 jedynie przekazywane dalej",
+    "ans": "Transparent"
+  },
+  {
+    "id": 454,
+    "que": "Scalenie kilku \u0142\u0105cz TP pomi\u0119dzy prze\u0142\u0105cznikami Ethernet w jeden kana\u0142 o zwielokrotnionej przepustowo\u015bci",
+    "ans": "EtherChannel"
+  },
+  {
+    "id": 455,
+    "que": "Dowolny przyk\u0142ad notacji CIDR adresu IP",
+    "ans": "1.1.1.1/1"
+  },
+  {
+    "id": 456,
+    "que": "Komenda CCIOS aktywuj\u0105ca tryb pracy trunk portu prze\u0142\u0105cznika Ethernet",
+    "ans": "switchport mode trunk"
+  },
+  {
+    "id": 457,
+    "que": "Adres sieci IPv4, w kt\u00f3rej znajduje si\u0119 host 120.134.12.10/16",
+    "ans": "120.134.0.0"
+  },
+  {
+    "id": 458,
+    "que": "Adres broadcast IPv4 dla sieci, w kt\u00f3rej znajduje si\u0119 host 120.134.12.10/8",
+    "ans": "120.255.255.255"
+  },
+  {
+    "id": 459,
+    "que": "Maksymalna liczba host\u00f3w przy masce 255.255.224.0",
+    "ans": " (255-224+1)*(255+1)-2=8190 ? ##"
+  },
+  {
+    "id": 460,
+    "que": "Komenda CCIOS umo\u017cliwiaj\u0105ca zdefiniowanie rozpoznawalnej w sieci nazwy prze\u0142\u0105cznika Cisco Catalyst",
+    "ans": "hostname?"
+  },
+  {
+    "id": 461,
+    "que": "Informacja do\u0142\u0105czona na ko\u0144cu pakietu/datagramu analogiczna znaczeniowo do nag\u0142\u00f3wka",
+    "ans": "Trailer"
+  },
+  {
+    "id": 462,
+    "que": "Adres broadcast IPv4 dla sieci, w kt\u00f3rej znajduje si\u0119 host 120.134.12.10/16",
+    "ans": "120.134.255.255"
+  },
+  {
+    "id": 463,
+    "que": "Nazwa protoko\u0142u zdalnie konfiguruj\u0105cego adresy IP host\u00f3w w sieci",
+    "ans": "DHCP"
+  },
+  {
+    "id": 464,
+    "que": "W jakim rodzaju pami\u0119ci wewn\u0119trznej prze\u0142\u0105cznika Ethernet Cisco trzymany jest trwale obraz jego systemu operacyjnego",
+    "ans": "flash? (a nie NVRAM?)"
+  },
+  {
+    "id": 465,
+    "que": "Komenda CCIOS umo\u017cliwiaj\u0105ca przypisanie listy kontrolnej (ACL) numer 5 do portu lub linii prze\u0142\u0105cznika",
+    "ans": "Ruter(config-if)#ip access-group 5 in // Ruter(config-line)#access-class 5 in"
+  },
+  {
+    "id": 466,
+    "que": "Topologia sieci Ethernet oparta o jeden koncentrator(prze\u0142\u0105cznik)",
+    "ans": "Gwiazdy"
+  },
+  {
+    "id": 467,
+    "que": "Nazwa wtyku stosowanego do \u0142\u0105czenia port\u00f3w Ethernet w prze\u0142\u0105cznikach z u\u017cyciem kabla TP",
+    "ans": "RJ45(8p8c)"
+  },
+  {
+    "id": 468,
+    "que": "Nazwa si\u00f3dmej warstwy ISO OSI",
+    "ans": "Aplikacji"
+  },
+  {
+    "id": 469,
+    "que": "Komenda CCIOS umo\u017cliwiaj\u0105ca wy\u015bwietlenie danych zgromadzonych w ramach protoko\u0142u STP",
+    "ans": "show spanning-tree"
+  },
+  {
+    "id": 470,
+    "que": "W jakim rodzaju pami\u0119ci prze\u0142\u0105czniki Ethernet Cisco zapisuj\u0105 swoj\u0105 konfiguracj\u0119",
+    "ans": "flash "
+  },
+  {
+    "id": 471,
+    "que": "Adres sieci IPv4, w kt\u00f3rej znajduje si\u0119 host 130.130.130.10/8",
+    "ans": "130.0.0.0 "
+  },
+  {
+    "id": 472,
+    "que": "Maksymalna liczba host\u00f3w w sieci o masce 255.255.255.255",
+    "ans": "1 (tak, maska jest prawid\u0142owa)"
+  },
+  {
+    "id": 473,
+    "que": "Poda\u0107 maksymaln\u0105 d\u0142ugo\u015b\u0107 pakietu IP. ",
+    "ans": "64kB"
+  },
+  {
+    "id": 474,
+    "que": "Nazwa nieistniej\u0105cego fizycznie interfejsu IP zak\u0142adanego w ruterze Cisco w celach diagnostycznych",
+    "ans": "loopback"
+  },
+  {
+    "id": 475,
+    "que": "Wariant sieci Ethernet VLAN, gdzie po\u0142\u0105czenie izolowane wielu VLAN w dw\u00f3ch prze\u0142\u0105cznikach wymaga wielu kabli TP",
+    "ans": "port based"
+  },
+  {
+    "id": 476,
+    "que": "Co okre\u015bla standard IEEE 802.1ad",
+    "ans": "Technik\u0119 tunelowania wielu VLAN Trunks w jednym \u0142\u0105czu fizycznym (Q-in-Q)"
+  },
+  {
+    "id": 477,
+    "que": "Nazwa portu Ethernet wybranego przez STP jako aktywny, gdy inne porty te\u017c s\u0105 pod\u0142\u0105czone do tego samego segmentu sieci",
+    "ans": "designated port"
+  },
+  {
+    "id": 478,
+    "que": "Dwa podstawowe rodzaje sieci VLAN",
+    "ans": "tagged, port-based"
+  },
+  {
+    "id": 479,
+    "que": "Nazwa nieistniej\u0105cego fizycznie interfejsu IP zak\u0142adanego w ruterze Cisco w celach diagnostycznych",
+    "ans": "loopback"
+  },
+  {
+    "id": 480,
+    "que": "Zbi\u00f3r wszystkich host\u00f3w z sieci 200.200.0.0/16 zapisany w notacji stosowanej przy definiowaniu ACL w Cisco IOS",
+    "ans": "200.200.0.0    0.0.255.255"
+  },
+  {
+    "id": 481,
+    "que": "Proces polegaj\u0105cy na upakowaniu datagramu w innych datagramach - przenoszony w ni\u017cszej warstwie ISO OSI",
+    "ans": "enkapsulacja"
+  },
+  {
+    "id": 482,
+    "que": "Zakres identyfikator\u00f3w standardowych list dost\u0119pu (ACL) w Cisco IOS",
+    "ans": "1-99"
+  },
+  {
+    "id": 483,
+    "que": "Tryb funkcjonowania \u0142\u0105cza HDLC anga\u017cuj\u0105cy jest jeden terminal primary i jeden lub wi\u0119cej terminali secondary",
+    "ans": "unbalanced"
+  },
+  {
+    "id": 484,
+    "que": "Skr\u00f3t literowy okre\u015blaj\u0105cy listy kontroli dost\u0119pu w routerach i prze\u0142\u0105cznikach Cisco",
+    "ans": "ACL"
+  },
+  {
+    "id": 485,
+    "que": "Nazwa portu Private VLAN umo\u017cliwiaj\u0105cego wy\u0142\u0105cznie komunikowanie z portem Promiscuous",
+    "ans": "Isolated Port"
+  },
+  {
+    "id": 486,
+    "que": "Rodzaje list kontrolnych (ACL) w Cisco IOS",
+    "ans": "Standardowe \\ Rozszerzone \\ Nazwane"
+  },
+  {
+    "id": 487,
+    "que": "Nazwa komunikatu ICMP wysy\u0142anego do nadawcy du\u017cej liczby datagram\u00f3w IP w celu chwilowego wstrzymania ich nadawania",
+    "ans": "Source Quench"
+  },
+  {
+    "id": 488,
+    "que": "Przynajmniej dwa zmodyfikowane warianty STP stosowane w prze\u0142\u0105cznikach Ethernet",
+    "ans": "RSTP, MSTP"
+  },
+  {
+    "id": 489,
+    "que": "Rozszerzenie Cisco protoko\u0142u iGRP",
+    "ans": "EiGRP"
+  },
+  {
+    "id": 490,
+    "que": "Typ rutowania IP, w kt\u00f3rym nast\u0105pi rozg\u0142oszenie datagramu IP do \u015bci\u015ble okre\u015blonej puli zarejestrowanych odbiorc\u00f3w",
+    "ans": "Multicast"
+  },
+  {
+    "id": 491,
+    "que": "Warto\u015b\u0107 metryki Administrative Distance w tablicy rutowania IP wyznaczana dla sieci bezpo\u015brednio pod\u0142\u0105czonych",
+    "ans": "0"
+  },
+  {
+    "id": 492,
+    "que": "Nazwa rutera wyprowadzaj\u0105cego ruch z domeny OSPF do innego Systemu Autonomicznego (AS)",
+    "ans": "ASBR - Autonomous System Border Router"
+  },
+  {
+    "id": 493,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 trasy (liczba przeskok\u00f3w przez rutery) tworzonej w protokole RIP",
+    "ans": "15"
+  },
+  {
+    "id": 494,
+    "que": "Komenda Cisco IOS umo\u017cliwiaj\u0105ca sprawdzenie zawarto\u015bci tablicy rutowania w ruterze Cisco",
+    "ans": "show ip route"
+  },
+  {
+    "id": 495,
+    "que": "Nazwa rutera OSPF przekazuj\u0105cego informacje o trasach pomi\u0119dzy obszarami (area) OSPF",
+    "ans": "ABR - Area Border Router"
+  },
+  {
+    "id": 496,
+    "que": "Warto\u015b\u0107 Administrative Distance w tablicy rutowania routera Cisco dla iBGP",
+    "ans": "200"
+  },
+  {
+    "id": 497,
+    "que": "Nazwa obszru (area) w rutowaniu dynamicznym IP OSPF, kt\u00f3ry nie otrzymuje informacji spoza domeny OSPF",
+    "ans": "Stub area"
+  },
+  {
+    "id": 498,
+    "que": "Nazwa procesu przekazywania wiedzy o trasach pomi\u0119dzy r\u00f3\u017cnymi protoko\u0142ami rutowania dynamicznego",
+    "ans": "Redystrybucja"
+  },
+  {
+    "id": 499,
+    "que": "Komenda umo\u017cliwiaj\u0105ca wy\u0142\u0105czenie trybu routowania IP, kt\u00f3ry bierze pod uwag\u0119 klasy adres\u00f3w IPv4",
+    "ans": "ip classless"
+  },
+  {
+    "id": 500,
+    "que": "Komenda Cisco umo\u017cliwiaj\u0105ca przej\u015bcie do trybu konfigurowania interfejsu FastEthernet nr 0 bezpo\u015brednio w chassis rutera",
+    "ans": "int fa0/0"
+  },
+  {
+    "id": 501,
+    "que": "Warto\u015b\u0107 liczbowa identyfikatora g\u0142\u00f3wnego obszaru (area) w domenie OSPF - tzw. backbone area",
+    "ans": "0"
+  },
+  {
+    "id": 502,
+    "que": "Liczba mo\u017cliwych klas CoS (IEEE 802.1p) w VLAN",
+    "ans": 8
+  },
+  {
+    "id": 503,
+    "que": "Z czego sk\u0142ada si\u0119 identyfikator BID (Bridge-ID) przesy\u0142any w ramkach BPDU definiowanych przez protok\u00f3\u0142 STP (802.1d)",
+    "ans": "bridge priority + MAC"
+  },
+  {
+    "id": 504,
+    "que": "Numer typu komunikatu OSPF LSA s\u0142u\u017c\u0105cy do rozg\u0142aszania informacji o \u015bcie\u017ckach w lokalnym obszarze (area)",
+    "ans": 2
+  },
+  {
+    "id": 505,
+    "que": "Podzia\u0142 protoko\u0142\u00f3w rutowania dynamicznego pod k\u0105tem technik wyznaczania tras i sk\u0142adowania informacji o nich",
+    "ans": "link state i distance vector"
+  },
+  {
+    "id": 506,
+    "que": "Tryb rutowania IP, w kt\u00f3rym nast\u0105pi rozg\u0142oszenie datagramu IP do \u015bci\u015ble okre\u015blonej puli zarejestrowanych odbiorc\u00f3w",
+    "ans": "multicast"
+  },
+  {
+    "id": 507,
+    "que": "Og\u00f3lna nazwa metody blokowania og\u0142aszania wstecznego w celu eliminowania zap\u0119tle\u0144 rutowania distance vector",
+    "ans": "split horizon"
+  },
+  {
+    "id": 508,
+    "que": "Nazwa komunikatu rozg\u0142aszanego w ramach OSPF przekazuj\u0105cego informacj\u0119 o \u015bcie\u017cce",
+    "ans": "LSA"
+  },
+  {
+    "id": 509,
+    "que": "Komenda CCIOS definiuj\u0105ca tryb pracy portu Ethernet prze\u0142\u0105cznika jako \"port pod\u0142\u0105czony do stacji PC\"",
+    "ans": "switchport mode access"
+  },
+  {
+    "id": 510,
+    "que": "Zakres adres\u00f3w IPv4 w klasie B",
+    "ans": "128.0.0.0 - 191.255.255.255"
+  },
+  {
+    "id": 511,
+    "que": "Og\u00f3lne okre\u015blenie protoko\u0142\u00f3w rutowania dynamicznego wewn\u0105trz Systemy Autonomicznego",
+    "ans": "IGP"
+  },
+  {
+    "id": 512,
+    "que": "Minimalna kategoria kabla TP (Twisted Pair) dla Gigabit Ethernet",
+    "ans": "5e"
+  },
+  {
+    "id": 513,
+    "que": "Przynajmniej trzy typy wtyk\u00f3w \u015bwiat\u0142owodowych",
+    "ans": "SC,LC,ST"
+  },
+  {
+    "id": 514,
+    "que": "Alternatywa dla protoko\u0142u HDLC",
+    "ans": "PPP"
+  },
+  {
+    "id": 515,
+    "que": "Po kt\u00f3rej stronie \u0142\u0105cza V.35 serial nale\u017cy dostarczy\u0107 zegar",
+    "ans": "DCE"
+  },
+  {
+    "id": 516,
+    "que": "Nazwa kabla konsoli Cisco z dwoma wtykami RJ45 i przeplotem",
+    "ans": "Cisco Console RollOver //chyba"
+  },
+  {
+    "id": 517,
+    "que": "Co wyra\u017ca warto\u015b\u0107 pola Time To Live w nag\u0142\u00f3wku datagramu IP",
+    "ans": "liczba przeskok\u00f3w, no TTL"
+  },
+  {
+    "id": 518,
+    "que": "Maksymalna warto\u015b\u0107 pola TTL w nag\u0142\u00f3wku datagramu IP",
+    "ans": 255
+  },
+  {
+    "id": 519,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 ramki IEEE 802.3 (w oktetach)",
+    "ans": 1518
+  },
+  {
+    "id": 520,
+    "que": "Nazwa (identyfikator) rutera OSPF przekazuj\u0105cego informacj\u0119 o trasach poza domen\u0119 OSPF",
+    "ans": "ASBR"
+  },
+  {
+    "id": 521,
+    "que": "W kt\u00f3rych warstwach modelu OSI operuje urz\u0105dzenie: ruter IP",
+    "ans": "moim zdaniem sama 3 (1-3, pyta\u0142em si\u0119 Turka)"
+  },
+  {
+    "id": 522,
+    "que": "Przynajmniej 3 rodzaje topologii sieci komputerowej",
+    "ans": "liniowa, gwiazdy, magistrali"
+  },
+  {
+    "id": 523,
+    "que": "Nazwa dowolnego protoko\u0142u obs\u0142uguj\u0105cego w warstwie 2 \u0142\u0105cze typu punkt-punkt (point-to-point)",
+    "ans": "SLIP"
+  },
+  {
+    "id": 524,
+    "que": "Nazwa dowolnego komunikatu PDU w protokole SNMP",
+    "ans": "GetRequest"
+  },
+  {
+    "id": 525,
+    "que": "Komenda CCIOS powoduj\u0105ca w\u0142\u0105czenie rutowania OSPF w ruterze Cisco",
+    "ans": "#router ospf id_ospf_process (1..65536)/ router ospf 150"
+  },
+  {
+    "id": 526,
+    "que": "jakie  znaczenie ma SFD w ramce Ethernet?",
+    "ans": "synchronizacja(uzna\u0142 tak\u0105 odp) //SFD (Start Frame Delimiter) SFD jest sekwencj\u0105 8 bit\u00f3w w postaci 10101011, kt\u00f3ra wskazuje na pocz\u0105tek ramki Ethernet z danymi."
+  },
+  {
+    "id": 527,
+    "que": "Przynajmniej dwa tryby funkcjonowania IP protocol independent multicast",
+    "ans": "PIM sparse mode, PIM dense mode"
+  },
+  {
+    "id": 528,
+    "que": "Przynajmniej dwa komunikaty protoko\u0142u IGMP",
+    "ans": "\"membership query\", \"membership report\""
+  },
+  {
+    "id": 529,
+    "que": "Komenda CCIOS umo\u017cliwiaj\u0105ca w\u0142\u0105czenie routowania OSPF w routerze Cisco",
+    "ans": "#router ospf id_ospf_process (1..65536)/ router ospf 150"
+  },
+  {
+    "id": 530,
+    "que": "Liczba grup IP multicast mo\u017cliwa do utworzenia(nieczytelne s\u0142owo, ale chyba o to chodzi?) w ramach adresacji IPv4",
+    "ans": "2^28"
+  },
+  {
+    "id": 531,
+    "que": "Zakres adres\u00f3w grup IPv4 multicast",
+    "ans": "224.0.0.0-239.255.255.255"
+  },
+  {
+    "id": 532,
+    "que": "Alternatywa dla protoko\u0142u IGMP stosowana w przypadku zarz\u0105dzania grupami IPv6 multicast",
+    "ans": "MLD"
+  },
+  {
+    "id": 533,
+    "que": "Komenda CCIOS umo\u017cliwiaj\u0105ca sprawdzenie zawarto\u015bci tablicy routowania",
+    "ans": "show ip route"
+  },
+  {
+    "id": 534,
+    "que": "Wariant OSPF, kt\u00f3ry umo\u017clwia multicast",
+    "ans": "MOSPF"
+  },
+  {
+    "id": 535,
+    "que": "Zapisz adres IPv6 6A2E:0:0:0:0:0:0:A25E w notacji skr\u00f3towej",
+    "ans": "6A2E::A25E"
+  },
+  {
+    "id": 536,
+    "que": "D\u0142ugo\u015b\u0107 (liczba bit\u00f3w) identyfikatora SLA w IPv6",
+    "ans": "16 bit\u00f3w"
+  },
+  {
+    "id": 537,
+    "que": "Warto\u015b\u0107 (w protokole IP) maksymalnego op\u00f3\u017aniania dla dostarczenia pakietu IP do odbiorcy",
+    "ans": "brak (\"Nie jest definiowane op\u00f3\u017anienie maksymalne \u2013 ewentualny timeout\ndla us\u0142ugi okre\u015blany jest w warstwach wy\u017cszych\")"
+  },
+  {
+    "id": 538,
+    "que": "Podzia\u0142 protoko\u0142\u00f3w rutowania dynamicznego pod k\u0105tem technik wyznaczania tras i sk\u0142adowanie informacji o nich",
+    "ans": "link state, distance vector"
+  },
+  {
+    "id": 539,
+    "que": "Warto\u015b\u0107 adresu IPv6 i maski (w odpowiedniej notacji) okre\u015blaj\u0105ca wszystkie hosty w internecie",
+    "ans": "::/0"
+  },
+  {
+    "id": 540,
+    "que": "Nazwa pierwszej warstwy Internet Protocol Suite",
+    "ans": "link"
+  },
+  {
+    "id": 541,
+    "que": "Nazwa drugiej warstwy Internet Protocol Suite",
+    "ans": "internet"
+  },
+  {
+    "id": 542,
+    "que": "Nazwa trzeciej warstwy Internet Protocol Suite",
+    "ans": "transport"
+  },
+  {
+    "id": 543,
+    "que": "Nazwa czwartej warstwy Internet Protocol Suite",
+    "ans": "application"
+  },
+  {
+    "id": 544,
+    "que": "D\u0142ugo\u015b\u0107 (liczba bit\u00f3w) identyfikatora systemu autonomicznego (AS) rutowania IP",
+    "ans": 16
+  },
+  {
+    "id": 545,
+    "que": "Adres IPv6 b\u0119d\u0105cy odpowiednikiem adresu IPv4 1.255.0.254 w notacji IPv6-mapped-IPv4",
+    "ans": "::FFFF:1.255.0.254/96"
+  },
+  {
+    "id": 546,
+    "que": "Nazwy dw\u00f3ch klas obszar\u00f3w definiowanych w protokole rutowania dynamicznego IS-IS",
+    "ans": "inter area, intra area"
+  },
+  {
+    "id": 547,
+    "que": "Warto\u015b\u0107 (liczbowo) maski IPv4 1.1.1.1/27",
+    "ans": "255.255.255.224"
+  },
+  {
+    "id": 548,
+    "que": "Og\u00f3lna nazwa protoko\u0142\u00f3w rutowania dynamicznego operuj\u0105cych jednocze\u015bnie w wielu systemach autonomicznych (AS)",
+    "ans": "EGP"
+  },
+  {
+    "id": 549,
+    "que": "Komenda Cisco IOS definiuj\u0105ca/aktywuj\u0105ca do edycji dowolnie wybrany podinterfejs w ruterze Cisco",
+    "ans": "int fa0/0.1"
+  },
+  {
+    "id": 550,
+    "que": "Standard IEEE okre\u015blaj\u0105cy tagowanie VLAN",
+    "ans": "802.1Q"
+  },
+  {
+    "id": 551,
+    "que": "Nazwa sieci IP pod\u0142\u0105czonej bezpo\u015brednio do rutera",
+    "ans": "Sie\u0107 o\u015bcienna (directly connected network)"
+  },
+  {
+    "id": 552,
+    "que": "Standardowy adres IPv4 wej\u015bcia do tunelu 6to4 (przy tunelowaniu IPv6 w IPv4)",
+    "ans": "192.88.99.1"
+  },
+  {
+    "id": 553,
+    "que": "Og\u00f3lne okre\u015blenie protoko\u0142\u00f3w rutowania dynamicznego wewn\u0105trz systemu autonomicznego",
+    "ans": "IGP"
+  },
+  {
+    "id": 554,
+    "que": "Zakres unikatowych lokalnych nierutowalnych IPv6",
+    "ans": "FC00::/7"
+  },
+  {
+    "id": 555,
+    "que": "Okre\u015blenie rodzaju adres\u00f3w IP stosowane w NAT dla adres\u00f3w w datagramach w sieci prywatnej (inside)",
+    "ans": "local"
+  },
+  {
+    "id": 556,
+    "que": "Rozwini\u0119cie akronimu ARP jako protoko\u0142u sieciowego",
+    "ans": "adress resolution protocol"
+  },
+  {
+    "id": 557,
+    "que": "Odpowiednik IPv4 adresu IPv6 0:0:0:0:0:0:0:1",
+    "ans": "127.0.0.1"
+  },
+  {
+    "id": 558,
+    "que": "Warto\u015b\u0107 adresu autokonfiguracji IPv6 (nadawanego samoczynnie przez stacj\u0119, np. przy braku dost\u0119pu do DHCP)",
+    "ans": "fe80::/10"
+  },
+  {
+    "id": 559,
+    "que": "D\u0142ugo\u015b\u0107 (liczba bit\u00f3w) identyfikatora EUI (Extended Unique Identifier) w IPv6",
+    "ans": 64
+  },
+  {
+    "id": 560,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 drogi dla datagram\u00f3w przetwarzanej przez protok\u00f3\u0142 rutowania dynamicznego IP RIP",
+    "ans": 15
+  },
+  {
+    "id": 561,
+    "que": "Nazwa rutera OSPF \u0142\u0105cz\u0105cego dwa r\u00f3\u017cne obszary (area) w domenie OSPF",
+    "ans": "Area border router"
+  },
+  {
+    "id": 562,
+    "que": "Liczba bit\u00f3w pola TTL w nag\u0142\u00f3wku datagramu IPv4",
+    "ans": "8"
+  },
+  {
+    "id": 563,
+    "que": "Komenda Cisco IOS umo\u017cliwiaj\u0105ca sprawdzenie zawarto\u015bci tablicy rutowania dla IPv6 w ruterze Cisco",
+    "ans": "show ipv6 route"
+  },
+  {
+    "id": 564,
+    "que": "Komenda kasuj\u0105ca pami\u0119\u0107 NVRAM rutera",
+    "ans": "write erase"
+  },
+  {
+    "id": 565,
+    "que": "Warto\u015b\u0107 Administrative Distance dla eBGP",
+    "ans": "20"
+  },
+  {
+    "id": 566,
+    "que": "Wz\u00f3r do obliczenia metryki kosztu \u0142\u0105cza w protokole OSPF",
+    "ans": "100Mbps/szybko\u015b\u0107 interfejsu"
+  },
+  {
+    "id": 567,
+    "que": "Maksymalna liczba przeskok\u00f3w przez rutery pomi\u0119dzy s\u0105siadami BGP w r\u00f3\u017cnych AS (dla eBGP)",
+    "ans": "1"
+  },
+  {
+    "id": 568,
+    "que": "Warto\u015b\u0107 (liczbowo) maski IPv4 1.1.1.1/26",
+    "ans": "255.255.255.192 (ostatni bajt: 128+64)"
+  },
+  {
+    "id": 569,
+    "que": "Zakres indentyfikator\u00f3w AS BGP przeznaczony do diagnostyki i eksperyment\u00f3w",
+    "ans": "65001-65535"
+  },
+  {
+    "id": 570,
+    "que": "Okre\u015blenie w technologii NAT dla adres\u00f3w IP w datagramach IP przekazywanych przez sieci outside",
+    "ans": "global"
+  },
+  {
+    "id": 571,
+    "que": "Nazwa komunikowania ruter\u00f3w iGRP zak\u0142adaj\u0105ce tworzenie wewn\u0105trz AS po\u0142\u0105cze\u0144 (sesji) BGP \"ka\u017cdy z ka\u017cdym\"",
+    "ans": "Full mesh"
+  },
+  {
+    "id": 572,
+    "que": "Warto\u015bc adresu IPv6 i maski (w odpowiedniej notacji) okre\u015blaj\u0105ca wszystkie hosty w Internecie",
+    "ans": "::/0"
+  },
+  {
+    "id": 573,
+    "que": "Komenda Cisco IOS umo\u017cliwiaj\u0105ca wy\u0142\u0105czenie uog\u00f3lniania tras przekazywanych w protoko\u0142ach rutowania dynamicznego",
+    "ans": "no ip summary-address NAZWA_PROTOKO\u0141U NUMER_AS IP MASKA"
+  },
+  {
+    "id": 574,
+    "que": "Nazwa procesu przekazywania wiedzy o trasach pomi\u0119dzy r\u00f3\u017cnymi protoko\u0142ami rutowania dynamicznego",
+    "ans": "Redystrybucja"
+  },
+  {
+    "id": 575,
+    "que": "Co zawiera Extended Unique Identifier w adresie IPv6?",
+    "ans": "zawiera MAC uzupe\u0142niony warto\u015bci\u0105 0xFFFE po\u015brodku np. 00:0C:29:FF:FE:0C:47:D5"
+  },
+  {
+    "id": 576,
+    "que": "Technika umo\u017cliwiaj\u0105ca stworzenie relacji jeden-do-wielu pomi\u0119dzy adresami IP w NAT",
+    "ans": "overloading"
+  },
+  {
+    "id": 577,
+    "que": "Nazwa techniki utrzymywania kilku alternatywnych tras BGP wychodz\u0105cych z danego AS",
+    "ans": "multihoming"
+  },
+  {
+    "id": 578,
+    "que": "Zapisz dowolny adres IPv6 w notacji EUI-64",
+    "ans": "1::/64 eui-64"
+  },
+  {
+    "id": 579,
+    "que": "Nazwa techniki (w Cisco IOS) umo\u017cliwiaj\u0105cej wykorzystanie kontrolnych ACL do kontroli procesu rutowania dynamicznego",
+    "ans": "ROUTE-MAP"
+  },
+  {
+    "id": 580,
+    "que": "Ruter iBGP maj\u0105cy prawo otrzymywania komunikat\u00f3w o lokalnych trasach od rutera BGP Route Reflector (RR)",
+    "ans": "RRC - Route reflector client"
+  },
+  {
+    "id": 581,
+    "que": "komenda wypisuj\u0105ca dla multicasta route (rutowanie)",
+    "ans": "show ip mroute"
+  },
+  {
+    "id": 582,
+    "que": "D\u0142ugo\u015b\u0107 celki ATM (bajty)",
+    "ans": "53"
+  },
+  {
+    "id": 583,
+    "que": "Nazwa interfejsu ATM tworzonego pomi\u0119dzy dwoma prze\u0142\u0105cznikami ATM",
+    "ans": "NNI"
+  },
+  {
+    "id": 584,
+    "que": "Nazwa konstrukcji w iGBP zak\u0142adaj\u0105ca tworzenie wewn\u0105trz AS po\u0142\u0105cze\u0144 BGP \"ka\u017cdy z ka\u017cdym\"",
+    "ans": "Full mesh"
+  },
+  {
+    "id": 585,
+    "que": "Technika umo\u017cliwiaj\u0105ca w Cisco IOS stworzenie relacji jeden-do-wielu pomi\u0119dzy adresami IP w NAT",
+    "ans": "overloading"
+  },
+  {
+    "id": 586,
+    "que": "Unikatowy identyfikator po\u0142\u0105czenia w technologii Frame Relay",
+    "ans": "DLCI"
+  },
+  {
+    "id": 587,
+    "que": "Nazwa interfejsu ATM tworzonego pomi\u0119dzy prze\u0142\u0105cznikiem ATM a ruterem-bramk\u0105 z sieci ATM",
+    "ans": "UNI"
+  },
+  {
+    "id": 588,
+    "que": "Nazwa techniki definiowania kilku tras BGP z danego AS - z dopuszczeniem wyboru pomi\u0119dzy nimi",
+    "ans": "multihoming"
+  },
+  {
+    "id": 589,
+    "que": "Nazwa techniki w Ciscio IOS umo\u017cliwiaj\u0105cej wykorzystanie ACL do kontroli procesu rutowania dynamicznego",
+    "ans": "route-map"
+  },
+  {
+    "id": 590,
+    "que": "D\u0142ugo\u015b\u0107 pakietu UDP (co\u015b takiego) ",
+    "ans": "65535`"
+  },
+  {
+    "id": 591,
+    "que": "Co to jest gateway of last resort?",
+    "ans": "Brama domy\u015blna"
+  },
+  {
+    "id": 592,
+    "que": "Adres CIDR dla SIECI IPv4 IP 100.100.100.1 255.255.0.0",
+    "ans": "100.100.0.0/16"
+  },
+  {
+    "id": 593,
+    "que": "Europejski odpowiednik standardu T-Carrier",
+    "ans": "E-Carrier"
+  },
+  {
+    "id": 594,
+    "que": "Komenda Cisco aktywuj\u0105ca w routerze routowanie BGP dla AS o warto\u015bci 100",
+    "ans": "router bgp 100"
+  },
+  {
+    "id": 595,
+    "que": "D\u0142ugo\u015b\u0107 (w bitach) identyfikatora DLCI we Frame Relay",
+    "ans": "10 bit\u00f3w?"
+  },
+  {
+    "id": 596,
+    "que": "Nazwa komunikatu rozg\u0142aszanego w OSPF przekazuj\u0105cego informacj\u0119 o \u015bcie\u017cce",
+    "ans": "LSA"
+  },
+  {
+    "id": 597,
+    "que": "Adres IPv4 hosta znajduj\u0105cego si\u0119 w sieci 200.200.200.5/32",
+    "ans": "200.200.200.5"
+  },
+  {
+    "id": 598,
+    "que": "Rozwini\u0119cie akronimu SVC jako opisu po\u0142\u0105czenia logicznego w technologii ATM",
+    "ans": "Switched Virtual Circuit"
+  },
+  {
+    "id": 599,
+    "que": "Wewn\u0105trz jakiej jednostki logicznej agregowane s\u0105 wirtualne kana\u0142y ATM",
+    "ans": "Virtual Path Connection (raczej Channel)"
+  },
+  {
+    "id": 600,
+    "que": "D\u0142ugo\u015b\u0107 adresu AESA NSAP ATM",
+    "ans": "20 bajt\u00f3w (odp w pytaniu)"
+  },
+  {
+    "id": 601,
+    "que": "Parametry tras BGP, kt\u00f3re mo\u017cna modyfikowa\u0107 w ramach route-maps",
+    "ans": "WEIGHT, LOCAL_PREFERENCE i MED"
+  },
+  {
+    "id": 602,
+    "que": "Nazwa rutera iBGP umo\u017cliwiaj\u0105cego podzielenie AS na cz\u0119\u015bci w celu redukcji ilo\u015bci sesji BGP",
+    "ans": "Route Reflector"
+  },
+  {
+    "id": 603,
+    "que": "Parametr okre\u015blaj\u0105cy przepustowo\u015b\u0107 gwarantowan\u0105 w danej chwili czasowej przez dostawc\u0119 - w technologii Frame Relay",
+    "ans": "CIR"
+  },
+  {
+    "id": 604,
+    "que": "Warto\u015b\u0107 (w protokole IP) maksymalnego op\u00f3\u017anienia dla dostarczenia pakietu IP do odbiorcy",
+    "ans": "brak (\"Nie jest definiowane op\u00f3\u017anienie maksymalne \u2013 ewentualny timeout\ndla us\u0142ugi okre\u015blany jest w warstwach wy\u017cszych\")"
+  },
+  {
+    "id": 605,
+    "que": "Liczba bit\u00f3w w adresie IPv6",
+    "ans": "128"
+  },
+  {
+    "id": 606,
+    "que": "Wariant protoko\u0142u BGP operuj\u0105cy pomi\u0119dzy AS",
+    "ans": "eBGP"
+  },
+  {
+    "id": 607,
+    "que": "Nazwa dowolnego komunikatu PDU w protokole SNMP",
+    "ans": "GetRequest, GetNextRequest, \u05b4SetRequest, GetResponse, Trap"
+  },
+  {
+    "id": 608,
+    "que": "Rozwini\u0119cie skr\u00f3tu SDH",
+    "ans": "Synchronous Digital Hierarchy"
+  },
+  {
+    "id": 609,
+    "que": "Dwa typy celek ATM w zale\u017cno\u015bci od typu interfejsu ATM",
+    "ans": "UNI, NNI"
+  },
+  {
+    "id": 610,
+    "que": "Nazwa typu interfejsu umo\u017cliwiaj\u0105cego zarz\u0105dzanie modemem",
+    "ans": "Dialer"
+  },
+  {
+    "id": 611,
+    "que": "Okre\u015blenie w technologii NAT adres\u00f3w IP w datagramach IP w sieci typu outside",
+    "ans": "global"
+  },
+  {
+    "id": 612,
+    "que": "Nazwa obszaru (area) wyizolowanego w rutowaniu dynamicznym OSPF",
+    "ans": "stub area"
+  },
+  {
+    "id": 613,
+    "que": "Ruter iBGP maj\u0105cy prawo otrzymywania komunikat\u00f3w o lokalnych trasach od rutera BGP Router Reflector",
+    "ans": "RRC"
+  },
+  {
+    "id": 614,
+    "que": "Dwa identyfikatory w ATM, s\u0142u\u017c\u0105ce do znajdywania \u015bcie\u017cki (adresu).",
+    "ans": "VCI i VPI"
+  },
+  {
+    "id": 615,
+    "que": "Rozwini\u0119cia skr\u00f3tu MPoA jako technologii stosowanej w ATM",
+    "ans": "Multiprotocol over ATM"
+  },
+  {
+    "id": 616,
+    "que": "rodzaje warstw ATM Adaptation Layers",
+    "ans": "5 wersji: AAL Type 0; AAL Type 1; AAL Type 2; AAL Type 3/4; AAL Type 5"
+  },
+  {
+    "id": 618,
+    "que": "Nazwa typu interfejsu umo\u017cliwiaj\u0105cego zarz\u0105dzanie modemem w Cisco IOS",
+    "ans": "Dialer"
+  },
+  {
+    "id": 619,
+    "que": "Okre\u015blenie u\u017cywane wobec obudowy prze\u0142\u0105cznika segmentu CORE (gromadz\u0105cej wszelkie urz\u0105dzenia sk\u0142adowe)",
+    "ans": "Chassis"
+  },
+  {
+    "id": 620,
+    "que": "Port przeznaczony do obs\u0142ugi VLAN TRUNK w prze\u0142\u0105cznikach Ethernet firmy HP",
+    "ans": "tagged"
+  },
+  {
+    "id": 621,
+    "que": "Nazwa najbardziej istotnego atrybutu \u015bcie\u017cki BGP branego pod uwag\u0119 w ruterach Cisco",
+    "ans": "WEIGHT"
+  },
+  {
+    "id": 622,
+    "que": "Nazwa systemu operacyjnego dla ruter\u00f3w i prze\u0142\u0105cznik\u00f3w firmy Extreme Networks",
+    "ans": "ExtremeWare OS"
+  },
+  {
+    "id": 623,
+    "que": "Nazwa (identyfikator) rutera OSPF przekazuj\u0105cego informacj\u0119 o trasach poza domen\u0119 OSPF",
+    "ans": "ASBR"
+  },
+  {
+    "id": 624,
+    "que": "Liczba warstw w modelu warstowym sieci SAN (Storage Area Network)",
+    "ans": "3 / raczej 5"
+  },
+  {
+    "id": 625,
+    "que": "Interfejs telefonii analogowej, do kt\u00f3rego pod\u0142\u0105czamy intefejs FXO",
+    "ans": "FXS"
+  },
+  {
+    "id": 626,
+    "que": "Wariant protoko\u0142u BGP operuj\u0105cy pomi\u0119dzy AS",
+    "ans": "eBGP"
+  },
+  {
+    "id": 627,
+    "que": "Rozwini\u0119cie skr\u00f3tu SDH jako technologii przekazywania danych w sieci WAN",
+    "ans": "Synchronous Digital Hierarchy"
+  },
+  {
+    "id": 628,
+    "que": "Nazwa atrybutu BGP informuj\u0105cego o pochodzeniu informacji o prefiksie z iBGP, eBGP lub redystrybucji",
+    "ans": "ORIGIN"
+  },
+  {
+    "id": 629,
+    "que": "Maksymalna warto\u015b\u0107 identyfikatora Systemu Autonomicznego w BGP",
+    "ans": 65535
+  },
+  {
+    "id": 630,
+    "que": "Nazwy dw\u00f3ch klas obszar\u00f3w definiowanych w protokole rutowania dynamicznego IS-IS",
+    "ans": "inter area, intra area"
+  },
+  {
+    "id": 631,
+    "que": "Okre\u015blenie techniki segmentacji sieci Fibre Channel przy pomocy prze\u0142\u0105cznik\u00f3w SAN Fabric",
+    "ans": "zoning"
+  },
+  {
+    "id": 632,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 danych w ramce PDU Frame Relay",
+    "ans": "8188 bajt\u00f3w"
+  },
+  {
+    "id": 633,
+    "que": "Atrybut \u015bcie\u017cki BGP definiowany dla konkretnego rutera i posiadaj\u0105cy najwy\u017cszy priorytet",
+    "ans": "WEIGHT"
+  },
+  {
+    "id": 634,
+    "que": "D\u0142ugo\u015b\u0107 nag\u0142\u00f3wka celki ATM",
+    "ans": "5 bajt\u00f3w"
+  },
+  {
+    "id": 635,
+    "que": "Technika skalowania iBGP zak\u0142adaj\u0105ca tworzenie fikcyjnych AS wewn\u0105trz rzeczywistego AS w celu redukcji ilo\u015bci sesji BGP",
+    "ans": "AS Confederations"
+  },
+  {
+    "id": 636,
+    "que": "Komenda Cisco IOS sprawdzaj\u0105ca stan mapowa\u0144 DLCI i interfejs\u00f3w w tablicy rutowania Frame Relay",
+    "ans": "show frame-relay map/show frame-relay pvc"
+  },
+  {
+    "id": 637,
+    "que": "Atrybut BGP umo\u017cliwiaj\u0105cy ocen\u0119 w danym AS drogi z innego s\u0105siedniego AS",
+    "ans": "LOCAL_PREFERENCE"
+  },
+  {
+    "id": 638,
+    "que": "Nazwa (okre\u015blenie) centralnego modu\u0142u zarz\u0105dzaj\u0105cego prac\u0105 prze\u0142\u0105cznik\u00f3w Cisco z serii 4000, 5000, 6000 (segmentu CORE)",
+    "ans": "Supervisor"
+  },
+  {
+    "id": 639,
+    "que": "Atrybut \u015bcie\u017cki BGP zawieraj\u0105cy list\u0119 AS, przez kt\u00f3re \u015bcie\u017cka przechodzi",
+    "ans": "AS_PATH"
+  },
+  {
+    "id": 640,
+    "que": "Nazwa przynajmniej jednego systemu kodowania ramek LMI w technologii Frame Relay",
+    "ans": "cisco, ansi, q933a"
+  },
+  {
+    "id": 641,
+    "que": "podaj 3 warstwy E-Carrier ",
+    "ans": "chyba  E1, E9, T1"
+  },
+  {
+    "id": 642,
+    "que": "Nazwa dodatkowego modu\u0142u stosowanego w celu zwi\u0119kszenia wydajno\u015bci prz\u0119\u0142\u0105cznik\u00f3w segmentu CORE Cisco",
+    "ans": "Switch Fabric"
+  },
+  {
+    "id": 643,
+    "que": "Parametry asocjacji TCP",
+    "ans": "Typ protoko\u0142u, adres i port w\u0119z\u0142a lokalnego, adres i port w\u0119z\u0142a zdalnego"
+  },
+  {
+    "id": 644,
+    "que": "Identyfikatory w ATM",
+    "ans": "VCI, VPI"
+  },
+  {
+    "id": 645,
+    "que": "Wymie\u0144 3 rodzaje kategorii / pr\u0119dko\u015bci E-carrier",
+    "ans": "E2: multiplexing level 2: 8 Mbit/s, E3: multiplexing level 3: 34 Mbit/s,E4: multiplexing level 4: 140 Mbit/s"
+  },
+  {
+    "id": 646,
+    "que": "Router MPLS wysy\u0142aj\u0105cy datagramy",
+    "ans": "Upstream Router"
+  },
+  {
+    "id": 647,
+    "que": "Sie\u0107 VRF dzia\u0142aj\u0105ca bez MPLS",
+    "ans": "VRF Lite"
+  },
+  {
+    "id": 648,
+    "que": "Protoko\u0142y u\u017cywane do budowania VPN",
+    "ans": "PPTP, L2TP"
+  },
+  {
+    "id": 649,
+    "que": "Cel u\u017cycia GRE (general routing encapsulation)",
+    "ans": "\u0141\u0105czenie zdalnych sieci stosuj\u0105cych protoko\u0142y inne ni\u017c IP, przesy\u0142anie ruchu IPv6 przez sie\u0107 IPv4, przesy\u0142anie ruchu szyfrowanego. (ko\u0144c\u00f3wka wyk\u0142adu ROUTE (II)"
+  },
+  {
+    "id": 650,
+    "que": "Proces uog\u00f3lniania adres\u00f3w sieci IP, do kt\u00f3rych z r(egu\u0142y?) prowadzi ta sama \u015bcie\u017cka, stosowany w rutowaniu (..?)",
+    "ans": "Route Summarization"
+  },
+  {
+    "id": 651,
+    "que": "Komenda Cisco IOS umo\u017cliwiaj\u0105ca zdefiniowanie regu\u0142 rutowania statycznego",
+    "ans": "ip route\\"
+  },
+  {
+    "id": 652,
+    "que": "Komenda Cisco IOS powoduj\u0105ca aktywacj\u0119 procesu (..) RIP w ruterze Cisco",
+    "ans": "router rip nazwa"
+  },
+  {
+    "id": 653,
+    "que": "Komenda Cisco IOS definiuj\u0105ca/aktywuj\u0105ca do edycji dowolnie wybrany pod-interfejs w ruterze Cisco",
+    "ans": "int fa0/0.1"
+  },
+  {
+    "id": 654,
+    "que": "Dwie g\u0142\u00f3wne techniki poszukiwania tras w stosowanych protoko\u0142ach rutowania dynamicznego IP",
+    "ans": "link-state, distance-vector"
+  },
+  {
+    "id": 655,
+    "que": "Domy\u015blna warto\u015b\u0107 Administrative Distance w tablicy rutowania dla statycznej regu\u0142y rutowania",
+    "ans": "1"
+  },
+  {
+    "id": 656,
+    "que": "Alternatywa dla protoko\u0142u PPP, cho\u0107 nie dostarczaj\u0105ca autentyfikacji w\u0119z\u0142\u00f3w sieci",
+    "ans": "HDLC"
+  },
+  {
+    "id": 657,
+    "que": "Nazwa obszaru (area) wyizolowanego w rutowaniu dynamicznym OSPF",
+    "ans": "Stub area"
+  },
+  {
+    "id": 658,
+    "que": "Liczba typ\u00f3w komunikat\u00f3w LSA w protokole rutowania dynamicznego IP OSPF",
+    "ans": "6 g\u0142\u00f3wnych/11 w sumie"
+  },
+  {
+    "id": 659,
+    "que": "Posta\u0107 skr\u00f3cona adresu IPv6 2:2:0:0:0:0:2:2",
+    "ans": "2:2::2:2"
+  },
+  {
+    "id": 660,
+    "que": "Rozwini\u0119cie akronimu ARP jako protoko\u0142u sieciowego",
+    "ans": "Address Resolution Protocol"
+  },
+  {
+    "id": 661,
+    "que": "Odpowiednik IPv4 adresu ::/128 IPv6",
+    "ans": "0.0.0.0/32"
+  },
+  {
+    "id": 662,
+    "que": "Rodzaj adresu, kt\u00f3ry w NAT s\u0142u\u017cy do okre\u015blenia hosta w sieci publicznej (sieci outside)",
+    "ans": "outside global"
+  },
+  {
+    "id": 663,
+    "que": "Domy\u015blna warto\u015b\u0107 metryki Administrative Distance dla protoko\u0142u rutowania dynamicznego RIP",
+    "ans": "120"
+  },
+  {
+    "id": 664,
+    "que": "Posta\u0107 skr\u00f3cona adresu IPv6: 6A3E:A25E:0:0:0:0:0:0",
+    "ans": "6A3E:A25E::"
+  },
+  {
+    "id": 665,
+    "que": "Wariant protoko\u0142u ICMP dostosowanego do obs\u0142ugi IPv6",
+    "ans": "ICMPv6"
+  },
+  {
+    "id": 666,
+    "que": "D\u0142ugo\u015bc identyfikatora NLA w adresie IPv6 (liczba bit\u00f3w)",
+    "ans": "24"
+  },
+  {
+    "id": 667,
+    "que": "Komenda Cisco IOS powoduj\u0105ca uruchomienie rutowania IPv6 dla ruchu unicast",
+    "ans": "ipv6 unicast-routing"
+  },
+  {
+    "id": 668,
+    "que": "Wariant protoko\u0142u rutowania dynamicznego RIP kompatybilnego w IPv6",
+    "ans": "RIPng"
+  },
+  {
+    "id": 669,
+    "que": "Konstrukcja definiowana w Cisco IOS przypisywana do s\u0105siada BGP i umo\u017cliwiaj\u0105ca manipulowanie atrybutami tras",
+    "ans": "route-map"
+  },
+  {
+    "id": 670,
+    "que": "W kt\u00f3rych wartwach modelu ISO OSI operuje prze\u0142\u0105cznik rutuj\u0105cy Ethernet",
+    "ans": "1 - 3 "
+  },
+  {
+    "id": 671,
+    "que": "Co oznacza okre\u015blenie Gateway of last resort w tablicy rutowania",
+    "ans": "Jest to domy\u015blna trasa rutowania. U\u017cywana gdy jakiekolwiek inne nie b\u0119d\u0105 pasowa\u0107"
+  },
+  {
+    "id": 672,
+    "que": "IPv6 adresu 127:0:0:1 IPv4",
+    "ans": "::1/128"
+  },
+  {
+    "id": 673,
+    "que": "Adres Ipv6 adresy auto konfiguracji IPv4 (gdy host nie dosta\u0142 adresu przez DHCP)",
+    "ans": "fe80::/10"
+  },
+  {
+    "id": 674,
+    "que": "Wariant protoko\u0142u OSPF kompatybilny z IPv6",
+    "ans": "OSPFv3"
+  },
+  {
+    "id": 675,
+    "que": "Nazwa komunikatu rozg\u0142aszanego w ramach OSPF przekazuj\u0105cego informacje o \u015bcie\u017cce",
+    "ans": "LSA"
+  },
+  {
+    "id": 676,
+    "que": "Adres IPv4 hosta znajduj\u0105cego si\u0119 w sieci 200.200.200.5/32",
+    "ans": "200.200.200.5"
+  },
+  {
+    "id": 677,
+    "que": "Rodzaje ruter\u00f3w OSPF wyr\u00f3\u017cniane w ramach pracy tego protoko\u0142u",
+    "ans": "ABR, Internal router, Backbone router, ASBR"
+  },
+  {
+    "id": 678,
+    "que": "Nazwa trzeciej warstwy Internet Protocol Suite (to nie to samo co OSI)",
+    "ans": "transportowa"
+  },
+  {
+    "id": 679,
+    "que": "D\u0142ugo\u015b\u0107 (liczba bit\u00f3w) identyfikatora SLA w IPv6",
+    "ans": "16"
+  },
+  {
+    "id": 680,
+    "que": "Warto\u015b\u0107 (w protokole IP) maksymalnego op\u00f3\u017aniania dla dostarczenia pakietu IP do odbiorcy",
+    "ans": "brak (\"Nie jest definiowane op\u00f3\u017anienie maksymalne \u2013 ewentualny timeout\ndla us\u0142ugi okre\u015blany jest w warstwach wy\u017cszych\")"
+  },
+  {
+    "id": 681,
+    "que": "Nazwa dowolnego komunikatu PDU w protokole SNMP",
+    "ans": "GetRequest, GetNextRequest, \u05b4SetRequest, GetResponse, Trap"
+  },
+  {
+    "id": 682,
+    "que": "Liczba bit\u00f3w w adresie IPv6",
+    "ans": "128"
+  },
+  {
+    "id": 683,
+    "que": "Nazwa najbardziej istotnego atrybutu \u015bcie\u017cki BGP branego pod uwag\u0119 w ruterach Cisco",
+    "ans": "WEIGHT"
+  },
+  {
+    "id": 684,
+    "que": "Nazwa instytucji zajmuj\u0105cej si\u0119 zarz\u0105dzaniem Systemami Autonomicznymi i BGP w Europie",
+    "ans": "RIPE"
+  },
+  {
+    "id": 685,
+    "que": "D\u0142ugo\u015b\u0107 (liczba bit\u00f3w) identyfikatora Systemu Autonomicznego (AS) rutowania IP",
+    "ans": "16"
+  },
+  {
+    "id": 686,
+    "que": "Adres IPv6 b\u0119d\u0105cy odpowiednikiem adresu IPv4: 1.254.0.254 w notacji IPv6-mapped-IPv4",
+    "ans": "0:0:0:0:FFFF:1.254.0.254/96"
+  },
+  {
+    "id": 687,
+    "que": "Nazwy dw\u00f3ch klas obszar\u00f3w definiowanych w protokole routowania dynamicznego IS-IS",
+    "ans": "Level 1 intra-area, Level 2 inter-area"
+  },
+  {
+    "id": 688,
+    "que": "Og\u00f3lna nazwa protoko\u0142\u00f3w routowania dynamicznego operuj\u0105cych jednocze\u015bnie w wielu Systemach Autonomicznych (AS)",
+    "ans": "EGP (Exterior gateway protocol)"
+  },
+  {
+    "id": 689,
+    "que": "Jak nazywamy sie\u0107 IP pod\u0142\u0105czon\u0105 bezpo\u015brednio do routera",
+    "ans": "Directly connected network (sie\u0107 o\u015bcienna)"
+  },
+  {
+    "id": 690,
+    "que": "Standardowy adres IPv4 wej\u015bcia do tunelu 6to4 (przy tunelowaniu IPv6 w IPv4)",
+    "ans": "192.88.99.1"
+  },
+  {
+    "id": 691,
+    "que": "Zakres unikatowych lokalnych adres\u00f3w nie routowalnych IPv6",
+    "ans": "fc00::/7"
+  },
+  {
+    "id": 692,
+    "que": "Komenda Cisco IOS aktywuj\u0105ca w ruterze rutowanie BGP dla AS o warto\u015bci 100",
+    "ans": "router bgp 100"
+  },
+  {
+    "id": 693,
+    "que": "Komenda Cisco IOS uruchamiaj\u0105ca funkcj\u0119 prze\u0142\u0105cznika Frame Relay w ruterze Cisco",
+    "ans": "frame-relay switching"
+  },
+  {
+    "id": 694,
+    "que": "Okre\u015blenie u\u017cywane wobec obudowy prze\u0142\u0105cznika segmentu CORE (gromadz\u0105cej wszelkie urz\u0105dzenia sk\u0142adowe)",
+    "ans": "Chassis"
+  },
+  {
+    "id": 695,
+    "que": "Warto\u015b\u0107 ipv4 i maski (w odpowiedniej notacji) okre\u015blaj\u0105ca wszystkie hosty w internecie",
+    "ans": "0.0.0.0/0"
+  },
+  {
+    "id": 696,
+    "que": "Jak nazywamy kodowanie bazuj\u0105ce na przenosz\u0105cych informacj\u0119 zmianach stanu sygna\u0142u ? \u2013 np. zmiana stanu z L>H oznacza 1, a z H>L oznacza 0 ?",
+    "ans": "Manchester"
+  },
+  {
+    "id": 697,
+    "que": "Jak dzielimy \u015bwiat\u0142owody w zale\u017cno\u015bci od mo\u017cliwo\u015bci przesy\u0142ania wielu sygna\u0142\u00f3w r\u00f3wnocze\u015bnie lub tylko sygna\u0142u pojedynczego?",
+    "ans": "jednomodowe i wielomodowe"
+  },
+  {
+    "id": 698,
+    "que": "Alternatywne nazwy procesu prefic aggregation (supernetting) prowadzonego podczas rutowania IP",
+    "ans": "route summarization albo route aggregation"
+  },
+  {
+    "id": 699,
+    "que": "Parametry tras BGP, kt\u00f3re mo\u017cna modyfikowa\u0107 w ramach route maps",
+    "ans": "WEIGHT, LOCAL_PREFERENCE i MED"
+  },
+  {
+    "id": 700,
+    "que": "Komenda Cisco IOS w\u0142\u0105czaj\u0105ca funkcj\u0119 mostka Ethernet z jednoczesn\u0105 mo\u017cliwo\u015bci\u0105 rutowania do niego",
+    "ans": "bridge <nr> route ip"
+  },
+  {
+    "id": 701,
+    "que": "Wariant protoko\u0142u BGP operuj\u0105cy pomi\u0119dzy AS",
+    "ans": "eBGP"
+  },
+  {
+    "id": 702,
+    "que": "Maksymalna warto\u015b\u0107 identyfikatora Systemu Autonomicznego w BGP",
+    "ans": "65535"
+  },
+  {
+    "id": 703,
+    "que": "Nazwa rutera iBGP umo\u017cliwiaj\u0105cego podzielenie AS na cz\u0119\u015bci w celu redukcji ilo\u015bci jednoczesnych sesji BGP",
+    "ans": "Route Reflector"
+  },
+  {
+    "id": 704,
+    "que": "Dwa warianty protoko\u0142u BGP (operuj\u0105cy na zewn\u0105trz i wewn\u0105trz AS)",
+    "ans": "eBGP i iBGP"
+  },
+  {
+    "id": 705,
+    "que": "Okre\u015blenie dla obowi\u0105zkowych atrybut\u00f3w \u015bcie\u017cki BGP",
+    "ans": "Powszechnie Obowi\u0105zkowe (Well-known Mandatory)"
+  },
+  {
+    "id": 706,
+    "que": "Komenda Cisco IOS definiuj\u0105ca s\u0105siada BGP o adresie 1.1.1.1 w AS 5",
+    "ans": "neighbor 1.1.1.1 remote-as 5"
+  },
+  {
+    "id": 707,
+    "que": "Dwie poznane techniki skalowania iBGP",
+    "ans": "AS Confederations, Route Reflector"
+  },
+  {
+    "id": 708,
+    "que": "Wariant rutowania BGP wy\u0142\u0105cznie wewn\u0105trz jednego Systemu Autonomicznego",
+    "ans": "iBGP"
+  },
+  {
+    "id": 709,
+    "que": "Rozwini\u0119cie akronimu MED jako atrybutu \u015bcie\u017cki w BGP",
+    "ans": "Multi Exit Discriminator"
+  },
+  {
+    "id": 710,
+    "que": "Nazwa techniki definiowania kilku tras BGP z danego AS z dopuszczeniem wyboru pomi\u0119dzy nimi",
+    "ans": "multihoming"
+  },
+  {
+    "id": 711,
+    "que": "Nazwa atrybutu w komunikacie o trasie eBGP zawieraj\u0105cego list\u0119 AS, przez kt\u00f3re trasa przechodzi",
+    "ans": "AS_PATH"
+  },
+  {
+    "id": 712,
+    "que": "Nazwa grupy AS w BGP agregowanej w celu okre\u015blenia tych AS zbiorczo wybranymi atrybutami",
+    "ans": "Community"
+  },
+  {
+    "id": 713,
+    "que": "Nazwa atrybutu trasy BGP przypisanego do ca\u0142ego AS i okre\u015blaj\u0105ca jako\u015b\u0107 po\u0142\u0105czenia z innymi AS",
+    "ans": "LOCAL_PREFERENCE"
+  },
+  {
+    "id": 714,
+    "que": "Atrybut trasy BGP, kt\u00f3ry okre\u015bla preferowan\u0105 tras\u0119 gdy dwa AS maj\u0105 wiele po\u0142\u0105cze\u0144 i nie wiadomo kt\u00f3re z nich wybra\u0107",
+    "ans": "MED (Multi Exit Discriminator)"
+  },
+  {
+    "id": 715,
+    "que": "Atrybut BGP umo\u017cliwiaj\u0105cy ocen\u0119 w danym AS drogi z innego s\u0105siedniego AS",
+    "ans": "LOCAL_PREFERENCE (do sprawdzenia)"
+  },
+  {
+    "id": 716,
+    "que": "Technika skalowania iBGP zak\u0142adaj\u0105ca tworzenie fikcyjnych AS wewn\u0105trz rzeczywistego AS w celu redukcji ilo\u015bci sesji BGP",
+    "ans": "AS confederations\\"
+  },
+  {
+    "id": 717,
+    "que": "Przynajmniej dwa rodzaje komunikat\u00f3w w sesji BGP",
+    "ans": "open, update, notification, keepalive"
+  },
+  {
+    "id": 718,
+    "que": "Jak\u0105 ma d\u0142ugo\u015b\u0107 i z jakich cz\u0119\u015bci sk\u0142ada si\u0119 adres typu Media Access Control",
+    "ans": "d\u0142ugo\u015b\u0107: 48 bit\u00f3w Pierwsze 24 bity oznaczaj\u0105 producenta karty sieciowej, pozosta\u0142e 24 bity s\u0105 unikatowym identyfikatorem danego egzemplarza karty"
+  },
+  {
+    "id": 719,
+    "que": "Nazwa protoko\u0142u kontroluj\u0105cego ruch multicast w sieciach IPv6",
+    "ans": "MLD (Multicast Listener Discovery)"
+  },
+  {
+    "id": 720,
+    "que": "Podzia\u0142 technik rutowania IP pod k\u0105tem interpretowania (b\u0105d\u017a nie) klas adres\u00f3w IP",
+    "ans": "Classful: IGRP, RIP, Classless: RIPv2, OSPF, EIGRP"
+  },
+  {
+    "id": 721,
+    "que": "Rozwini\u0119cie akronimu AAL dla ATM",
+    "ans": "ATM Adaptation Layer"
+  },
+  {
+    "id": 722,
+    "que": "Maksymalna liczba bajt\u00f3w danych przekazywana w celce ATM",
+    "ans": "48 B (+ 5 nag\u0142owek = 53 B)"
+  },
+  {
+    "id": 723,
+    "que": "Nazwa sk\u0142adowej adresu AESA NSAP identyfikuj\u0105cej fizyczny interfejs b\u0119d\u0105cy wyjsciem z ATM",
+    "ans": "ESI"
+  },
+  {
+    "id": 724,
+    "que": "Pole wyst\u0119puj\u0105ce w nag\u0142\u00f3wkach celu ATM UNI, lecz nie wyst\u0119puj\u0105ce w nag\u0142\u00f3wku celki ATM NNI",
+    "ans": "GFC"
+  },
+  {
+    "id": 725,
+    "que": "Europejski odpowiednik standardu T-carrier",
+    "ans": "E-Carrier"
+  },
+  {
+    "id": 726,
+    "que": "Przynajmniej dwa warianty techniki multiplexing",
+    "ans": "space-division, frequency-division, time-division (podobnie jak w falach radiowych)"
+  },
+  {
+    "id": 727,
+    "que": "D\u0142ugo\u015bc identyfikatora DLCI we Frame Relay (bity)",
+    "ans": "10"
+  },
+  {
+    "id": 728,
+    "que": "Rozwini\u0119cie akronimu SVC jako opisu po\u0142\u0105czenia logicznego w technologii ATM",
+    "ans": "switched virtual circuit"
+  },
+  {
+    "id": 729,
+    "que": "Wewn\u0105trz jakiej jednostki logicznej agregowane s\u0105 wirtualne kana\u0142y ATM (ATM Virtual Channels)",
+    "ans": "VPC"
+  },
+  {
+    "id": 730,
+    "que": "D\u0142ugo\u015bc adresu AESA NSAP ATM",
+    "ans": "20 bajt\u00f3w"
+  },
+  {
+    "id": 731,
+    "que": "Nazwa sygna\u0142u testuj\u0105cego \u0142\u0105cze T-carrier",
+    "ans": "BERT (Bit-Error Rate Test)"
+  },
+  {
+    "id": 732,
+    "que": "Parametr okre\u015blaj\u0105cy przepustowo\u015bc gwarantowan\u0105 w danej chwili czasowej przez dostawc\u0119 w technologii Frame Relay",
+    "ans": "CIR"
+  },
+  {
+    "id": 733,
+    "que": "Nazwa sk\u0142adowej adresu AESA NSAP identyfikuj\u0105cej fizyczny interfejs b\u0119d\u0105cy wyj\u015bciem z ATM",
+    "ans": "ESI"
+  },
+  {
+    "id": 734,
+    "que": "Rozwini\u0119cie skr\u00f3tu SDH jako technologii przekazywania danych w sieci WAN",
+    "ans": "Synchronous Digital Hierarchy"
+  },
+  {
+    "id": 735,
+    "que": "Nazwa atrybutu BGP informuj\u0105ca o pochodzeniu informacji o prefiksie z iBGP, eBGP lub redystrybucji",
+    "ans": "Origin"
+  },
+  {
+    "id": 736,
+    "que": "Dwa typy celek ATM w zale\u017cno\u015bci od typu interfejsu ATM",
+    "ans": "UNI,NNI"
+  },
+  {
+    "id": 737,
+    "que": "Dowolny wybrany tryb adaptacji (Adaptive-shaping) przy informowaniu o przeci\u0105\u017ceniach w Frame Relay",
+    "ans": "FECN/BECN"
+  },
+  {
+    "id": 738,
+    "que": "Wariant adresu AESA NSAP ATM stosowany domy\u015blnie w urz\u0105dzenia Cisco",
+    "ans": "ICD"
+  },
+  {
+    "id": 739,
+    "que": "Rozwini\u0119cie akronimu PVC jako okre\u015blenia obwodu sieci ATM",
+    "ans": "Permanent virtual circiut"
+  },
+  {
+    "id": 740,
+    "que": "Nazwa ramki przekazywanej mi\u0119dzy prze\u0142\u0105cznikami w technologii Frame Relay",
+    "ans": "PDU"
+  },
+  {
+    "id": 741,
+    "que": "D\u0142ugo\u015b\u0107 celki ATM (bajty)",
+    "ans": "53"
+  },
+  {
+    "id": 742,
+    "que": "Nazwa intefejsu ATM tworzonego pomi\u0119dzy dwoma prze\u0142\u0105cznikami ATM",
+    "ans": "NNI"
+  },
+  {
+    "id": 743,
+    "que": "Unikatowy identyfikator po\u0142\u0105czenia w technologii Frame Relay (w warstwie 2 ISO OSI)",
+    "ans": "DLCI"
+  },
+  {
+    "id": 744,
+    "que": "Nazwa interfejsu ATM tworzonego pomi\u0119dzy prze\u0142\u0105cznikem ATM a routerem bramk\u0105 z sieci ATM",
+    "ans": "UNI"
+  },
+  {
+    "id": 745,
+    "que": "D\u0142ugo\u015b\u0107 identyfikatora DLCI we Frame Relay(bity)",
+    "ans": "10"
+  },
+  {
+    "id": 746,
+    "que": "Wewn\u0105trz jakiej jednostki logicznej agregowane s\u0105 wirtualne kana\u0142y ATM (ATM Virtual Channel)",
+    "ans": "VPC (Virtual Path Connection)"
+  },
+  {
+    "id": 747,
+    "que": "D\u0142ugo\u015b\u0107 identyfikatora VCI (Virtual Channel Identifier) w celce ATM",
+    "ans": "16 bit\u00f3w"
+  },
+  {
+    "id": 748,
+    "que": "Nazwa przynajmniej jednego systemu kodowania ramek LMI w technologii Frame Relay",
+    "ans": "cisco, ansi, q933a"
+  },
+  {
+    "id": 749,
+    "que": "Maksymalna d\u0142ugo\u015b\u0107 danych w ramce PDU Frame Relay",
+    "ans": "8188 bajt\u00f3w"
+  },
+  {
+    "id": 750,
+    "que": "D\u0142ugo\u015b\u0107 nag\u0142\u00f3wki celki ATM",
+    "ans": "5 bajt\u00f3w"
+  },
+  {
+    "id": 751,
+    "que": "Komenda Cisco IOS sprawdzaj\u0105ca stan mapowa\u0144 DLCI i interfejs\u00f3w w tablicy rutowania Frame Relay",
+    "ans": "show frame-relay map/show frame-relay pvc"
+  },
+  {
+    "id": 752,
+    "que": "Skr\u00f3t literowy okre\u015blaj\u0105cy us\u0142ug\u0119 telefonii analogowej",
+    "ans": "POTS"
+  },
+  {
+    "id": 753,
+    "que": "Interfejs telefonii analogowej do kt\u00f3rej pod\u0142\u0105czamy interfejs FXO",
+    "ans": "FXS"
+  },
+  {
+    "id": 754,
+    "que": "Rozwini\u0119cie akronimu CPE jako okre\u015blenia strony komunikacji w asymetrycznym lub symetrycznym DSL",
+    "ans": "customer premises equipment"
+  },
+  {
+    "id": 755,
+    "que": "Przynajmniej dwa rodzaje uwierzytelniania w protokole PPP",
+    "ans": "PAP,CHAP"
+  },
+  {
+    "id": 756,
+    "que": "Okre\u015blenie techniki segmentacji sieci Fibre Channel przy pomocy prze\u0142\u0105cznik\u00f3w SAN Fabric",
+    "ans": "Zoning"
+  },
+  {
+    "id": 757,
+    "que": "Nazwa (okre\u015blenie) centralnego modu\u0142u zarz\u0105dzania prac\u0105 prze\u0142\u0105cznik\u00f3w Cisco z serii 4000, 5000, 6000 (segmentu CORE)",
+    "ans": "Supervisor"
+  },
+  {
+    "id": 758,
+    "que": "Tryb pracy sieci SAN (Fibre Channel) oparty o fizyczn\u0105 topologi\u0119 pier\u015bcienia",
+    "ans": "P\u0119tla z arbitra\u017cem"
+  },
+  {
+    "id": 759,
+    "que": "Nazwa portu prze\u0142\u0105cznika Fibre Channel u\u017cywana do pod\u0142\u0105cznia do niego port\u00f3w z innych urz\u0105dze\u0144 (serwer\u00f3w)",
+    "ans": "Port F"
+  },
+  {
+    "id": 760,
+    "que": "Nazwa dodatkowego modu\u0142u stosowanego w celu zwi\u0119kszenia wydajno\u015bci prz\u0119\u0142\u0105cznik\u00f3w segmentu CORE Cisco",
+    "ans": "Switch Fabric"
+  },
+  {
+    "id": 761,
+    "que": "Nazwa (akronim) unikatowego identyfikatora urz\u0105dzenia w sieciach Fibre Channel",
+    "ans": "WWNN, lub WWPN je\u015bli urz\u0105dzenie ma par\u0119 port\u00f3w FC"
+  },
+  {
+    "id": 762,
+    "que": "Nazwa portu Fibre Channel prze\u0142\u0105cznika SAN (FC Fabric) s\u0142u\u017c\u0105cego do po\u0142\u0105czenia z innymi prze\u0142\u0105cznikami SAN",
+    "ans": "Port E"
+  },
+  {
+    "id": 763,
+    "que": "D\u0142ugo\u015b\u0107 adresu interfejsu fizycznego w ramkach FC-2 (Fibre Channel)",
+    "ans": "24"
+  },
+  {
+    "id": 764,
+    "que": "Okre\u015blenie karty zawieraj\u0105cej seri\u0119 interfejs\u00f3w sieciowych w prze\u0142\u0105cznikach Segmentu CORE",
+    "ans": "line card"
+  },
+  {
+    "id": 765,
+    "que": "Nazwa urz\u0105dzenia centralnego o kt\u00f3re oparta jest topologia gwiazdy w sieciach SAN (Fibre Channel)",
+    "ans": "Switch Fabric"
+  },
+  {
+    "id": 766,
+    "que": "Nazwa modu\u0142u sprz\u0119towego w prze\u0142\u0105cznikach Ethernet Cisco u\u017cywanego do wykrywania zagro\u017ce\u0144 w ruchu sieci",
+    "ans": "IDS (Intrusion Detection System)"
+  },
+  {
+    "id": 767,
+    "que": "Okre\u015blenie dla techniki agregowania \u0142\u0105czy w sieciach SAN (Storage Area Network) w celu zwi\u0119kszenia przepustowo\u015bci",
+    "ans": "Striping"
+  },
+  {
+    "id": 768,
+    "que": "Liczba warstw w modelu warstwowym sieci SAN (Storeage Area Network)",
+    "ans": "3 / a nie 5?"
+  },
+  {
+    "id": 769,
+    "que": "Opisz wyposa\u017cenie kabla typu SFTP (S/FTP). Podaj tak\u017ce rozszerzenie skr\u00f3tu.",
+    "ans": "S/FTP (dawniej SFTP) \u2013ka\u017cda para przewod\u00f3w otoczona jest osobnym ekranem z folii, ca\u0142y kabel pokryty jest pancerzykiem../Shielded Foiled Twisted Pair"
+  },
+  {
+    "id": 770,
+    "que": "W kt\u00f3rej warstwie OSI pracuje repaeater ?",
+    "ans": "fizycznej"
+  },
+  {
+    "id": 771,
+    "que": "Standaryzowana jednostka wysoko\u015bci urz\u0105dzenia w RACK:",
+    "ans": "Unit. 1U = 1.75cala = 44,45 mm"
+  },
+  {
+    "id": 772,
+    "que": "Nazwa technologii umo\u017cliwiaj\u0105cej przesy\u0142anie danych z u\u017cyciem przewod\u00f3w sieci energetycznej",
+    "ans": "PLC - power line communication"
+  },
+  {
+    "id": 773,
+    "que": "Urzadzenie pasywne montowane w szafie krosowniczej RACK umo\u017cliwiaj\u0105ce r\u0119czne prze\u0142aczanie wtyk\u00f3w RJ45",
+    "ans": "Patch panel"
+  },
+  {
+    "id": 774,
+    "que": "Wariant kabla TP montowanego w miejscach nara\u017conych na zak\u0142\u00f3cenia elektromagnetyczne",
+    "ans": "SFTP"
+  },
+  {
+    "id": 775,
+    "que": "Warto\u015b\u0107 MTU dla ramek IEE 802.11 bez uwzgl\u0119dnienia WEP",
+    "ans": "2304 bajt\u00f3w"
+  },
+  {
+    "id": 776,
+    "que": "Okre\u015blenie trybu komunikowania w parach (czyli punkt punkt bez u\u017cycia Access Point ) stosowanego w IEEE 802.11",
+    "ans": "Ad hoc - IBSS (Independent Basic Service Set)"
+  },
+  {
+    "id": 777,
+    "que": "Nazwa typu interfejsu umo\u017cliwiaj\u0105cego zarz\u0105dzanie modemem",
+    "ans": "Dialer"
+  },
+  {
+    "id": 778,
+    "que": "Co oznacza akronim SSID ww technologii IEEE 802.11",
+    "ans": "service set identifier"
+  },
+  {
+    "id": 779,
+    "que": "Odpowiednik funkcjonalno\u015bci CSMA/CD stosowany w standardzie IEEE 802.11",
+    "ans": "CSMA/CA (Carrier Sense Multiple Access / with Collision Avoidance)"
+  },
+  {
+    "id": 780,
+    "que": "Zakres pr\u0119do\u015bci transmisji (Mbps) dla standardu IEEE 802.11a",
+    "ans": "6-54Mb/s"
+  },
+  {
+    "id": 781,
+    "que": "Rozwini\u0119cie akronimu TKIP w standardzie IEEE 802.11",
+    "ans": "Temporal Key Integrity Protocol"
+  },
+  {
+    "id": 782,
+    "que": "Przynajmniej trzy nazwy szyfr\u00f3w symetrycznych (tj. u\u017cywaj\u0105cych klucza symetrycznego) stosowanych w technologiach sieciowych",
+    "ans": "AES DES IDEA"
+  },
+  {
+    "id": 783,
+    "que": "Na czym polega pasywne skanowanie kana\u0142\u00f3w w IEEE 802.11",
+    "ans": "nas\u0142uchiwanie ruchu ramek beacon kierowanych do stacji z prze\u0142\u0105czeniem skanowania na kolejne kana\u0142y"
+  },
+  {
+    "id": 784,
+    "que": "Maksymalna liczba aktywnych stacji typu slave w jednej pikosieci Bluetooth (IEE 802.15)",
+    "ans": "7"
+  },
+  {
+    "id": 785,
+    "que": "Moce urz\u0105dze\u0144 nadawczych kolejno w klasach 1,2,3 definiowanych w IEE 802.15 (Bluetooth)",
+    "ans": "100 mW, 2,5 mW, 1 mW"
+  },
+  {
+    "id": 786,
+    "que": "Nazwa protoko\u0142u umo\u017cliwiaj\u0105cego nadbudowanie nad Bluetooth (IEEE 802.15) fragmentacji ramek i QoS",
+    "ans": "L2CAP"
+  },
+  {
+    "id": 787,
+    "que": "Podaj wz\u00f3r okre\u015blaj\u0105cy EIRP",
+    "ans": "EIRP = P - Tk + Gi\ngdzie EIRP i P (moc nadajnika) podane s\u0105 w dBm, Tk (t\u0142umienie kabla) w dB a Gi (zysk anteny w stosunku do anteny izotropowej) w dB"
+  },
+  {
+    "id": 788,
+    "que": "Nazwa technologii definiowanej standardem IEEE 802.16",
+    "ans": "WiMAX (Worldwide Interoperability for Microwave Access)"
+  },
+  {
+    "id": 789,
+    "que": "Rozmiar pola \"numer sekwencji\" w nag\u0142\u00f3wku TCP",
+    "ans": "32 bity"
+  },
+  {
+    "id": 790,
+    "que": "Rodzaje urz\u0105dze\u0144 ZigBee",
+    "ans": "ZigBee Coordinator, ZigBee Router, ZigBee End Device"
+  },
+  {
+    "id": 791,
+    "que": "Nazwa trybu IP PIM push mode rutowania dynamicznego IP Multicast",
+    "ans": "PIM dense mode"
+  },
+  {
+    "id": 792,
+    "que": "Jak\u0105 informacj\u0119 zawiera pojedynczy wpis w tablicy rutowania IPv4 Multicast?",
+    "ans": "???? Jak kto\u015b wie, niech odpowie w komentarzu"
+  },
+  {
+    "id": 793,
+    "que": "Nazwa rutera IGMP czynnie kontroluj\u0105cego obecno\u015b\u0107 zarejestrowanych wcze\u015bniej odbiorc\u00f3w ruchu IP multicast",
+    "ans": "Querier"
+  },
+  {
+    "id": 794,
+    "que": "Nazwa rutera centralnego (zarz\u0105dzaj\u0105cego procesem rutowania w ramach protoko\u0142u ODR (On Demant Ruting)",
+    "ans": "ODR-HUB\n"
+  },
+  {
+    "id": 795,
+    "que": "Przeznaczenie pola tzw. rozmiaru okna (Window size) w datagramie TCP",
+    "ans": "16-bitowe pole u\u017cywane przez komputer docelowy w celu poinformowania komputera \u017ar\u00f3d\u0142owego o tym, ile danych jest got\u00f3w przyj\u0105\u0107 w jednym segmencie TCP."
+  },
+  {
+    "id": 796,
+    "que": "i",
+    "ans": "PIM push-mode"
+  },
+  {
+    "id": 797,
+    "que": "Pe\u0142na nazwa pola w datagramie IP umo\u017cliwiaj\u0105cego przenoszenie informacji na temat QoS",
+    "ans": "DSCP/ECN"
+  },
+  {
+    "id": 798,
+    "que": "Przynajmniej 4 rodzaje obszar\u00f3w (area) definiowanych wewn\u0105trz domeny OSFP i w ramach tego protoko\u0142u",
+    "ans": "backbone area, standard area, stub area, totally stubby area, area 0"
+  },
+  {
+    "id": 799,
+    "que": "Przeznaczenie technologii IP SLA (Sevice Level Agreement) u\u017cytkowanej w systemach operacyjnych dla ruter\u00f3w IP",
+    "ans": "monitorowanie infrastruktury wykorzystywanej w procesach rutowania IP oraz podejmowanie zaprogramowanych akcji po wykryciu okre\u015blonego jej stanu"
+  },
+  {
+    "id": 800,
+    "que": "Rozwinicie akronim\u00f3w IRB oraz CRB jako technologii mostkowania ruchu sieciowego w ruterach Cisco",
+    "ans": "Integrated Routing and Bridging, Concurrent Routing and Bridging"
+  },
+  {
+    "id": 801,
+    "que": "Nazwa wyr\u00f3\u017cnionego rutera IP multicast przechowuj\u0105cego informacj o grupach multicast w IP PIM sparse mode",
+    "ans": "Rendezvous Point"
+  },
+  {
+    "id": 802,
+    "que": "Nazwa iterfejsu ATM tworzonego pomidzy dwoma prze\u0142\u0105cznikami ATM (w przeciwiestwie do interfejsu pomidzy prze\u0142\u0105cznikiem ATM i ruterem IP)",
+    "ans": "NNI - Network-Network Interface"
+  },
+  {
+    "id": 803,
+    "que": "Liczba bit\u00f3w w adresie IPv4 klasy B, przyznaczonych do okre\u015blenia adresu hosta w sieci IP",
+    "ans": 16
+  },
+  {
+    "id": 804,
+    "que": "Nazwa techniki (w Cisco IOS) umo\u017cliwiaj\u0105cej wykorzystywanie list kontrolnych (ACL) do kontroli procesu rutowania dynamicznego",
+    "ans": "route-map"
+  },
+  {
+    "id": 806,
+    "que": "Przynajmniej trzy nazwy szyfr\u00f3w symetrycznych (tj. u\u017cywaj\u0105cych klucza symetrycznego) stosowanych w technologiach sieciowych",
+    "ans": "AES DES IDEA"
+  },
+  {
+    "id": 807,
+    "que": "Maksymalna liczba aktywnych stacji typu slave w jednej pikosieci Bluetooth (IEE 802.15)",
+    "ans": "7"
+  },
+  {
+    "id": 808,
+    "que": "Co oznacza akronim SSID ww technologii IEEE 802.11 (wystarczy\u0142o rozwin\u0105\u0107 skr\u00f3t)",
+    "ans": "service set identifier"
+  },
+  {
+    "id": 809,
+    "que": "Interfejs telefonii analogowej do kt\u00f3rej pod\u0142\u0105czamy interfejs FXO",
+    "ans": "FXS"
+  },
+  {
+    "id": 810,
+    "que": "Alternatywa dla protoko\u0142u IGMP stosowana w przypadku zarz\u0105dzania grupami IPv6 multicast",
+    "ans": "MLD"
+  },
+  {
+    "id": 811,
+    "que": "Grupa datagram\u00f3w wysy\u0142anych i rozpatrywanych jednocze\u015bnie przez MPLS",
+    "ans": " "
+  },
+  {
+    "id": 812,
+    "que": "Router MPLS wysy\u0142aj\u0105cy datagramy",
+    "ans": "Upstream Router"
+  },
+  {
+    "id": 813,
+    "que": "Sie\u0107 VRF dzia\u0142aj\u0105ca bez MPLS",
+    "ans": "VRF Lite"
+  },
+  {
+    "id": 814,
+    "que": "Protoko\u0142y u\u017cywane do budowania VPN",
+    "ans": "PPTP, L2TP"
+  },
+  {
+    "id": 815,
+    "que": "Cel u\u017cycia GRE (general routing encapsulation)",
+    "ans": "\u0141\u0105czenie zdalnych sieci stosuj\u0105cych protoko\u0142y inne ni\u017c IP, przesy\u0142anie ruchu IPv6 przez sie\u0107 IPv4, przesy\u0142anie ruchu szyfrowanego. (ko\u0144c\u00f3wka wyk\u0142adu ROUTE (II)"
+  },
+  {
+    "id": 816,
+    "que": "Akronim dla synchronicznych sieci optycznych",
+    "ans": "SONET"
+  },
+  {
+    "id": 819,
+    "que": "siec do nadania adresacji IPV6",
+    "ans": "NDP????"
+  },
+  {
+    "id": 820,
+    "que": "zakres adresow ipv4 dla multicast",
+    "ans": "224.0.0.0 - 239.255.255.255 (klasa D)"
+  },
+  {
+    "id": 821,
+    "que": "kt\u00f3r\u0105 klas\u0119 CoS (IEEE 802.1p) do telefonu IP w zarz\u0105dzaniu jakosci us\u0142ug",
+    "ans": 5
+  },
+  {
+    "id": 822,
+    "que": "nazwac stan pewnej liczby ruter\u00f3w, kt\u00f3re maj\u0105 sp\u00f3jne info o topo",
+    "ans": "adjacentne"
+  },
+  {
+    "id": 823,
+    "que": "IRB i CRB - rozwin\u0105\u0107 akronimy",
+    "ans": "Integrated routing and bridging, Concurent routing and bridging"
+  },
+  {
+    "id": 824,
+    "que": "przeliczyc CoS na DSCP w polach IP (co\u015b takiego)",
+    "ans": "przemno\u017cy\u0107 przez 8"
+  },
+  {
+    "id": 825,
+    "que": "jaki tryb VTP tworzenie nowych vlanow jest niemozliwe przez admina",
+    "ans": "Client"
+  },
+  {
+    "id": 826,
+    "que": "tryb pracy portu private vlan, tak aby po\u0142\u0105czone ze sob\u0105 porty mog\u0142y si\u0119 komunikowac",
+    "ans": "community(grupa izolowana)"
+  },
+  {
+    "id": 827,
+    "que": "wartos\u0107 napi\u0119cia zasilonia PoE IEEE 802.3af",
+    "ans": "15.4W // napi\u0119cie w watach? //nie zda\u0142em fizyki xd"
+  },
+  {
+    "id": 828,
+    "que": "w jakiej sytuacji sytuacji istotne jest ustawienie bramki domyslnej komend\u0105 \u00b4 ip default-gateway",
+    "ans": "https://arstechnica.com/civis/viewtopic.php?t=149362"
+  },
+  {
+    "id": 829,
+    "que": "nazwa rutera IGMP czynnie (reszta pytania nieznana)->mamy querier(odpytuje hosty) i non-querier, ktore odpowiadaj\u0105, czyli pewnie o querier",
+    "ans": "querier"
+  },
+  {
+    "id": 830,
+    "que": "pasywne skanowanie kana\u0142\u00f3w ieee 802.11",
+    "ans": "??? jest pasywne i aktywne / no w pasywnym wysy\u0142a te beacony co jaki\u015b czas"
+  },
+  {
+    "id": 831,
+    "que": "tryb pracy sieci san .... - petla z arbitrazem",
+    "ans": "simplex(TR-RX), maximum 127 urz\u0105dze\u0144"
+  },
+  {
+    "id": 832,
+    "que": "co najmniej 4 obszary ospf(  <3 \"conajmniej 4\", kiedy jest w og\u00f3le ich 5)",
+    "ans": "backbone, stub, notSoStubby, Totally Stub, Standard"
+  },
+  {
+    "id": 833,
+    "que": "okreslenie u\u017cywane wobec rutera MPLS b\u0119d\u0105cego odbiorc\u0105 datagramu MPLS",
+    "ans": "downstream router"
+  },
+  {
+    "id": 834,
+    "que": "reprezentacja maski ipv4 kiedy 1.1.1.1/18",
+    "ans": "11111111.11111111.11000000.00000000 - 255.255.192.0"
+  },
+  {
+    "id": 835,
+    "que": "nazwa standardu portu STP do kt\u00f3rego przechodzi ten port po pod\u0142 \u02dbaczeniu kabla",
+    "ans": "listening - a nie blocking?"
+  },
+  {
+    "id": 836,
+    "que": "Jakie napi\u0119cie (lub zakres napi\u0119c) jest wykorzystywane w technologii Power over Ethernet ?",
+    "ans": "25-60V"
+  },
+  {
+    "id": 837,
+    "que": "Jakie nada\u0142bys Class of Service dla Telefonii IP",
+    "ans": 5
+  },
+  {
+    "id": 838,
+    "que": "Jak przeliczyc ToS na DSCP ?note: tos(ipv4) w 1988 zosta\u0142 zast\u0105piony przez dscp+ecn, gdzie 6bit\u00f3w idzie na QoS a 2 bity na przeci\u0105\u017cenia",
+    "ans": "?czyli \u017ce po prostu bierzesz pierwsze 6 bit\u00f3w z ToS i chyba gotowe?"
+  },
+  {
+    "id": 839,
+    "que": "Kiedy nalezy zdefiniowa\u0107 w ruterze Default Gateway ?",
+    "ans": "?kiedy nie chcesz \u017ceby sie\u0107 by\u0142a odizolowana?"
+  },
+  {
+    "id": 840,
+    "que": "W jakim trybie prze\u0142\u0105cznika w Virtual Trunking Protocol funkcja tworzenia przez administratora VLAN-\u00f3w jest zablokowana ?",
+    "ans": "client"
+  },
+  {
+    "id": 841,
+    "que": "Okreslenie oznaczaj \u02dbace stan zgodno\u015bci (zbie\u017cno\u015bci) tablic rutowania w dw\u00f3ch ruterach (podac nazw\u0119 polsk\u0105 i angielsk\u0105).",
+    "ans": "zbie\u017cno\u015b\u0107, convengence"
+  },
+  {
+    "id": 842,
+    "que": "datagram ToS ale co z nim? podam eee \"ciekawostk\u0119\"",
+    "ans": "np ma 8 bit\u00f3w"
+  },
+  {
+    "id": 843,
+    "que": "us\u0142uga (?) przekazuk\u0105ca wiedz\u0119 o trasach",
+    "ans": "LSA (?) //raczej tak lsa to komunikat upakowany w LSU, kt\u00f3ry tez jest komunikatem, nie wiem czy o to chodzi"
+  },
+  {
+    "id": 844,
+    "que": "plik konfiguracyjny VLAN",
+    "ans": "vlan.dat"
+  },
+  {
+    "id": 845,
+    "que": "jaka technologia daje nam VRF bez MPLS",
+    "ans": "VRF Lite"
+  },
+  {
+    "id": 846,
+    "que": "nazwa ramki sprawdzaj \u02dbaca obecnos\u00b4c po\u0142 \u02dbaczenia klient\u00f3w w 801.11 (a nie 802.11 ?)",
+    "ans": "beacon"
+  },
+  {
+    "id": 847,
+    "que": "A na drugiej stronie po\u0142\u0105czenie telefonii VOIP, stworzyc j\u0105 i poda\u0107 za pomoc\u0105 jakich po\u0142\u0105czen \u0142\u0105czymy poszczeg\u00f3lne urzadzenia (telefony VOIP, centralk\u0119 jeszcze jakies telefony i switch (?) Ethernet).",
+    "ans": "chyba to 5 slajd tu http://sieci.kis.agh.edu.pl/przedmioty/wykladWAN.pdf // a wie kto\u015b, jakie s\u0105 te po\u0142\u0105czenia? (w sensie jakimi kablami)"
+  },
+  {
+    "id": 849,
+    "que": "technologia swiat\u0142owodowa, kt\u00f3ra umo\u017cliwia przesy\u0142anie o wielu cz\u0119stotliwosciach",
+    "ans": "FDM - Frequency Division Multiplexing"
+  },
+  {
+    "id": 850,
+    "que": "Technologia umozliwiaj\u0105ca przesy\u0142anie kilku sygna\u0142ach o kilku cz\u0119stotliwo\u015bciach w jednym \u0142aczu swiat\u0142owodowym",
+    "ans": "to co wy\u017cej"
+  },
+  {
+    "id": 851,
+    "que": "Nazwa pliku konfiguracyjnego w prze\u0142 \u02dbaczniku Ethernet, w kt\u00f3rym zapisane s \u02dba przypisania port\u00f3w do poszczeg\u00f3lnych VLAN-\u00f3w",
+    "ans": "?czy\u017cby te\u017c vlan.dat?"
+  },
+  {
+    "id": 852,
+    "que": "W jaki spos\u00f3b przeliczyc ToS(Type of Service) na Precedence",
+    "ans": "pierwsze 3 bity w ToS oznaczaj\u0105 precedence"
+  },
+  {
+    "id": 853,
+    "que": "Nazwa routera/urz\u0105dzenia(juz nie pami\u0119tam dok\u0142adnie), do kt\u00f3rego jest podpi\u0119te wiele \u0142\u0105cz point-to-point i posredniczy w wymianie informacji pomi\u0119dzy nimi",
+    "ans": "hub-and-spoke(w point-to-multipoint)"
+  },
+  {
+    "id": 854,
+    "que": "nazwa ramek, za pomoc\u0105 kt\u00f3rych stacja AP(chyba Access Point) sprawdza, jakie stacje obecnie s\u0105 do niej pod\u0142\u0105czone",
+    "ans": "Beacon"
+  },
+  {
+    "id": 855,
+    "que": "Zakres adres\u00f3w IPv4 w klasie C",
+    "ans": "192.0.0.0-223.255.255.255"
+  },
+  {
+    "id": 856,
+    "que": "Wysoko\u015b\u0107 prze\u0142\u0105cznika Core to 60 cm (1 cal = 2,54 cm). Ile takich prze\u0142\u0105cznik\u00f3w pomie\u015bci si\u0119 w szafie krosowniczej typu full-size (wysokiej)",
+    "ans": "Full size ma ponad 1,8m, czyli zmieszcz\u0105 si\u0119 3."
+  },
+  {
+    "id": 857,
+    "que": "Co z otrzymanym datagramem IP adresowanym do hosta 2.2.1.2 zrobi nie-klasowy ruter IP posiadaj\u0105cy w tablicy rutowania IP regu\u0142y 2.2.2.2/24 via 1.1.1.1 i 0.0.0.0/0 via 1.1.1.2",
+    "ans": "B\u0119dzie sprawdza\u0107 dalej zasady a jak nie znajdzie to zastosuje domy\u015bln\u0105."
+  },
+  {
+    "id": 858,
+    "que": "Technologia pozwalaj\u0105ca na u\u017cytkowanie wielu forwarding table w jednym fizycznym ruterze IP jednocze\u015bnie",
+    "ans": "VRF- virtual routing and forwarding table"
+  },
+  {
+    "id": 859,
+    "que": "Nazwy symboliczne przynajmniej dw\u00f3ch standard\u00f3w transmisji Ethernet w oparciu o gigabitowe \u0142\u0105cza \u015bwiat\u0142owodowe",
+    "ans": "100BASE-FX 100BASE-LX"
+  },
+  {
+    "id": 860,
+    "que": "Co jest celem procesu router solitication stosowanej w IPv6 i wsp\u00f3\u0142pracuj\u0105cym z nim protokole NDP",
+    "ans": "Znalezienie router\u00f3w podpi\u0119tych na danym \u0142\u0105czu w neighbour discovery protocol"
+  },
+  {
+    "id": 861,
+    "que": "Nazwy parametr\u00f3w protoko\u0142u STP (Spanning Tree Protocol)  w prze\u0142\u0105cznikach Ethernet, wp\u0142ywaj\u0105cych KOLEJNO na wyb\u00f3r aktywnej \u015bcie\u017cki do Root-bridge",
+    "ans": "cost, priority, port number"
+  },
+  {
+    "id": 862,
+    "que": "Nazwa (angielska) technologii umo\u017cliwiaj\u0105cej przesy\u0142anie danych z u\u017cyciem przewod\u00f3w sieci energetycznej",
+    "ans": "PLC (power line communication)"
+  },
+  {
+    "id": 863,
+    "que": "Adresy IPv4 wszystkich host\u00f3w, znajduj\u0105cych si\u0119 w sieci: 200.200.200.0/30",
+    "ans": "200.200.200.1, 200.200.200.2"
+  },
+  {
+    "id": 864,
+    "que": "Nazwa portu Private Vlan umo\u017cliwiaj\u0105cego komunikowanie wy\u0142\u0105cznie z portem Promiscuous",
+    "ans": "Isolated"
+  },
+  {
+    "id": 865,
+    "que": "Angielskie okre\u015blenie techniki rutowania dynamicznego \"od celu do \u017ar\u00f3d\u0142a\" stosowanej w przypadku IP multicast",
+    "ans": "Reverse Path Forwarding"
+  },
+  {
+    "id": 866,
+    "que": "Jak przeliczy\u0107 DSCP na ToS w protokole IP?",
+    "ans": "Mno\u017cy si\u0119 razy 4."
+  },
+  {
+    "id": 867,
+    "que": "Podaj znaczenie pola ,,identyfikator'' w nag\u0142\u00f3wku datagramu IP, skoro i tak istnieje w nim pole ,,przesuni\u0119cie fragmentacji''",
+    "ans": "Identyfikator to warto\u015b\u0107 przypisana przed fragmentacj\u0105 a przesuni\u0119cie wskazuje do kt\u00f3rego miejsca pakietu nale\u017cy ten fragment."
+  },
+  {
+    "id": 868,
+    "que": "Parametry asocjacji TCP (okre\u015blaj\u0105ce jednoznacznie strumie\u0144 TCP)",
+    "ans": "Typ protoko\u0142u, adres w\u0119z\u0142a lokalnego i zdalnego i port lokalnego, zdalnego"
+  },
+  {
+    "id": 869,
+    "que": "Rozwini\u0119cie akronimu MTU jako cechy okre\u015blaj\u0105cej mo\u017cliwo\u015bci techniczne technologii transmisji sieciowej",
+    "ans": "Maximum Transmission Unit"
+  },
+  {
+    "id": 870,
+    "que": "Czym r\u00f3\u017cni si\u0119 OSPF Stub area od OSPF Totally stubby area",
+    "ans": "Totally Stub akceptuje pakiety Lsa 1,2, a Stub Lsa 1,2,3"
+  },
+  {
+    "id": 871,
+    "que": "Wymie\u0144 rodzaje anten stosowanych w transmisji danych",
+    "ans": "dook\u00f3lne, kierunkowe, szczelinowe, paraboliczne"
+  },
+  {
+    "id": 872,
+    "que": "Kiedy ze stacji roboczej pracuj\u0105cej z interfejsem Ethernet wysy\u0142any jest datagram Gratitous ARP",
+    "ans": "interfejs by\u0142 wy\u0142\u0105czony a zostanie w\u0142\u0105czony lub gdy ustawimy IP na pracuj\u0105cym interfejsie"
+  },
+  {
+    "id": 873,
+    "que": "Czym r\u00f3\u017cni si\u0119 limitowanie przepustowo\u015bci w technice Leaky bucket od zwyk\u0142ego ograniczenia przepustowo\u015bci (zadanego np. w bps)",
+    "ans": "leacky bucket jak w \"wiadrze\" sk\u0105d wysy\u0142ane, w bps po prostu ograniczamy pr\u0119dko\u015b\u0107 //leaky bucket jest jak zbiornik z odp\u0142ywem, a ograniczenie jest jak zwyk\u0142a rura o zadanej przepustowo\u015bci"
+  },
+  {
+    "id": 874,
+    "que": "Dlaczego stosuje si\u0119 tzw. strategie TCP przy nadawaniu strumienia danych w tym protokole",
+    "ans": "Zapobieganie przeci\u0105\u017ceniu"
+  },
+  {
+    "id": 875,
+    "que": "Co to jest server blade",
+    "ans": "wielomodu\u0142owy, wiele server\u00f3w w jednej obudowie, oszcz\u0119dno\u015b\u0107 mocy"
+  },
+  {
+    "id": 876,
+    "que": "Dlaczego w technice Assured forwarding QoS Ip stosuje si\u0119 akurat cztery kody typu Class Selector (CS1-CS4)",
+    "ans": "Mo\u017cliwe wtedy cztery kolejki po trzy klasy"
+  },
+  {
+    "id": 877,
+    "que": "Co z otrzymanym datagramem IP adresowanym do hosta 2.2.1.2 zrobi klasowy ruter IP posiadaj\u0105cy w tablicy rutowania IP regu\u0142y 2.2.2.2/24 via 1.1.1.1 i 0.0.0.0/0 via 1.1.1.2",
+    "ans": "zgeneralizuje do sieci 2 // (?)"
+  },
+  {
+    "id": 878,
+    "que": "Co okre\u015blamy mianem ,,cichy router'' w protokole rutowania dynamicznego RIPv2",
+    "ans": "Router bez RIPv2, kt\u00f3ry podaje dalej informacje dla router'\u00f3w RIP"
+  },
+  {
+    "id": 879,
+    "que": "Angielskie okre\u015blenie czasu przej\u015bcia danego datagramu w sieci komputerowej do celu i z powrotem",
+    "ans": "Round-Trip-Time"
+  },
+  {
+    "id": 880,
+    "que": "Angielska nazwa regu\u0142y postuluj\u0105cej wyb\u00f3r z IP forwarding table najbardziej precyzyjnej regu\u0142y rutowania IP",
+    "ans": "longest prefix match"
+  },
+  {
+    "id": 881,
+    "que": "Podaj przyk\u0142ad protoko\u0142u, wobec kt\u00f3rego stosowana jest technika RED (Random Early Detection) load shedding",
+    "ans": "TCP"
+  },
+  {
+    "id": 882,
+    "que": "Teoretyczna liczba host\u00f3w mo\u017cliwych do pod\u0142\u0105czenia w sieci IPv4: 10.10.10.0/17",
+    "ans": "2^15-2"
+  },
+  {
+    "id": 883,
+    "que": "Jak nazywamy chwilowy du\u017cy przep\u0142yw danych w sieci komputerowej",
+    "ans": "burst"
+  },
+  {
+    "id": 884,
+    "que": "Liczba grup IPv4 multicast mo\u017cliwa do rozr\u00f3\u017cnienia w prze\u0142\u0105czniku Ethernet po przemapowaniu do adresacji Ethernet MAC",
+    "ans": "2^23"
+  },
+  {
+    "id": 885,
+    "que": "Jak\u0105 topologi\u0119 fizyczn\u0105 sieci komputerowej wytworzy uk\u0142ad po\u0142\u0105cze\u0144 urz\u0105dze\u0144 aktywnych okre\u015blany mianem ,,daisy-chain''",
+    "ans": "pier\u015bcie\u0144 lub liniowa"
+  },
+  {
+    "id": 886,
+    "que": "Klasa adresu IPv4: 225.225.225.225",
+    "ans": "D"
+  },
+  {
+    "id": 887,
+    "que": "Na jakie sk\u0142adowe podzielone jest pasmo cz\u0119stotliwo\u015bci w technologii Cable Modem",
+    "ans": "HFC, RFoG"
+  },
+  {
+    "id": 888,
+    "que": "Na podstawie jakich konfigurowalnych parametr\u00f3w obliczana jest d\u0142ugo\u015b\u0107 chwili czasowej TC dla Token Bucket w technologii Traffic Shaping",
+    "ans": "CIR i BC"
+  },
+  {
+    "id": 889,
+    "que": "popularne techniki multipleksowania sygna\u0142u w medium transmisyjnym",
+    "ans": "TDM, FDM, WDM, CDM (napi\u0119ciowo, cz\u0119stotliwo\u015bciowo, fazowo i ...)"
+  },
+  {
+    "id": 890,
+    "que": "Do czego s\u0142u\u017c\u0105 tzw. tokeny w tablicach rutowania stosowanych w ruterach MPLS",
+    "ans": "dok\u0105d prze\u0142\u0105czy\u0107 datagram, jakie operacje na stosie MPLS datagramu wykona\u0107"
+  },
+  {
+    "id": 891,
+    "que": "Podaj warto\u015b\u0107 IP precenence dla datagramu IP, gdy warto\u015b\u0107 klasa QoS datagramu wynikaj\u0105ca z warto\u015bci jego pola DSCP wynosi af12 (Assured Forwarding 12)",
+    "ans": 1
+  },
+  {
+    "id": 892,
+    "que": "Po czym zorientujesz si\u0119, \u017ce na ho\u015bcie docelowym nie ma aplikacji, kt\u00f3ra mog\u0142aby odebra\u0107 datagramu UDP, kt\u00f3ry wys\u0142a\u0142e\u015b? (Nie masz dost\u0119pu do hosta zdalnego)",
+    "ans": "Port Unreacheable"
+  },
+  {
+    "id": 893,
+    "que": "Co m\u00f3wi\u0105 Ci s\u0142owa: Tahoe, Slow Start, Reno w kontek\u015bcie sieci komputerowych",
+    "ans": "Strategie TCP"
+  },
+  {
+    "id": 894,
+    "que": "W jaki spos\u00f3b w datagramie IPv6 mo\u017cna zawrze\u0107 informacj\u0119 o fragmentacji, skoro w jego nag\u0142\u00f3wku nie ma pola identyfikuj\u0105cego przesuni\u0119cie lub numer fragmentu",
+    "ans": "w extension headers (opcja fragmentation)"
+  },
+  {
+    "id": 895,
+    "que": "Przynajmniej pi\u0119\u0107 typ\u00f3w wtyk\u00f3w \u015bwiat\u0142owodowych",
+    "ans": "ST FC SC LC MT-RJ"
+  },
+  {
+    "id": 896,
+    "que": "Jak sprawdzisz (bez urz\u0105dze\u0144), czy istniej\u0105cy \u015bwiat\u0142ow\u00f3d o znanej Ci d\u0142ugo\u015bci b\u0119dzie si\u0119 nadawa\u0142 do przej\u015bcia z obecnie stosowanej technologii 1000Base-SX do 10GBase-SR",
+    "ans": "Oba wykorzystuja kable wielomodowe o tej samej dlugosci fali, wiec chyba nie trzeba sprawdzac powinno dzialac(ale pewnosci nie mam)"
+  },
+  {
+    "id": 900,
+    "que": "Podaj mo\u017cliwy wymiary szeroko\u015bci szyn RACK szaf krosowniczych dost\u0119pnych na rynku",
+    "ans": "10, 19, 24 cale"
+  },
+  {
+    "id": 901,
+    "que": "Dlaczego przygotowuj\u0105c szyfrowany przekaz przez sie\u0107 trzeba przestrzega\u0107 zasady redundancji? (nale\u017cy przedstawi\u0107 tylko technik\u0119 ataku, gdy zasady nie przestrzegano)",
+    "ans": "Atak: Kto\u015b wysy\u0142a jaki\u015b losowy komunikat bez redundancji i np. rolety w banku si\u0119 opuszczaj\u0105, bo akurat trafi\u0142"
+  },
+  {
+    "id": 902,
+    "que": "Podaj przyk\u0142adowy adres IPv6 6to4 b\u0119d\u0105cy odpowiednikiem adresu IPv4 1.1.1.1",
+    "ans": "::FFFF:1.1.1.1/96  (a nie: 2002:101:101::/16 ??? format jest taki: 2002:xxxx:xxxx::/16) --> 0:0:0:0:0:FFFF:x.x.x.x/96/ \n"
+  },
+  {
+    "id": 903,
+    "que": "Co okre\u015blamy mianem message digest",
+    "ans": "algorytm szyfrowania md5"
+  },
+  {
+    "id": 904,
+    "que": "Podaj przyk\u0142adowy URL dla protoko\u0142u HTTP wykorzystuj\u0105cy adres IPv6 1::1 i port 443",
+    "ans": "https://[1::1]:443/"
+  },
+  {
+    "id": 905,
+    "que": "Definiowanie statycznych regu\u0142 rutowania IPv6 (zdefiniowa\u0107 regu\u0142y rutowania ipv6)",
+    "ans": "ipv6 route 1::0/64 2::2"
+  },
+  {
+    "id": 908,
+    "que": "Szafa 27U",
+    "ans": "1U = 1,75\", (2,54 * 1,75cm = 4,445cm)"
+  },
+  {
+    "id": 909,
+    "que": "OpenSSL",
+    "ans": "SSL - Secure Socket Layers, TLS - Transport Layer Security"
+  },
+  {
+    "id": 2137,
+    "que": "Monobrew turasa",
+    "ans": "może być odpowiedzią na pytanie czemu co tydzień na wejściówce mamy 1 pytanie, pewnie widzicie ju alegorie, jedna brew jedno pytanie"
+  }
+]
