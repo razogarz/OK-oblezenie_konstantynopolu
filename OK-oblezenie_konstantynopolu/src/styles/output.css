@@ -2313,30 +2313,8 @@ html {
   margin-bottom: 0.75rem;
 }
 
-.sticky {
-  position: sticky;
-}
-
-.m-2 {
-  margin: 0.5rem;
-}
-
-.m-5 {
-  margin: 1.25rem;
-}
-
 .m-4 {
   margin: 1rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .my-2 {
@@ -2356,10 +2334,6 @@ html {
   width: 100%;
 }
 
-.max-w-xs {
-  max-width: 20rem;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -2372,11 +2346,6 @@ html {
   justify-content: flex-end;
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--p) / var(--tw-bg-opacity));
-}
-
 .bg-base-100 {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
@@ -2385,14 +2354,6 @@ html {
 .bg-stone-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(87 83 78 / var(--tw-bg-opacity));
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
-.p-0 {
-  padding: 0px;
 }
 
 .text-xl {

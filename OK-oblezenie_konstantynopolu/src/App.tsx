@@ -1,5 +1,4 @@
 import QuestionCard from "./QuestionCard";
-import { Question } from "./Question";
 
 import pytaniaEgzaminacyjne from "./data/termin-zerowy-2017-18.json";
 import { useState } from "react";
@@ -8,17 +7,22 @@ function App() {
   let allQuestions = pytaniaEgzaminacyjne;
   let searchedQuestions = pytaniaEgzaminacyjne;
 
+  //rerender when searchInput changes
   let [searchInput, setSearchInput] = useState("");
   const handleChange = (e: any) => {
     e.preventDefault();
     setSearchInput(e.target.value);
   };
 
-  if (searchInput.length > 0) {
-    searchedQuestions = allQuestions.filter((question) => {
-      return question.que.match(searchInput);
-    });
+  function checkSearchInput(searchInput: string) {
+    if (searchInput.length > 0) {
+      //filter questions by matching searchInput
+      searchedQuestions = allQuestions.filter((question) => {
+        return question.que.match(searchInput);
+      });
+    }
   }
+  checkSearchInput(searchInput);
 
   function RenderCards(searchedQuestions: any) {
     try {
@@ -27,7 +31,7 @@ function App() {
       });
     } catch (error) {
       console.log(error);
-      return <></>;
+      return <h1>Wystąpił błąd, przepraszamy :c</h1>;
     }
   }
 
