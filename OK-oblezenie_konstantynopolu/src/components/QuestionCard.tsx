@@ -2,7 +2,7 @@ function QuestionCard(props: any) {
   let que = props.que;
   let ans = props.ans;
   return (
-    <div className="card w-full my-2 bg-stone-600 text-primary-content">
+    <div className="card max-w-full my-2 bg-stone-600 text-primary-content">
       <div className="card-body">
         <p className="text-xs text-slate-50">{que}</p>
         <p className="text-xl text-slate-300">{ans}</p>
