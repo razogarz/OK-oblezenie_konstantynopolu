@@ -40,7 +40,7 @@ function App() {
       <input
         type="text"
         placeholder="Wpisz szukane pytanie..."
-        className="input input-bordered input-primary w-full m-4"
+        className="input input-bordered input-primary w-full my-4"
         value={searchInput}
         onChange={handleChange}
       />
