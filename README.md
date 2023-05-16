@@ -1,5 +1,5 @@
 # OK-oblezenie_konstantynopolu
-Także ten, egzamin
+Także ten, egzamin ez
 
 # TO RUN THIS APP:
 1. go to the directory ./OK-oblezenie_konstantynopolu
