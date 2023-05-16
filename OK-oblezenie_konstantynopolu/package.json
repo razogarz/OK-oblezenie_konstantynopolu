@@ -8,7 +8,9 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "build-tailwind": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+    "build-tailwind": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/style.css",
+    "build-tailwind-watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/style.css --watch",
+    "dev-website": "npm install && npm run build-tailwind && npm run dev"
   },
   "dependencies": {
     "daisyui": "^2.51.6",

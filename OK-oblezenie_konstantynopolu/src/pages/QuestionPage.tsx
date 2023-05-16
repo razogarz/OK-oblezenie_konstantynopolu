@@ -1,14 +1,14 @@
-import QuestionCard from "./QuestionCard";
-
-import pytaniaEgzaminacyjne from "./data/termin-zerowy-2017-18.json";
+import QuestionCard from "../components/QuestionCard";
+import { Question } from "../types/Question";
+import pytaniaEgzaminacyjne from "../data/termin-zerowy-2017-18.json";
 import { useState } from "react";
 
 function App() {
-  let allQuestions = pytaniaEgzaminacyjne;
-  let searchedQuestions = pytaniaEgzaminacyjne;
+  let allQuestions: Question[] = pytaniaEgzaminacyjne;
+  let searchMatchingQuestions: Question[] = pytaniaEgzaminacyjne;
 
   //rerender when searchInput changes
-  let [searchInput, setSearchInput] = useState("");
+  const [searchInput, setSearchInput] = useState("");
   const handleChange = (e: any) => {
     e.preventDefault();
     setSearchInput(e.target.value);
@@ -17,8 +17,8 @@ function App() {
   function checkSearchInput(searchInput: string) {
     if (searchInput.length > 0) {
       //filter questions by matching searchInput
-      searchedQuestions = allQuestions.filter((question) => {
-        return question.que.match(searchInput);
+      searchMatchingQuestions = allQuestions.filter((question) => {
+        return question.que.toLowerCase().match(searchInput.toLowerCase());
       });
     }
   }
@@ -44,7 +44,7 @@ function App() {
         value={searchInput}
         onChange={handleChange}
       />
-      <div>{RenderCards(searchedQuestions)}</div>
+      <div>{RenderCards(searchMatchingQuestions)}</div>
     </div>
   );
 }
