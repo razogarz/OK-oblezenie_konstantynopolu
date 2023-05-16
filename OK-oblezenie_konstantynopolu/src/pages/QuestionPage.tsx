@@ -36,7 +36,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="max-w-full">
       <input
         type="text"
         placeholder="Wpisz szukane pytanie..."

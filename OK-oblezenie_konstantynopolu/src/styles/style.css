@@ -2307,10 +2307,6 @@ html {
   margin-bottom: 0.5rem;
 }
 
-.flex {
-  display: flex;
-}
-
 .w-96 {
   width: 24rem;
 }
@@ -2319,12 +2315,8 @@ html {
   width: 100%;
 }
 
-.flex-col {
-  flex-direction: column;
-}
-
-.items-center {
-  align-items: center;
+.max-w-full {
+  max-width: 100%;
 }
 
 .justify-end {
