@@ -1906,11 +1906,6 @@ html {
   border-radius: 0px;
 }
 
-.link {
-  cursor: pointer;
-  text-decoration-line: underline;
-}
-
 .btn-outline.btn-primary .badge {
   --tw-border-opacity: 1;
   border-color: hsl(var(--p) / var(--tw-border-opacity));
@@ -2173,16 +2168,6 @@ html {
   .input[disabled]::placeholder {
   color: hsl(var(--bc) / var(--tw-placeholder-opacity));
   --tw-placeholder-opacity: 0.2;
-}
-
-.link:focus {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
-.link:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
 }
 
 @keyframes progress-loading {
