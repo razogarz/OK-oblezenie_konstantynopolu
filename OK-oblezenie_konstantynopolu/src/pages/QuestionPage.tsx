@@ -36,7 +36,7 @@ function App() {
   }
 
   return (
-    <div className="max-w-full">
+    <div className="max-w-full overflow-x-hidden">
       <input
         type="text"
         placeholder="Wpisz szukane pytanie..."
