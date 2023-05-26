@@ -1,6 +1,6 @@
 import QuestionCard from "../components/QuestionCard";
 import { Question } from "../types/Question";
-import pytaniaEgzaminacyjne from "../data/termin-zerowy-2017-18.json";
+import pytaniaEgzaminacyjne from "../data/obkon-data.json";
 import { useState } from "react";
 
 function App() {
@@ -20,6 +20,19 @@ function App() {
       searchMatchingQuestions = allQuestions.filter((question) => {
         return question.que.toLowerCase().match(searchInput.toLowerCase());
       });
+      let input: any = searchInput.trim().split(" ");
+      let search2: any[] = [];
+      input.forEach((substr: string) => {
+        Array.prototype.push.apply(
+          search2,
+          allQuestions.filter((question) => {
+            return question.que.toLowerCase().match(substr.toLowerCase());
+          })
+        );
+      });
+      Array.prototype.push.apply(searchMatchingQuestions, search2);
+      searchMatchingQuestions = [...new Set(searchMatchingQuestions)];
+      return searchMatchingQuestions;
     }
   }
   checkSearchInput(searchInput);
